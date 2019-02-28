@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>     
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"     
+    android:orientation="horizontal"   
+    android:id="@+id/TitleBar"
+    android:layout_width="fill_parent"   
+    android:layout_height="fill_parent">
+    
+    <ImageButton
+        android:id="@+id/platLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="8dp"
+        android:background="#00000000"
+        android:src="@drawable/smallicon" />
+    
+    <SearchView
+        android:id="@+id/searchViewCam"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/platLogo"
+        android:background="#00000000"
+        android:queryHint="搜索摄像头"
+        android:visibility="invisible" />
+        
+    <TextView 
+        android:id="@+id/textViewTitleBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textColor="#FFFFFF"
+        android:text="@string/app_name" />
+
+     <ImageButton
+         android:id="@+id/btnHelp"
+         android:layout_width="40dp"
+         android:layout_height="wrap_content"
+         android:layout_alignParentRight="true"
+         android:layout_centerVertical="true"
+         android:background="#00000000"
+         android:src="@drawable/help"
+         android:visibility="visible" />
+        
+    <ImageButton
+        android:id="@+id/btnShare"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_toLeftOf="@id/btnHelp"
+        android:background="#00000000"
+        android:src="@drawable/share"
+        android:visibility="invisible" />
+
+</RelativeLayout>

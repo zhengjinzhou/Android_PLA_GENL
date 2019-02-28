@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.topvs.platform"
+    android:versionCode="5"
+    android:versionName="V5.0.7">
+
+    <uses-sdk android:minSdkVersion="12" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true" />
+
+    <!-- 允许挂载和反挂载文件系统可移动存储 -->
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <!-- 允许程序访问有关GSM网络信息 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!-- 允许应用程序获取Wi-Fi网络的信息） -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- 允许读取（不可写）手机状态 -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <!-- 允许应用程序写数据到外部存储设备(主要是SD卡) -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <!-- 允许一个程序初始化一个电话拨号不需通过拨号 用户界面需要用户确认 -->
+    <!-- uses-permission android:name="android.permission.CALL_PHONE"/> -->
+    <!-- 允许修改话机状态，如电源，人机接口等 -->
+
+
+    <!--
+	<uses-permission android:name="android.permission.MODIFY_PHONE_STATE"/>
+	<uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+	<uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE"/>
+	<uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    -->
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".MyApp"
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/label_name">
+
+        <!--  -->
+        <activity
+            android:name=".SplashActivity"
+            android:configChanges="keyboardHidden"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".NVSPlayer"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/titlebar"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".DeviceListActivity"
+            android:label="设备列表"
+            android:screenOrientation="portrait"
+            android:theme="@style/searchbar" />
+        <activity
+            android:name=".IPConfig"
+            android:label="设置"
+            android:screenOrientation="portrait"
+            android:theme="@style/titlebar" />
+        <activity
+            android:name=".IPListActivity"
+            android:label="平台列表"
+            android:screenOrientation="portrait"
+            android:theme="@style/titlebar" />
+        <activity
+            android:name=".ShowHelpActivity"
+            android:label="帮助"
+            android:screenOrientation="portrait"
+            android:theme="@style/titlebar" />
+        <activity
+            android:name="com.topvs.player.PlayActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="播放"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.topvs.player.FileListActivity"
+            android:label="文件列表"
+            android:screenOrientation="portrait"
+            android:theme="@style/titlebar" />
+        <activity
+            android:name="com.topvs.player.RecordPlayActivity"
+            android:configChanges="orientation"
+            android:label="播放录像"
+            android:theme="@style/titlebar" />
+        <activity
+            android:name="com.topvs.player.ImageDisplayActivity"
+            android:configChanges="orientation"
+            android:label="查看图片"
+            android:theme="@style/titlebar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+
+                <data android:mimeType="image/*" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.topvs.wanve.view.LoginActivity"
+            android:configChanges="orientation"
+            
+            android:theme="@style/titlebar" />
+    </application>
+
+</manifest>

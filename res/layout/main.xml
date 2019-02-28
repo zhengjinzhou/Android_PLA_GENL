@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1"
+    android:orientation="vertical" >
+    
+<LinearLayout
+    android:id="@+id/TextCopyRight"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:background="#00ffffff"
+    android:orientation="horizontal" 
+    android:gravity="center">	
+	<TextView
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center_horizontal"
+	    android:focusable="false"
+	    android:lines="2"
+	    android:maxLines="3"
+	    android:text="@string/app_version"
+	    android:textColor="#6f000000"
+	    android:textSize="12sp" />		
+</LinearLayout>
+
+<RelativeLayout
+    android:id="@+id/LoginButton"
+    style="@android:style/ButtonBar"
+    android:layout_width="220dp"
+    android:layout_height="48dp"
+    android:layout_above="@id/TextCopyRight"
+    android:layout_centerHorizontal="true"
+    android:layout_marginBottom="15dp"
+    android:background="#00000000"
+    android:orientation="horizontal" >
+
+   	<CheckBox
+   	    android:id="@+id/btn_savepwd"
+   	    android:layout_width="118dp"
+   	    android:layout_height="36dp"
+   	    android:layout_centerVertical="true"
+   	    android:layout_toLeftOf="@+id/btn_login"
+   	    android:text="@string/app_savepwd"
+   	    android:textColor="#FFFFFF"
+   	    android:textSize="15sp" />
+
+   	<Button
+   	    android:id="@+id/btn_login"
+   	    android:layout_width="100dp"
+   	    android:layout_height="42dp"
+   	    android:layout_alignParentBottom="true"
+   	    android:layout_alignParentRight="true"
+   	    android:alpha="0.9"
+   	    android:text="@string/app_login"
+   	    android:textColor="#267B93" />
+
+</RelativeLayout>
+
+<RelativeLayout
+    android:id="@+id/TablePWD"
+    android:layout_width="220dp"
+    android:layout_height="40dp"
+    android:layout_above="@id/LoginButton"
+    android:layout_centerHorizontal="true"
+    android:background="#00000000"
+    android:orientation="horizontal"
+    android:theme="@android:style/Theme.Translucent" >
+ 	<ImageButton
+ 	    android:layout_width="40dp"
+ 	    android:layout_height="38dp"
+ 	    android:layout_alignParentTop="true"
+ 	    android:layout_toLeftOf="@+id/configpwd"
+ 	    android:clickable="false"
+ 	    android:focusable="false"
+ 	    android:focusableInTouchMode="false"
+ 	    android:longClickable="false"
+ 	    android:src="@drawable/loginpwd" />
+ 	<EditText
+ 	    android:id="@+id/configpwd"
+ 	    android:layout_width="180dp"
+ 	    android:layout_height="38dp"
+ 	    android:layout_alignParentBottom="true"
+ 	    android:layout_alignParentRight="true"
+ 	    android:ems="10"
+ 	    android:hint="密码不能为空"
+ 	    android:inputType="textPassword" 
+ 	    android:lines="1" 
+ 	    android:nextFocusDown="@id/btn_login" 
+ 	    android:nextFocusRight="@id/btn_login" 
+ 	    android:textSize="16sp"/>
+</RelativeLayout>
+
+<RelativeLayout
+    android:id="@+id/TableUser"
+    android:layout_width="220dp"
+    android:layout_height="40dp"
+    android:layout_above="@id/TablePWD"
+    android:layout_centerHorizontal="true"
+    android:background="#00000000"
+    android:focusable="true"
+    android:orientation="horizontal"
+    android:theme="@android:style/Theme.Translucent" >
+
+ 	<ImageButton
+ 	    android:layout_width="40dp"
+ 	    android:layout_height="38dp"
+ 	    android:layout_alignParentTop="true"
+ 	    android:layout_toLeftOf="@+id/configusr"
+ 	    android:clickable="false"
+ 	    android:focusable="false"
+ 	    android:focusableInTouchMode="false"
+ 	    android:longClickable="false"
+ 	    android:src="@drawable/username" />
+
+ 	<EditText
+ 	    android:id="@+id/configusr"
+ 	    android:layout_width="180dp"
+ 	    android:layout_height="38dp"
+ 	    android:layout_alignParentBottom="true"
+ 	    android:layout_alignParentRight="true"
+ 	    android:ems="10"
+ 	    android:hint="输入正确的账户名"
+ 	    android:textSize="16sp" 
+ 	    android:nextFocusRight="@id/configpwd"
+ 	    android:nextFocusDown="@id/configpwd"
+ 	    android:singleLine="true" />
+
+ </RelativeLayout>
+ 
+
+<RelativeLayout
+    style="@android:style/ButtonBar"
+    android:id="@+id/PlatformButton"
+    android:layout_width="fill_parent"
+    android:layout_height="48dp"
+    android:layout_above="@id/TableUser"   
+    android:background="#00000000"
+    android:theme="@android:style/Theme.Translucent"
+    android:orientation="horizontal" >
+
+ 	<Button
+ 	    android:id="@+id/btn_setting"
+ 	    android:layout_width="220dp"
+ 	    android:layout_height="42dp"
+ 	    android:layout_alignParentTop="true"
+ 	    android:layout_centerHorizontal="true"
+ 	    android:layout_marginRight="46dp"
+ 	    android:alpha="0.9" 
+ 	    android:nextFocusDown="@id/btn_login" android:nextFocusRight="@id/configusr" android:text="@string/app_select_plat" android:textColor="#267B93"/>
+
+</RelativeLayout>
+
+
+<TableLayout 
+    android:id="@+id/tmptable"
+    android:layout_width="fill_parent" 
+	android:layout_height="wrap_content"
+	android:orientation="vertical" > 		
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_marginTop="10dip"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:visibility="invisible" >
+        <TextView
+            android:visibility="invisible"
+            android:layout_width="fill_parent"
+            android:layout_height="35dip"
+            android:gravity="right"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:width="45dp"
+         	android:text="@string/ipconf_plat"/>
+		<EditText
+		    android:id="@+id/configplatname"
+		    android:layout_width="fill_parent"
+		    android:layout_height="40dip"
+		    android:layout_marginRight="9dp"
+		    android:inputType="text"
+		    android:singleLine="true"
+		    android:text="" />		
+	</TableRow>	
+	
+	<TableRow
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="left"
+	    android:gravity="center"
+	    android:orientation="horizontal"
+	    android:visibility="invisible" >
+		<TextView
+		    android:visibility="invisible"
+		    android:layout_width="70dip"
+		    android:layout_height="35dip"
+		    android:gravity="right"
+		    android:textColor="#000000"
+		    android:textSize="18sp"
+	           android:text="@string/ipconf_addr"/>
+		<EditText
+		    android:id="@+id/configipaddr"
+		    android:layout_width="fill_parent"
+		    android:layout_height="40dip"
+		    android:layout_marginRight="9dp"
+		    android:inputType="text"
+		    android:singleLine="true"
+		    android:text="" />
+	</TableRow>
+
+	<TableRow
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:gravity="center"	    
+		android:visibility="invisible" 
+	    android:orientation="horizontal" >
+		<TextView
+		    android:layout_width="70dip"
+		    android:layout_height="35dip"
+		    android:gravity="right"
+		    android:textColor="#000000"
+		    android:textSize="18sp"
+	        android:text="@string/ipconf_port"/>
+		<EditText
+		    android:id="@+id/configloginport"
+		    android:layout_width="180dip"
+		    android:layout_height="40dip"
+		    android:layout_marginRight="9dp"		    
+		    android:inputType="number"
+		    android:singleLine="true"
+		    android:text=""/>
+	</TableRow>
+</TableLayout>
+
+
+</RelativeLayout>

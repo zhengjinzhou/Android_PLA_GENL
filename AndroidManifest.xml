@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.topvs.platform"
+    android:versionCode="5"
+    android:versionName="V5.0.7">
+
+    <uses-sdk android:minSdkVersion="20" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true" />
+
+    <!-- 拨号权限 -->
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <!-- 调用摄像头的权限 -->
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE " />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <!-- 硬件加速对X5视频播放非常重要，建议开启 -->
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.RECORD_VIDEO" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <uses-feature android:name="android.hardware.camera" />
+
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+
+    <!-- 通过GPS得到精确位置 -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <!-- 通过网络得到粗略位置 -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <!-- 访问网络，某些位置信息需要从网络服务器获取 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- 访问WiFi状态，需要WiFi信息用于网络定位 -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <!-- 修改WiFi状态，发起WiFi扫描, 需要WiFi信息用于网络定位 -->
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <!-- 访问网络状态, 检测网络的可用性，需要网络运营商相关信息用于网络定位 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!-- 访问网络的变化, 需要某些信息用于网络定位 -->
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <!-- 访问手机当前状态, 需要某些信息用于网络定位 -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application
+        android:name=".MyApp"
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/label_name">
+        <meta-data
+            android:name="TencentMapSDK"
+            android:value="DHDBZ-BUMLF-WLMJA-JSJTQ-R5MQQ-XVF2B" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="4030500" />
+        <!--  -->
+        <activity
+            android:name=".SplashActivity"
+            android:configChanges="keyboardHidden"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".NVSPlayer"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/titlebar"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".DeviceListActivity"
+            android:label="设备列表"
+            android:screenOrientation="portrait"
+            android:theme="@style/searchbar" />
+        <activity
+            android:name=".IPConfig"
+            android:label="设置"
+            android:screenOrientation="portrait"
+            android:theme="@style/titlebar" />
+        <activity
+            android:name=".IPListActivity"
+            android:label="平台列表"
+            android:screenOrientation="portrait"
+            android:theme="@style/titlebar" />
+        <activity
+            android:name=".ShowHelpActivity"
+            android:label="帮助"
+            android:screenOrientation="portrait"
+            android:theme="@style/titlebar" />
+        <activity
+            android:name="com.topvs.player.PlayActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="播放"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.topvs.player.FileListActivity"
+            android:label="文件列表"
+            android:screenOrientation="portrait"
+            android:theme="@style/titlebar" />
+        <activity
+            android:name="com.topvs.player.RecordPlayActivity"
+            android:configChanges="orientation"
+            android:label="播放录像"
+            android:theme="@style/titlebar" />
+        <activity
+            android:name="com.topvs.player.ImageDisplayActivity"
+            android:configChanges="orientation"
+            android:label="查看图片"
+            android:theme="@style/titlebar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+
+                <data android:mimeType="image/*" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.topvs.wanve.view.LoginActivity"
+            android:configChanges="orientation"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.topvs.wanve.view.HomeActivity"
+            android:configChanges="orientation"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.topvs.wanve.view.RecorderActivity"
+            android:configChanges="orientation"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.topvs.wanve.view.RlsbActivity"
+            android:configChanges="orientation"
+            android:theme="@style/AppTheme" />
+
+    </application>
+
+</manifest>

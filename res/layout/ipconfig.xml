@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#42b0d2"
+    android:orientation="vertical" >
+    
+<!-- android:background="#64c8e8" -->
+
+	<TableLayout
+	    android:id="@+id/Layout_ipConfig"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_centerHorizontal="true"
+	    android:layout_marginTop="16dp"
+	    android:orientation="vertical" >
+	     <TableRow 
+		    android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+			android:orientation="horizontal"
+			android:visibility="gone">
+			<TextView  
+			    android:layout_width="45dp" 
+				android:layout_height="wrap_content"
+				android:text="平台:"
+				android:textColor="#ffffff"
+				android:textSize="14sp"/>
+			<EditText
+			    android:id="@+id/configplatform"
+			    android:layout_width="160dp"
+			    android:layout_height="38dp"
+			    android:hint="账户名，不可为空"
+			    android:singleLine="true"
+			    android:text=""
+			    android:textSize="14sp"
+			    android:textColor="#000000"
+			    android:imeOptions="actionNext"/>
+		</TableRow>
+		
+	    <TableRow 
+		    android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+			android:orientation="horizontal">
+			<TextView  
+			    android:layout_width="45dp" 
+				android:layout_height="wrap_content"
+				android:text="@string/ipconf_user"
+				android:textColor="#ffffff"
+				android:textSize="14sp"/>
+			<EditText
+			    android:id="@+id/configuser"
+			    android:layout_width="160dp"
+			    android:layout_height="38dp"
+			    android:hint="账户名，不可为空"
+			    android:singleLine="true"
+			    android:text=""
+			    android:textSize="14sp"
+			    android:textColor="#000000"
+			    android:imeOptions="actionNext"/>
+		</TableRow>
+		
+		<TableRow  
+		    android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+			android:orientation="horizontal">
+			<TextView  
+			    android:layout_width="45dp" 
+				android:layout_height="wrap_content"
+				android:text="@string/ipconf_pwd"
+				android:textColor="#ffffff"
+				android:textSize="14sp"/>
+			<EditText
+			    android:id="@+id/configpwd"
+			    android:layout_width="160dip"
+				android:layout_height="38dp"
+			    android:ems="10"
+			    android:inputType="textPassword"
+			    android:singleLine="true"
+				android:hint="账户密码，不可为空"
+				android:text=""
+				android:textSize="14sp"
+				android:textColor="#000000"
+			    android:imeOptions="actionNext"/>
+
+		</TableRow>	
+
+		<TableRow 
+		    android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+			android:orientation="horizontal">
+			<TextView  
+			    android:layout_width="45dp"
+				android:layout_height="wrap_content"
+				android:text="@string/ipconf_addr"
+				android:textColor="#ffffff"
+				android:textSize="14sp"/>
+			<EditText 
+			    android:id="@+id/configip" 
+			    android:layout_width="160dip"
+				android:layout_height="38dp"
+				android:hint="设备ip地址"
+				android:text=""
+				android:textSize="14sp"
+				android:singleLine="true"
+				android:textColor="#000000"
+				android:imeOptions="actionNext"/>
+		</TableRow>
+		
+		<TableRow  
+		    android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+			android:orientation="horizontal">
+			<TextView  
+			    android:layout_width="45dp" 
+				android:layout_height="wrap_content"
+				android:text="@string/ipconf_port"
+				android:textColor="#ffffff"
+				android:textSize="14sp"/>
+			<EditText
+			    android:id="@+id/configport"
+			    android:layout_width="160dip"
+			    android:layout_height="38dp"
+			    android:inputType="number"
+			    android:singleLine="true"
+			    android:hint="默认端口 9901"
+			    android:text="9901"
+			    android:textSize="14sp"
+			    android:textColor="#000000"
+			    android:imeOptions="actionDone"/>
+
+		</TableRow>		
+			
+	</TableLayout>
+	
+	
+	<LinearLayout
+	    android:id="@+id/Layout_StoreWhere"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+        android:layout_below="@id/Layout_ipConfig"
+	    android:layout_marginTop="10dp"
+	    android:layout_centerHorizontal="true"
+	    android:orientation="vertical"
+        android:background="#10ffffff">
+		
+		<TextView
+		    android:id="@+id/TextView01"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_marginTop="4dp"
+            android:layout_marginLeft="10dp"
+		    android:text="@string/ipconf_tosave"
+		    android:textColor="#a0ffffff"
+		    android:textSize="14sp"/>
+		
+		<RadioGroup 
+		    android:id="@+id/RadioGroup01" 
+		    android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="4dp"
+            android:layout_marginRight="8dp"
+            android:orientation="horizontal">
+			<RadioButton			    
+				android:id="@+id/RadioButton_Phone" 
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content" 
+				android:text="@string/ipconf_phone"
+				android:textColor="#ffffff"/>
+            <TextView
+                android:id="@+id/ipconfig_hole1"
+                android:layout_width="10dp"
+                android:layout_height="wrap_content"/>
+			<RadioButton
+			    android:id="@+id/RadioButton_SDCard" 						
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content"
+			    android:text="@string/ipconf_sdcard"
+			    android:textColor="#ffffff"
+				android:checked="true"/>				
+		</RadioGroup>
+		
+   	</LinearLayout>
+<!-- 
+    style="@android:style/ButtonBar"    
+	android:theme="@android:style/Theme.Translucent" 	
+	android:background="#0044b2d2"
+     -->	
+<LinearLayout 
+    style="?android:attr/buttonBarStyle"
+    android:theme="@android:style/Theme.Translucent" 	
+	android:background="#0044b2d2"
+	android:layout_width="fill_parent" 
+	android:layout_height="46dp"
+	android:orientation = "horizontal" 
+	android:layout_alignParentBottom="true">
+	<Button
+	    android:id="@+id/button_save"
+		android:layout_width="wrap_content" 
+		android:layout_height="fill_parent"
+		android:layout_weight ="1"
+	    android:text ="@string/ipconf_btnsave"/>
+	<Button
+	    android:id="@+id/button_exit" 
+		android:layout_width="wrap_content" 
+		android:layout_height="fill_parent"
+		android:layout_weight ="1"
+	    android:text ="@string/ipconf_btncancel"/>
+	</LinearLayout>
+
+</RelativeLayout>

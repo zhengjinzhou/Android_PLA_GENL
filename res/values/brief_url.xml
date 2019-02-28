@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="brief_url">
+        <item>baidumap</item><!-- 0 -->
+        <item>zszx_nbzl</item><!--知识中心,1 内部资料-->
+        <item>zszx_tsqk</item><!--知识中心，2图书期刊-->
+        <item>zszx_cybg</item><!--知识中心3，常用表格-->
+        <item>zszx_dwgz</item><!--知识中心4，单位规章-->
+        <item>zszx_bzgf</item><!--知识中心5，标准规范-->
+
+        <item>tjbb_xmzt</item><!--统计报表6，按项目状态-->
+        <item>tjbb_xmks</item><!--统计报表，7项目科室-->
+        <item>tjbb_xmlb</item><!--统计报表，8项目类别-->
+        <item>tjbb_xmtz</item><!--统计报表，9项目投资-->
+        <item>tjbb_tzsyqk</item><!--统计报表10，tjbb_hztj 汇总统计  特别：东莞路桥，汇总统计，默认传:tjbb_tzsyqk -->
+        <item>tjbb_ppgk</item><!--统计报表，11品牌公开-->
+
+        <item>contack</item><!--通讯录12-->
+        <item>pro_info</item><!--项目信息13-->
+        <item>pro_docinfo</item><!--项目文件信息14-->
+        <item>pro_oicinfo</item><!--项目照片信息15-->
+    </string-array>
+</resources>

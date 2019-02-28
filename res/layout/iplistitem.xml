@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/listItermLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="4dip"
+    android:paddingLeft="12dip"
+    android:paddingRight="8dip" >
+	<TextView
+	    android:id="@+id/ip_ItemTitle"    
+	    android:layout_width="wrap_content"   
+	    android:layout_height="wrap_content"
+	    android:textSize="20sp"
+	    android:textColor="#000000"/>  
+	<TextView    
+	    android:id="@+id/ip_ItemText"
+	    android:layout_width="wrap_content"  
+	    android:layout_height="wrap_content"	    
+	    android:layout_below="@id/ip_ItemTitle"
+	    android:textSize="16sp"
+	    android:textColor="#C8C8C8"/> 
+	<Button
+		android:id="@+id/btn_expand" 
+		android:background="@drawable/expand"
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:layout_alignParentRight="true"
+		android:layout_centerVertical="true"		
+		android:focusable="false"/>
+</RelativeLayout> 

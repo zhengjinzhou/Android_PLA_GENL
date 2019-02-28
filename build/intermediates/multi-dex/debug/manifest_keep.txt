@@ -1,0 +1,3 @@
+# Referenced at E:\Android_PLA_GENL\build\intermediates\manifests\full\debug\AndroidManifest.xml:58
+-keep class com.topvs.platform.MyApp { <init>(...); }
+

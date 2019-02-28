@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/playview"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:gravity="top"
+	android:background ="#000000"
+	android:orientation="vertical" >
+
+   	<!-- APP state pane-->
+	<LinearLayout
+		android:id="@+id/TopPanelLine"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal" >	
+	    <RelativeLayout
+			android:id="@+id/TopPanel"
+			android:layout_width="match_parent"
+			android:layout_height="40dp"
+			android:background="#43ACE3"
+			android:orientation="horizontal" >  	
+			<ImageButton
+			    android:id="@+id/iconImage"
+			    android:contentDescription="@string/app_name"	    
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_alignParentLeft="true"
+				android:layout_marginLeft ="10dp"
+				android:layout_centerVertical="true"
+				android:background="#00000000"
+				android:src="@drawable/smallicon" />	
+			<TextView 
+				android:id="@+id/txtViewTitleBar1"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_centerInParent="true"
+				android:textColor="#EEEEEE"
+				android:text="@string/app_name" />
+			<ImageButton
+				android:id="@+id/btnHelp1"
+				android:contentDescription="@string/app_name"
+				android:layout_width="70dp"
+				android:layout_height="wrap_content"
+				android:layout_alignParentRight="true"
+				android:layout_centerVertical="true"
+				android:background="#00000000"
+				android:paddingLeft="30dp"
+				android:src="@drawable/help" />     
+			<ImageButton
+				android:id="@+id/btnShare1"
+				android:contentDescription="@string/app_name"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"       
+				android:layout_alignLeft="@id/btnHelp1"
+				android:layout_centerInParent="true"
+				android:background="#00000000"
+				android:src="@drawable/share" />          
+		</RelativeLayout>
+	</LinearLayout>
+	
+	
+	<!-- Camera contrl pane -->
+	<LinearLayout
+		android:id="@+id/ytline"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_alignParentBottom="true"
+		android:background="@drawable/ytbg2"
+		android:orientation="vertical" >
+		<!-- Camera contrl pane Line 1 -->
+		<RelativeLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+		    android:layout_marginTop ="8dp"
+			android:gravity="center"
+			android:orientation="horizontal" >
+			<Button
+	 		    android:layout_width="wrap_content"
+	 		    android:layout_height="wrap_content"
+	 		    android:layout_toLeftOf="@+id/upbtn"
+	 		    android:background="@drawable/a1_1" />
+	 		<Button
+	 		    android:id="@+id/upbtn"
+	 		    android:background="@drawable/selector_turnup" 
+	 		    android:layout_width="wrap_content"
+	 		    android:layout_height="wrap_content"
+	 		    android:layout_toLeftOf="@+id/btn1_3"/>
+			<Button
+	 		    android:id="@+id/btn1_3"
+	 		    android:background="@drawable/a1_3" 
+	 		    android:layout_width="wrap_content"
+	 		    android:layout_height="wrap_content"
+	 		    android:layout_toLeftOf="@+id/btn1_4"/>
+	 		<Button 
+	 		    android:id="@+id/btn1_4" 
+	 		    android:background ="@drawable/a1_4"
+	 			android:layout_width="wrap_content" 
+	 			android:layout_height="wrap_content" 
+	 			android:layout_centerHorizontal="true" />
+	 		<Button 
+	 		    android:id="@+id/btn1_5" 
+	 		    android:background ="@drawable/a1_5"  
+	 			android:layout_width="wrap_content" 
+	 			android:layout_height="wrap_content"  
+	 		    android:layout_toRightOf="@id/btn1_4"/>
+	 		<Button 
+	 		    android:id="@+id/btn1_6" 
+	 		    android:background ="@drawable/a1_6" 
+		 		android:layout_width="wrap_content" 
+		 		android:layout_height="wrap_content"
+				android:layout_toRightOf="@id/btn1_5"/>
+			<Button 
+			    android:id="@+id/btn1_7" 
+			    android:background ="@drawable/a1_7" 
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content"
+				android:layout_toRightOf="@id/btn1_6"/> 
+		</RelativeLayout>
+		<!-- Camera contrl pane Line 2 -->
+		<RelativeLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:gravity="center"
+			android:orientation="horizontal" >
+			<Button
+	 		    android:id="@+id/zoominbtn" 
+	 		    android:background="@drawable/selector_zoomin"
+	 		    android:layout_width="wrap_content"
+	 		    android:layout_height="wrap_content" 
+	 		    android:layout_centerInParent="true" />
+			
+	 		<Button 
+	 		    android:id="@+id/zoomoutbtn" 
+	 		    android:background ="@drawable/selector_zoomout"  
+	 			android:layout_width="wrap_content" 
+	 			android:layout_height="wrap_content"  
+	 			android:layout_toRightOf="@id/zoominbtn"/>
+	 		<Button 
+	 		    android:id="@+id/takephotobtn" 
+	 		    android:background ="@drawable/selector_takephoto" 
+		 		android:layout_width="wrap_content" 
+		 		android:layout_height="wrap_content"
+		 		android:layout_toRightOf="@id/zoomoutbtn"/>
+			<Button 
+			    android:id="@+id/recordbtn" 
+			    android:background ="@drawable/selector_record" 
+		 		android:layout_width="wrap_content" 
+		 		android:layout_height="wrap_content"
+		 		android:layout_toRightOf="@id/takephotobtn"/>
+			
+			<Button
+	 		    android:id="@+id/rightbtn"
+	 		    android:background="@drawable/selector_turnright"
+	 		    android:layout_width="wrap_content"
+	 		    android:layout_height="wrap_content"
+	 		    android:layout_toLeftOf="@id/zoominbtn"/>
+	 		<Button
+	 		    android:id="@+id/btn2_2"
+	 		    android:background="@drawable/a2_2" 
+	 		    android:layout_width="wrap_content"
+	 		    android:layout_height="wrap_content"
+	 		    android:layout_toLeftOf="@id/rightbtn"/>
+
+			<Button
+			    android:id="@+id/leftbtn"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_toLeftOf="@id/btn2_2"
+			    android:background="@drawable/a2_1"/>
+			
+		</RelativeLayout>
+		<!-- Camera contrl pane Line 3 -->		  
+		<RelativeLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:gravity="center"
+			android:orientation="horizontal" >
+			<Button
+	 		    android:layout_width="wrap_content"
+	 		    android:layout_height="wrap_content"
+				android:layout_toLeftOf="@+id/downbtn"
+	 		    android:background="@drawable/a3_1" />
+			<Button
+	 		    android:id="@+id/downbtn"
+	 		    android:background="@drawable/selector_turndown" 
+	 		    android:layout_width="wrap_content"
+	 		    android:layout_height="wrap_content"
+	 		    android:layout_toLeftOf="@+id/btn3_3"/>
+			<Button
+	 		    android:id="@+id/btn3_3"
+	 		    android:background="@drawable/a3_3" 
+	 		    android:layout_width="wrap_content"
+	 		    android:layout_height="wrap_content"
+	 		    android:layout_toLeftOf="@+id/btn3_4"/>
+	 		<Button android:id="@+id/btn3_4" 
+	 		    android:background ="@drawable/a3_4"
+	 		    android:layout_width="wrap_content" 
+	 		    android:layout_height="wrap_content" 
+	 		    android:layout_centerInParent="true" />
+	 		<Button android:id="@+id/btn3_5" 
+	 		    android:background ="@drawable/a3_5"  
+	 		    android:layout_width="wrap_content" 
+	 		    android:layout_height="wrap_content"  
+	 		    android:layout_toRightOf="@id/btn3_4"/>
+	 		<Button android:id="@+id/btn3_6" 
+	 		    android:background ="@drawable/a3_6" 
+		 	    android:layout_width="wrap_content" 
+		 	    android:layout_height="wrap_content"
+			    android:layout_toRightOf="@id/btn3_5"/>	
+			<Button 
+			    android:id="@+id/btn3_7"
+			    android:background="@drawable/a3_7"
+			    android:layout_width="wrap_content" 
+			    android:layout_height="wrap_content"
+				android:layout_toRightOf="@id/btn3_6"/>  
+		</RelativeLayout>
+	</LinearLayout>
+	
+	
+	<!-- multiple view switch bar -->
+	<LinearLayout
+		style="@android:style/ButtonBar"
+	    android:id="@+id/widget_layout_switchbar"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_above="@id/ytline" 
+	    android:background="#43ACE3" 
+	    android:divider="@drawable/space" 
+	    android:orientation="horizontal" 
+	    android:paddingBottom="2dp" 
+	    android:paddingTop="4dp" 
+	    android:showDividers="beginning|middle|end">
+		<Button
+		    style="?android:attr/buttonBarButtonStyle"
+		    android:id="@+id/fourCamView"
+		    android:layout_weight="1"
+		    android:layout_width="0dp"
+		    android:layout_height="wrap_content"
+		    android:background="@drawable/selector_4views"/>
+		<Button
+		    style="?android:attr/buttonBarButtonStyle"
+		    android:id="@+id/nineCamView"
+		    android:layout_weight="1"
+		    android:layout_width="0dp"
+		    android:layout_height="wrap_content"
+		    android:background="@drawable/selector_9views"/>
+		<Button
+		    style="?android:attr/buttonBarButtonStyle"
+		    android:id="@+id/sixteenCamView"
+		    android:layout_weight="1"
+		    android:layout_width="0dp"
+		    android:layout_height="wrap_content"
+		    android:layout_gravity="center_horizontal|fill" 
+		    android:background="@drawable/selector_16views"/>
+		<Button
+		    style="?android:attr/buttonBarButtonStyle"
+		    android:id="@+id/refreshCamView"	
+		    android:layout_weight="1"
+		    android:layout_width="0dp"
+		    android:layout_height="wrap_content" 	    
+		    android:background="@drawable/selector_refresh"/>
+		<Button
+		    style="?android:attr/buttonBarButtonStyle"
+		    android:id="@+id/chart_btn"		
+		    android:background="@drawable/selector_chart"
+		    android:layout_weight="1"
+		    android:layout_width="0dp"
+		    android:layout_height="wrap_content"/>
+	<!-- end multiple view switch bar -->	
+	</LinearLayout>
+	
+	<!-- Camera contrl pane fullScreem -->
+	<LinearLayout
+		android:id="@+id/fullscreenbar"
+		style="@android:style/ButtonBar"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentBottom="true" 
+		android:layout_marginLeft="10dp"
+		android:layout_marginRight="10dp"
+		android:layout_centerHorizontal="true"
+		android:divider="@drawable/space"
+		android:background="#00000000"
+		android:orientation="horizontal" 
+		android:showDividers="middle|beginning|end"
+		android:visibility="gone" >
+		<Button
+		    android:id="@+id/upbtn_f"
+		    android:layout_width="0dp"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="1"
+		    android:background="@drawable/up" />
+		<Button 
+		    android:id="@+id/downbtn_f" 
+		    android:background ="@drawable/down"
+			android:layout_width="0dp" 
+			android:layout_height="wrap_content" 
+			android:layout_weight ="1" />
+		<Button
+		    android:id="@+id/leftbtn_f"
+		    android:layout_width="0dp"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="1"
+		    android:background="@drawable/left" />
+		<Button
+		    android:id="@+id/rightbtn_f"
+		    android:layout_width="0dp"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="1"
+		    android:background="@drawable/right" />
+		<Button
+		    android:id="@+id/zoominbtn_f"
+		    android:background="@drawable/selector_zoomin" 
+		    android:layout_width="0dp"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="1"/>
+		<Button 
+		    android:id="@+id/zoomoutbtn_f" 
+		    android:background ="@drawable/selector_zoomout"  
+			android:layout_width="0dp" 
+			android:layout_height="wrap_content"
+			android:layout_weight ="1" />
+		<Button 
+		    android:id="@+id/takephotobtn_f" 
+		    android:background ="@drawable/takephoto_yt" 
+			android:layout_width="0dp" 
+			android:layout_height="wrap_content"
+			android:layout_weight ="1" />	 		
+		<Button 
+		    android:id="@+id/recordbtn_f" 
+		    android:background ="@drawable/record_yt" 
+			android:layout_width="0dp" 
+			android:layout_height="wrap_content"
+			android:layout_weight ="1" />
+	</LinearLayout>
+
+	<RelativeLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:layout_above="@id/widget_layout_switchbar"
+	    android:layout_below="@id/TopPanelLine"
+	    android:background="#000" 
+	    android:gravity="center">
+		
+		<FrameLayout
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_centerInParent="true" >
+			<GridView
+			    android:id="@+id/surfacePane"
+			    android:layout_width="match_parent"
+			    android:layout_height="match_parent" 
+			    android:layout_marginBottom="1dp" 
+			    android:layout_marginTop="1dp" 
+			    android:gravity="center" 
+			    android:horizontalSpacing="1dp" 
+			    android:verticalSpacing="1dp"
+			    android:listSelector="@null" />
+		</FrameLayout>
+		
+	</RelativeLayout>
+	
+</RelativeLayout>

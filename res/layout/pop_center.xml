@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="180dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:background="#ede5e5"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_reference_private"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        android:background="#fff"
+        android:gravity="center_horizontal"
+        android:padding="10dp"
+        android:text="内部资料" />
+
+    <TextView
+        android:id="@+id/tv_book"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        android:background="#fff"
+        android:gravity="center_horizontal"
+        android:padding="10dp"
+        android:text="图书期刊" />
+
+    <TextView
+        android:layout_marginBottom="1dp"
+        android:id="@+id/tv_table"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:gravity="center_horizontal"
+        android:padding="10dp"
+        android:text="常用表格" />
+
+    <TextView
+        android:layout_marginBottom="1dp"
+        android:id="@+id/tv_unit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:gravity="center_horizontal"
+        android:padding="10dp"
+        android:text="单位规章" />
+
+    <TextView
+        android:id="@+id/tv_standard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:gravity="center_horizontal"
+        android:padding="10dp"
+        android:text="标准规范" />
+</LinearLayout>

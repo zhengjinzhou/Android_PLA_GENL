@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<FrameLayout   
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"  
+    android:background="#ffffff"
+    android:layout_width="match_parent"    
+    android:layout_height="match_parent">  
+	
+	<LinearLayout
+	    android:id="@+id/widget_layout_device"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="vertical"
+	    android:showDividers="middle|end" >
+ 
+		<!--ListView 
+		    android:id="@+id/dev_listview" 
+		    android:layout_width="match_parent"    
+		  	android:layout_height="wrap_content" 
+			android:cacheColorHint="#00000000"       	
+		  	android:divider="#6495ED"
+		  	android:dividerHeight="1dp"
+			android:fastScrollEnabled="true"/--> 
+		<com.topvs.expandablelist.MyExpandableListView 
+	        android:id="@+id/dev_listview"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:background="#ffffff"
+	        android:cacheColorHint="#00000000"
+			android:choiceMode="singleChoice"
+	       	android:divider="#6495ED"
+		  	android:dividerHeight="1dp"
+			android:drawSelectorOnTop="false"
+			android:fastScrollEnabled="false"
+			android:footerDividersEnabled="true"
+			android:groupIndicator="@null"
+			android:scrollbars="vertical"
+			android:scrollingCache="true"/>
+
+	</LinearLayout>
+	
+	
+	<LinearLayout 
+	    android:id="@+id/widget_layout_device_sch"
+		android:layout_width="match_parent" 
+		android:layout_height="match_parent"
+		android:orientation="vertical"  > 
+		<ListView 
+		    android:id="@+id/dev_searchview" 
+		    android:layout_width="match_parent"    
+		  	android:layout_height="match_parent"          
+			android:cacheColorHint="#00000000"       	
+		  	android:divider="#6495ED"
+		  	android:dividerHeight="1dp"
+			android:fastScrollEnabled="true"/>
+	</LinearLayout>
+	
+	<LinearLayout
+	    android:id="@+id/widget_layout_record"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="vertical"
+	    android:visibility="visible" >
+		<!--ListView 
+		    android:id="@+id/record_listview" 
+		    android:layout_width="match_parent"    
+			android:layout_height="match_parent"          
+			android:cacheColorHint="#00000000"          	
+	       	android:divider="#6495ED"
+	       	android:dividerHeight="1dp"
+		  	android:fastScrollEnabled="true"/-->
+
+		<com.topvs.expandablelist.MyExpandableListView
+		    android:id="@+id/record_listview"
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:background="#ffffff"
+		    android:cacheColorHint="#00000000"
+		    android:choiceMode="singleChoice"
+		    android:divider="#6495ED"
+		    android:dividerHeight="1dp"
+		    android:drawSelectorOnTop="false"
+		    android:fastScrollEnabled="false"
+		    android:footerDividersEnabled="true"
+		    android:groupIndicator="@null"
+		    android:listSelector="@drawable/list_selector"
+		    android:scrollbars="vertical"
+		    android:scrollingCache="true" />
+
+	</LinearLayout>
+	
+	<LinearLayout
+	    android:id="@+id/widget_layout_photo"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="vertical"
+	    android:visibility="visible" >
+		<!--ListView 
+		    android:id="@+id/photo_listview" 
+		    android:layout_width="match_parent"    
+	       	android:layout_height="match_parent"          
+			android:cacheColorHint="#00000000"   
+	       	android:divider="#6495ED"
+	       	android:dividerHeight="1dp" 
+		  	android:fastScrollEnabled = "true"/-->
+		<com.topvs.expandablelist.MyExpandableListView 
+	        android:id="@+id/photo_listview"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:background="#ffffff"
+	        android:cacheColorHint="#00000000"
+			android:choiceMode="singleChoice"
+	       	android:divider="#6495ED"
+		  	android:dividerHeight="1dp"
+			android:drawSelectorOnTop="false"
+			android:fastScrollEnabled="false"
+			android:footerDividersEnabled="true"
+			android:groupIndicator="@null"
+			android:listSelector="@drawable/list_selector"
+			android:scrollbars="vertical"
+			android:scrollingCache="true"/>
+	</LinearLayout>
+	
+	<TableLayout
+	    android:id="@+id/widget_layout_info"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical"
+	    android:stretchColumns="*" >
+	    <TableRow
+	        android:id="@+id/tableTitle"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_margin="1dp"
+	        android:divider="#6495ED"  >	        
+	        <TextView
+	            android:layout_width="30dp"
+	            android:layout_height="wrap_content"
+	            android:text="@string/ck_num"
+	            android:textSize="15sp"
+	            android:textStyle="bold" />
+  	        <TextView
+  	            android:layout_width="match_parent"
+  	            android:layout_height="match_parent"
+  	            android:text="@string/ck_time"
+  	            android:textSize="15sp"
+  	            android:textStyle="bold" />
+	        <TextView
+	            android:layout_width="match_parent"
+	            android:layout_height="match_parent"
+	            android:text="@string/ck_dev"
+	            android:textSize="15sp"
+	            android:textStyle="bold" />
+	        <TextView
+	            android:layout_width="match_parent"
+	            android:layout_height="match_parent"
+	            android:text="@string/ck_value"
+	            android:textSize="15sp"
+	            android:textStyle="bold" />
+		</TableRow>       
+	</TableLayout>
+	
+    <LinearLayout
+        android:id="@+id/layout_switch_out"
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content">
+	    <TableLayout
+		    android:id="@+id/table_switch_out1" 
+		    android:layout_width="0dp"
+		    android:layout_weight="3" 
+		    android:layout_height="match_parent" 
+		    android:divider="#6495ED" 
+		    android:orientation="vertical" android:showDividers="beginning|middle|end">
+		</TableLayout>
+	
+   		<TableLayout
+		    android:id="@+id/table_holdspace1" 
+		    android:layout_width="0dp"
+		    android:layout_weight="1"
+		    android:layout_height="match_parent" 
+		    android:orientation="vertical">		    
+		</TableLayout>	
+		
+		<TableLayout
+		    android:id="@+id/table_switch_out2" 
+		    android:layout_width="0dp"
+		    android:layout_weight="3" 
+		    android:layout_height="match_parent" 
+		    android:divider="#6495ED" 
+		    android:orientation="vertical" android:showDividers="beginning|middle|end">		    
+		</TableLayout>
+	</LinearLayout>
+	
+    <LinearLayout
+        android:id="@+id/layout_switch_in"
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content">
+	    <TableLayout
+		    android:id="@+id/table_switch_in1" 
+		    android:layout_width="0dp"
+		    android:layout_weight="3" 
+		    android:layout_height="match_parent"
+		    android:divider="#6495ED" 
+		    android:orientation="vertical" android:showDividers="beginning|middle|end">
+		</TableLayout>
+	
+   		<TableLayout
+		    android:id="@+id/table_holdspace2" 
+		    android:layout_width="0dp"
+		    android:layout_weight="1"
+		    android:layout_height="match_parent" 
+		    android:orientation="vertical">		    
+		</TableLayout>	
+		
+		<TableLayout
+		    android:id="@+id/table_switch_in2" 
+		    android:layout_width="0dp"
+		    android:layout_weight="3" 
+		    android:layout_height="match_parent" 
+		    android:divider="#6495ED" 
+		    android:orientation="vertical" android:showDividers="beginning|middle|end">		    
+		</TableLayout>
+	</LinearLayout>	
+	
+	<Button
+	    android:id="@+id/startRVP"
+	    style="?android:attr/buttonStyleSmall"
+	    android:layout_width="wrap_content"
+	    android:layout_height="36dp"
+	    android:layout_gravity="bottom|center_horizontal"
+	    android:alpha="5"
+	    android:text="@string/btn_check_cam">    
+	</Button>
+	    
+</FrameLayout>  

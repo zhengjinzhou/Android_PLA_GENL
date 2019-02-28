@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_margin="16dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:textSize="16sp"
+        android:textColor="#1e1e1e"
+        android:padding="16dp"
+        android:gravity="center"
+        android:id="@+id/tv_signout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="退出" />
+
+    <View
+        android:background="#ede6e6"
+        android:layout_width="match_parent"
+        android:layout_height="0.2dp"/>
+    <TextView
+        android:textSize="16sp"
+        android:textColor="#1e1e1e"
+        android:padding="16dp"
+        android:gravity="center"
+        android:id="@+id/tv_change"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="切换账号" />
+</LinearLayout>

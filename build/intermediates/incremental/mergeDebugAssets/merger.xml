@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="E:\Android_PLA_GENL\assets"><file name="help.html" path="E:\Android_PLA_GENL\assets\help.html"/></source><source path="E:\Android_PLA_GENL\build\generated\assets\shaders\debug"/></dataSet><dataSet config="debug"><source path="E:\Android_PLA_GENL\build-types\debug\assets"/></dataSet></merger>

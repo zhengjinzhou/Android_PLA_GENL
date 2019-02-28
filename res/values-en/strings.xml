@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- app layer && main -->
+    <string name="label_name">GE_Platform</string> 
+	<string name="app_name">GE_platform</string>
+	<string name="app_version">V5.0.7</string>
+	<string name="app_savepwd">save pwd</string>
+	<string name="app_select_plat">select platform</string>
+	<string name="app_plat">name:  </string>
+	<string name="app_login">login</string>
+	<string name="app_hintpwd">pwd not null..</string>
+	<string name="app_hintuser">check user name..</string>
+	
+	<!-- device list -->
+	<string name="dev_btnList">device list</string>
+	<string name="dev_loading">Wait a minutes</string>
+	<string name="dev_loading_device">loading device list…</string>
+	<string name="ck_num">num</string>
+	<string name="ck_time">time</string>
+	<string name="ck_dev">devices ID</string>
+	<string name="ck_value">value</string>
+		
+	<string name="dev_RTVideo">video OL</string>
+	<string name="dev_RCVideo">records</string>
+	<string name="dev_RCPhoto">photos</string>
+	<string name="dev_RTAlarmInfo">measurement</string>	
+	<string name="dev_NetSwitchOut">Switch Out</string>
+	<string name="dev_NetSwitchIn">Switch In</string>
+	
+	<string name="btn_play_cam">preview cameras</string>
+	<string name="btn_check_cam">select the cameras</string>
+	<string name="msg_selectfirst">You should selected the camera fist.</string>
+	<string name="msg_maxselect">Once can only support 16 cameras.</string>
+	<string name="msg_loginfailed">Loading Error! ErrCode:</string>
+	<string name="unknowndev">other devices</string>
+		
+	<!-- file list activity-->
+	<string name="msg_nophotos">No photos here!</string>
+	<string name="msg_norecords">No record file here!</string>	
+	<string name="file_openwith">Open with ?</string>
+	<string name="file_innerplayer">Inner player</string>
+	<string name="file_outerplayer">Other Player</string>
+		
+	<!-- image display activity -->
+	<string name="msg_firstfile">Reached first one!</string>
+	<string name="msg_lastfile">This is the last file!</string>
+			
+	<!-- ip configure -->		
+	<string name="ipconf_plat">Plat</string>
+	<string name="ipconf_addr">Addr</string>		
+	<string name="ipconf_port">Port</string>
+	<string name="ipconf_user">User</string>	
+	<string name="ipconf_pwd">PWD</string>
+	<string name="ipconf_tosave">Where to save the record?</string>
+	<string name="ipconf_sdcard">sd Card</string>
+	<string name="ipconf_phone">phone</string>
+	<string name="ipconf_btnsave">save</string>
+	<string name="ipconf_btncancel">cancel</string>
+	
+	<!-- play table -->
+	<string name="play_btn_openadio">audio</string>
+	<string name="play_btn_pause">pause</string>
+	<string name="play_btn_play">play</string>
+	<string name="play_btn_back">back</string>
+	<string name="msg_wait">please wait…</string>
+	<string name="msg_opening">Opening</string>
+	<string name="msg_closing">Closing</string>
+	<string name="msg_refreshing">Refreshing</string>
+	
+	<!-- title bar -->
+	<string name="title_hintsearch">search camera</string>
+	<string name="login_btn">login</string>
+	<string name="add_btn">add</string>
+
+	<!-- warining text -->	
+	<string name="war_delete">Really to delete?</string>
+	<string name="war_delete_succeed">delete succeed!</string>
+	<string name="war_delete_yes">yes</string>
+	<string name="war_delete_no">cancel</string>
+	
+	<string name="list_btn">platform list</string>
+	<string name="exit_btn">exit</string>
+    <string name="select_btn">select</string>
+	<string name="del_btn">delete</string>
+	<string name="modify_btn">modify</string>
+	<string name="code_btn">encode parameters</string>
+	<string name="video_btn">video parameters</string>
+	<string name="open_btn">open</string>
+	<string name="back_btn">back</string>
+	<string name="tr_pal">PAL</string>
+	<string name="tr_ntsc">NTSC</string>
+	<string name="button_videoconfig">Video param</string>
+	<string name="button_videoencode">Encode param</string>
+	<string name="button_ptz">PTZ param</string>
+	<string name="delete">Warning: Confirm delete will lost all data !</string>
+	<string name="help_text">\n
+	    Quick start guide for mobile platform server software\n
+	    1. Click [select platform] to start the platform\'s setting option.\n
+	    2. Click the extended icon to show the platform\'s modifying 
+	    and deleting option, and click again can shrink the item.\n
+	    3. Before the login operation, please click one platform 
+	    in the list and back to the first page.\n
+	    4. After login, there are two ways for searching a ipc:\n
+	    	a. Name index: Input a name to search the  related equipments.\n
+	    	b. Numerical index: Input [0],  and all equipments displayed;\n
+	    	input [01], the first  ten equipments displayed;\n
+	    	input [05], the 51st to  60th equipments displayed ... and so on.\n
+	    5. Next to the [search bar] is monitoring column.\n
+	    6. The PTZ function available after real-time  monitoring begins.</string>
+</resources>
