@@ -49,6 +49,7 @@ import android.widget.Toast;
 import com.google.gson.Gson;
 import com.topvs.platform.DeviceListActivity;
 import com.topvs.platform.LibAPI;
+import com.topvs.platform.NVSPlayer;
 import com.topvs.platform.R;
 import com.topvs.wanve.base.Constant;
 import com.topvs.wanve.bean.goClockInBean;
@@ -528,8 +529,11 @@ public class HomeActivity extends Activity {
     @JavascriptInterface
     public void goCCTV (String json){
         //视频监控
-        initPLALogin();
+        //initPLALogin();
+        //startActivity(new Intent(getApplicationContext(),NVSPlayer.class));
         Log.d(TAG, "goCCTV: "+json);
+        LoginEvent();
+        m_bInited = false;
     }
 
     /**
@@ -537,7 +541,7 @@ public class HomeActivity extends Activity {
      */
     int m_InSDCard = 0;
     boolean m_bInited = false;
-    private void initPLALogin() {
+    private void LoginEvent() {
         String m_name = "wane";
         String m_pwd = "wanve";
         String m_ipAddr = "112.74.94.235";
@@ -965,7 +969,6 @@ public class HomeActivity extends Activity {
         webView.setWebViewClient(null);
         webView.getSettings().setJavaScriptEnabled(false);
         webView.clearCache(true);
+
     }
-
-
 }

@@ -59,7 +59,7 @@
         android:layout_centerHorizontal="true"
         android:padding="8dp"
         android:text="看不清楚，换一种"
-        android:textColor="@color/white"
+        android:textColor="@color/bottom_2"
         android:textSize="17sp" />
 
     <RelativeLayout

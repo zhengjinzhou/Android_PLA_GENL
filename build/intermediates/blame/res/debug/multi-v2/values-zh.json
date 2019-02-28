@@ -1,6 +1,22 @@
 {
     "logs": [
         {
+            "outputFile": "D:\\AndroidStudioProject\\Android_PLA_GENL\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-zh\\values-zh.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Wanve4K\\.gradle\\caches\\transforms-1\\files-1.1\\calendarview-3.5.0.aar\\978f2eb0d7f45145bb1d63d8dbd9cb8c\\res\\values-zh\\values-zh.xml",
+                    "from": {
+                        "startLines": "2,16,48,62,82,108,113,122,131,140,141,142,143,144,145,146,147",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,410,1186,1542,2124,2757,2896,3153,3378,3613,3666,3700,3734,3768,3802,3836,3870",
+                        "endLines": "15,47,61,81,107,112,121,130,139,140,141,142,143,144,145,146,147",
+                        "endColumns": "19,19,19,19,19,19,19,19,19,52,33,33,33,33,33,33,33",
+                        "endOffsets": "405,1181,1537,2119,2752,2891,3148,3373,3608,3661,3695,3729,3763,3797,3831,3865,3899"
+                    }
+                }
+            ]
+        },
+        {
             "outputFile": "E:\\Android_PLA_GENL\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-zh\\values-zh.xml",
             "map": [
                 {

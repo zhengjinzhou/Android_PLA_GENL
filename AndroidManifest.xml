@@ -66,11 +66,10 @@
             android:value="4030500" />
         <!--  -->
         <activity
-            android:name=".SplashActivity"
+            android:name="com.topvs.wanve.view.LoginActivity"
             android:configChanges="keyboardHidden"
             android:label="@string/app_name"
             android:launchMode="singleTask"
-            android:screenOrientation="portrait"
             android:theme="@android:style/Theme.NoTitleBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -81,38 +80,39 @@
         <activity
             android:name=".NVSPlayer"
             android:label="@string/app_name"
-            android:screenOrientation="portrait"
+            android:configChanges="orientation"
             android:theme="@style/titlebar"
             android:windowSoftInputMode="adjustPan" />
         <activity
             android:name=".DeviceListActivity"
             android:label="设备列表"
-            android:screenOrientation="portrait"
+            android:configChanges="orientation"
             android:theme="@style/searchbar" />
         <activity
             android:name=".IPConfig"
             android:label="设置"
-            android:screenOrientation="portrait"
+            android:configChanges="orientation"
             android:theme="@style/titlebar" />
         <activity
             android:name=".IPListActivity"
             android:label="平台列表"
-            android:screenOrientation="portrait"
+            android:configChanges="orientation"
             android:theme="@style/titlebar" />
         <activity
             android:name=".ShowHelpActivity"
             android:label="帮助"
-            android:screenOrientation="portrait"
+            android:configChanges="orientation"
             android:theme="@style/titlebar" />
         <activity
             android:name="com.topvs.player.PlayActivity"
-            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:configChanges="orientation"
             android:label="播放"
             android:theme="@android:style/Theme.NoTitleBar" />
         <activity
             android:name="com.topvs.player.FileListActivity"
             android:label="文件列表"
-            android:screenOrientation="portrait"
+            android:configChanges="orientation"
             android:theme="@style/titlebar" />
         <activity
             android:name="com.topvs.player.RecordPlayActivity"
@@ -132,10 +132,6 @@
                 <data android:mimeType="image/*" />
             </intent-filter>
         </activity>
-        <activity
-            android:name="com.topvs.wanve.view.LoginActivity"
-            android:configChanges="orientation"
-            android:theme="@android:style/Theme.NoTitleBar" />
         <activity
             android:name="com.topvs.wanve.view.HomeActivity"
             android:configChanges="orientation"

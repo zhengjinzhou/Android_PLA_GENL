@@ -43,6 +43,14 @@ public class RlsbActivity extends AppCompatActivity {
         tvDaka = findViewById(R.id.tvDaka);
         tvJl = findViewById(R.id.tvJl);
 
+        findViewById(R.id.iv_back).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                finish();
+            }
+        });
+
+
         findViewById(R.id.tvDaka).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

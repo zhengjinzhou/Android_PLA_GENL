@@ -8,14 +8,17 @@ package com.topvs.wanve.bean;
 
 public class goClockInBean {
 
+
     /**
      * APP_ID : 1258164618
      * App_Name : jttz
      * Secret_ID : AKIDCIrKcNkvX2c3KDSXxGTUB6PcdigsjpWB
      * Secret_Key : AKH3YzGNIhw8C8xyqa8Vp27Nip5A3qKd
-     * ProNo : 0036
+     * ProNo : A-01
      * UserSNID : 20130227112138196
      * UserName : 建设单位管理员
+     * StartWorkTime :
+     * EndWorkTime :
      */
 
     private String APP_ID;
@@ -25,6 +28,8 @@ public class goClockInBean {
     private String ProNo;
     private String UserSNID;
     private String UserName;
+    private String StartWorkTime;
+    private String EndWorkTime;
 
     public String getAPP_ID() {
         return APP_ID;
@@ -82,6 +87,22 @@ public class goClockInBean {
         this.UserName = UserName;
     }
 
+    public String getStartWorkTime() {
+        return StartWorkTime;
+    }
+
+    public void setStartWorkTime(String StartWorkTime) {
+        this.StartWorkTime = StartWorkTime;
+    }
+
+    public String getEndWorkTime() {
+        return EndWorkTime;
+    }
+
+    public void setEndWorkTime(String EndWorkTime) {
+        this.EndWorkTime = EndWorkTime;
+    }
+
     @Override
     public String toString() {
         return "goClockInBean{" +
@@ -92,6 +113,8 @@ public class goClockInBean {
                 ", ProNo='" + ProNo + '\'' +
                 ", UserSNID='" + UserSNID + '\'' +
                 ", UserName='" + UserName + '\'' +
+                ", StartWorkTime='" + StartWorkTime + '\'' +
+                ", EndWorkTime='" + EndWorkTime + '\'' +
                 '}';
     }
 }

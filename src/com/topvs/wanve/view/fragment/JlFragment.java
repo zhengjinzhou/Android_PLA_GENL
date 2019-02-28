@@ -50,6 +50,8 @@ public class JlFragment extends Fragment implements JlContract.View {
     private CommonAdapter<GetClockRecordsBean.RecordsBean> adapter;
     private TextView tvName;
     private TextView tvSum;
+    goClockInBean clockInBean = (goClockInBean) SpUtil.getObject(getContext(), Constant.goClockIn, goClockInBean.class);
+    private TextView tvNum;
 
     @Override
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
@@ -66,8 +68,8 @@ public class JlFragment extends Fragment implements JlContract.View {
         SimpleDateFormat dateFm = new SimpleDateFormat("EEEE");
         tvDate.setText(DateUtil.lineDate(date) + " " + dateFm.format(date));
 
-        goClockInBean clockInBean = (goClockInBean) SpUtil.getObject(getContext(), Constant.goClockIn, goClockInBean.class);
         tvName.setText(clockInBean.getUserName());
+        tvNum.setText("班次："+clockInBean.getStartWorkTime()+"-"+clockInBean.getEndWorkTime());
 
         GetAllRecords();//月，获取当月的打卡数量
         getDayRecords();//日，获取当日打卡数量
@@ -82,7 +84,11 @@ public class JlFragment extends Fragment implements JlContract.View {
 
             @Override
             public void onCalendarSelect(Calendar calendar, boolean isClick) {
-                Log.d(TAG, "onCalendarSelect: " + calendar);
+                Log.d(TAG, isClick+"onCalendarSelect: " + calendar);
+                if (!isClick){
+                    String crdate = calendar+"";
+                    presenter.GetAllRecords(crdate.substring(0, 6));
+                }
                 presenter.GetClockRecords(calendar + "");
             }
         });
@@ -112,6 +118,7 @@ public class JlFragment extends Fragment implements JlContract.View {
         recyclerView = view.findViewById(R.id.recyclerView);
         tvName = view.findViewById(R.id.tvName);
         tvSum = view.findViewById(R.id.tvSum);
+        tvNum = view.findViewById(R.id.tvNum);
 
         LinearLayoutManager layoutManager = new LinearLayoutManager(getContext());
         //设置布局管理器
@@ -200,13 +207,12 @@ public class JlFragment extends Fragment implements JlContract.View {
 
     @Override
     public String setUserSNID() {
-        goClockInBean clockInBean = (goClockInBean) SpUtil.getObject(getContext(), Constant.goClockIn, goClockInBean.class);
         return clockInBean.getUserSNID();
     }
 
     @Override
     public String setPM_BH() {
-        goClockInBean clockInBean = (goClockInBean) SpUtil.getObject(getContext(), Constant.goClockIn, goClockInBean.class);
+
         return clockInBean.getProNo();
     }
 

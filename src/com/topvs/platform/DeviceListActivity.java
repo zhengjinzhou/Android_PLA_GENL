@@ -6,15 +6,11 @@ import java.util.Date;
 import java.util.HashMap;
 import java.util.Timer;
 import java.util.TimerTask;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
-
 import com.topvs.expandablelist.MyExpandableListView;
 import com.topvs.expandablelist.MyExpandableListAdapter;
 import com.topvs.expandablelist.MyExpandableListAdapter.ViewHolder;
 import com.topvs.player.FileListActivity;
 import com.topvs.player.PlayActivity;
-
 import android.annotation.SuppressLint;
 import android.app.ProgressDialog;
 import android.app.TabActivity;

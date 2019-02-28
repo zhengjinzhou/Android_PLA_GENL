@@ -10,7 +10,7 @@ import android.os.Handler;
 public class SplashActivity extends Activity {
 
     //延迟3秒 
-    private static final long SPLASH_DELAY_MILLIS = 2000;
+    private static final long SPLASH_DELAY_MILLIS = 200;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {

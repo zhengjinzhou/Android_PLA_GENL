@@ -65,6 +65,7 @@ public class DkFragment extends Fragment implements DkContract.View,
     private TencentLocationManager manager;
     private double lat;
     private double lon;
+    goClockInBean clockInBean = (goClockInBean) SpUtil.getObject(getContext(), Constant.goClockIn, goClockInBean.class);
 
     @Override
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
@@ -257,9 +258,10 @@ public class DkFragment extends Fragment implements DkContract.View,
                 try {
                     VideoImageIdentityResult result = mFaceIdClient.videoImageIdentity(request);
                     if (result != null) {
-                        Log.d(TAG, "打卡反馈信息: "+request.toString());
+                        Log.d(TAG, "打卡反馈信息: "+result.toString());
+                        feedback(result);
                         //上传到服务器
-                        presenter.GetDistance(lat+"",lon+"");
+                        //presenter.GetDistance(lat+"",lon+"");
                     } else {
                         Log.d(TAG, "result == null ");
                     }
@@ -272,6 +274,130 @@ public class DkFragment extends Fragment implements DkContract.View,
                 }
             }
         }).start();
+    }
+
+    /**
+     * 对反馈回来的信息进行对比
+     * @param result
+     */
+    private void feedback(VideoImageIdentityResult result) {
+        Log.d(TAG, "feedback: "+result.getLiveStatus());
+        if (result.getCode()==0){
+            if (result.getLiveStatus()==-4006){
+                //ToastUtil.show(getContext(),"视频中自拍照特征提取失败");
+                return;
+            }
+            if (result.getLiveStatus()==-4007){
+            //    ToastUtil.show(getContext(),"视频中自拍照之间对比失败");
+                return;
+            }
+            if (result.getLiveStatus()==-4009){
+              //  ToastUtil.show(getContext(),"Card 照片提取特征失败");
+                return;
+            }
+            if (result.getLiveStatus()==-4010){
+               // ToastUtil.show(getContext(),"自拍照与Card照片相似度计算失败");
+                return;
+            }
+            if (result.getLiveStatus()==-4011){
+               // ToastUtil.show(getContext(),"照片解码失败");
+                return;
+            }
+            if (result.getLiveStatus()==-4012){
+               // ToastUtil.show(getContext(),"照片人脸检测失败");
+                return;
+            }
+            if (result.getLiveStatus()==-4015){
+               // ToastUtil.show(getContext(),"自拍照人脸检测失败");
+                return;
+            }
+            if (result.getLiveStatus()==-4016){
+              //  ToastUtil.show(getContext(),"自拍照解码失败");
+                return;
+            }
+            if (result.getLiveStatus()==-4017){
+              //  ToastUtil.show(getContext(),"Card 照片人脸检测失败");
+                return;
+            }
+
+            if (result.getLiveStatus()==-4018){
+              //  ToastUtil.show(getContext(),"Card 照片解码失败");
+                return;
+            }
+            if (result.getLiveStatus()==-5001){
+              //  ToastUtil.show(getContext(),"视频无效，上传文件不符合视频要求");
+                return;
+            }
+            if (result.getLiveStatus()==-5002){
+              //  ToastUtil.show(getContext(),"唇语失败");
+                return;
+            }
+            if (result.getLiveStatus()==-5005){
+              //  ToastUtil.show(getContext(),"自拍照解析照片不足，视频里检测到的人脸较少");
+                return;
+            }
+            if (result.getLiveStatus()==-5007){
+             //   ToastUtil.show(getContext(),"视频没有声音");
+                return;
+            }
+            if (result.getLiveStatus()==-5008){
+             //   ToastUtil.show(getContext(),"语音识别失败，视频里的人读错数字");
+                return;
+            }
+            if (result.getLiveStatus()==-5009){
+              //  ToastUtil.show(getContext(),"视频人脸检测失败，没有嘴或者脸");
+                return;
+            }
+
+            if (result.getLiveStatus()==-5011){
+              //  ToastUtil.show(getContext(),"活体检测失败(活体其他错误都归类到里面)");
+                return;
+            }
+            if (result.getLiveStatus()==-5012){
+              //  ToastUtil.show(getContext(),"视频中噪声太大");
+                return;
+            }
+            if (result.getLiveStatus()==-5013){
+               // ToastUtil.show(getContext(),"视频里的声音太小");
+                return;
+            }
+            if (result.getLiveStatus()==-5014){
+               // ToastUtil.show(getContext(),"活体检测 level 参数无效");
+                return;
+            }
+            if (result.getLiveStatus()==-5015){
+              //  ToastUtil.show(getContext(),"视频像素太低，最小 270*480");
+                return;
+            }
+
+            if (result.getLiveStatus()==-5016){
+              //  ToastUtil.show(getContext(),"视频里的人不是活体（翻拍等攻击)");
+                return;
+            }
+            if (result.getLiveStatus()==-5801){
+               // ToastUtil.show(getContext(),"请求缺少身份证号码或身份证姓名");
+                return;
+            }
+            if (result.getLiveStatus()==-5802){
+               // ToastUtil.show(getContext(),"服务器内部错误，服务暂时不可用");
+                return;
+            }
+            if (result.getLiveStatus()==-5803){
+               // ToastUtil.show(getContext(),"身份证姓名与身份证号码不一致");
+                return;
+            }
+            if (result.getLiveStatus()==-5805){
+               // ToastUtil.show(getContext(),"用户未输入图像或者 url 下载失败");
+                return;
+            }
+            if (result.getLiveStatus()<70){
+               // ToastUtil.show(getContext(),"照片与视频本人相似度太低");
+                return;
+            }
+            presenter.GetDistance(lat+"",lon+"");
+        }else {
+            ToastUtil.show(getContext(),result.getMessage());
+        }
     }
 
     /**
@@ -354,18 +480,15 @@ public class DkFragment extends Fragment implements DkContract.View,
             return;
         Log.d(TAG, "GetAttachmentSuccess: "+userSNIDBean.toString());
         sdImagePath = DownloadUtil.get().download(userSNIDBean.getVirtualPath(), "");
-        Log.d(TAG, "GetAttachmentSuccess: "+ sdImagePath);
     }
 
     @Override
     public String setUserSNID() {
-        goClockInBean clockInBean = (goClockInBean) SpUtil.getObject(getContext(), Constant.goClockIn, goClockInBean.class);
         return clockInBean.getUserSNID();
     }
 
     @Override
     public String setPM_BH() {
-        goClockInBean clockInBean = (goClockInBean) SpUtil.getObject(getContext(), Constant.goClockIn, goClockInBean.class);
         return clockInBean.getProNo();
     }
 
