@@ -1,0 +1,73 @@
+-injars 'D:\AndroidStudioProject\Android_PLA_GENL\libs\ksoap2-android-assembly-2.4-jar-with-dependencies.jar'(**.class)
+-injars 'D:\AndroidStudioProject\Android_PLA_GENL\libs\faceid-1.1.jar'(**.class)
+-injars 'D:\AndroidStudioProject\Android_PLA_GENL\libs\slf4j-android-1.6.1-RC1.jar'(**.class)
+-injars 'D:\AndroidStudioProject\Android_PLA_GENL\libs\lib-camera.jar'(**.class)
+-injars 'D:\AndroidStudioProject\Android_PLA_GENL\libs\TencentLocationSdk_v7.1.4.3_r4aa8ac63_20180911_165428.jar'(**.class)
+-injars 'C:\Users\Wanve4K\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\converter-gson\2.1.0\aa557d71ead91cbf26e0c316a0f593d168303309\converter-gson-2.1.0.jar'(**.class)
+-injars 'C:\Users\Wanve4K\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\adapter-rxjava\2.1.0\693eddc23e87ab13f9cf5001707ce8e7e1d1ff01\adapter-rxjava-2.1.0.jar'(**.class)
+-injars 'C:\Users\Wanve4K\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\retrofit\2.1.0\2de7cd8b95b7021b1d597f049bcb422055119f2c\retrofit-2.1.0.jar'(**.class)
+-injars 'C:\Users\Wanve4K\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.9.0\1b6c10b5120995a7542c1a31b7828fb8593c8ba\okhttp-3.9.0.jar'(**.class)
+-injars 'C:\Users\Wanve4K\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.13.0\a9283170b7305c8d92d25aff02a6ab7e45d06cbe\okio-1.13.0.jar'(**.class)
+-injars 'C:\Users\Wanve4K\.gradle\caches\transforms-1\files-1.1\rxandroid-1.1.0.aar\ad49aa8942f377fe0dea6d6acd2ea65d\jars\classes.jar'(**.class)
+-injars 'C:\Users\Wanve4K\.gradle\caches\modules-2\files-2.1\io.reactivex\rxjava\1.1.5\ece7b5d0870e66d8226dab6dcf47a2b12afff061\rxjava-1.1.5.jar'(**.class)
+-injars 'C:\Users\Wanve4K\.gradle\caches\transforms-1\files-1.1\multidex-1.0.2.aar\61133108994a8454d92527498eeb1e8c\jars\classes.jar'(**.class)
+-injars 'C:\Users\Wanve4K\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\aad5c414c2b1c39ea9dbb5c9c5fead88\jars\classes.jar'(**.class)
+-injars 'C:\Users\Wanve4K\.gradle\caches\transforms-1\files-1.1\calendarview-3.5.0.aar\978f2eb0d7f45145bb1d63d8dbd9cb8c\jars\classes.jar'(**.class)
+-injars 'C:\Users\Wanve4K\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\255bd52923a98af7ccb34e7c64e6e162\jars\classes.jar'(**.class)
+-injars 'C:\Users\Wanve4K\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.7\751f548c85fa49f330cecbb1875893f971b33c4e\gson-2.7.jar'(**.class)
+-injars 'C:\Users\Wanve4K\.gradle\caches\modules-2\files-2.1\com.android.support.constraint\constraint-layout-solver\1.1.3\bde0667d7414c16ed62d3cfe993cff7f9d732373\constraint-layout-solver-1.1.3.jar'(**.class)
+-injars 'C:\Users\Wanve4K\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-23.3.0.aar\eeeca721077413fdd07c6eadccba1132\jars\classes.jar'(**.class)
+-injars 'C:\Users\Wanve4K\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\d25ed24b686ad9ad7b11b3407bf3529a\jars\classes.jar'(**.class)
+-injars 'C:\Users\Wanve4K\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\554f0a09c4509e011fa0b741641b25db\jars\classes.jar'(**.class)
+-injars 'C:\Users\Wanve4K\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\5d52841f860533d9e3ed7109a7460b37\jars\classes.jar'(**.class)
+-injars 'C:\Users\Wanve4K\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\bb645d870c2e9a5b1d8c83fda1743a61\jars\classes.jar'(**.class)
+-injars 'C:\Users\Wanve4K\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\b5e962d788c3d708a0da8568763b7a63\jars\classes.jar'(**.class)
+-injars 'C:\Users\Wanve4K\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\c081b7d406e86bd58722318add2b079d\jars\classes.jar'(**.class)
+-injars 'C:\Users\Wanve4K\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\08196aac1c0075d83da5f12c5d67388d\jars\classes.jar'(**.class)
+-injars 'C:\Users\Wanve4K\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\cbff0ff3ca269acfa2fbee4e209f8ff6\jars\classes.jar'(**.class)
+-injars 'C:\Users\Wanve4K\.gradle\caches\modules-2\files-2.1\com.android.support\support-annotations\26.1.0\814258103cf26a15fcc26ecce35f5b7d24b73f8\support-annotations-26.1.0.jar'(**.class)
+-injars 'C:\Users\Wanve4K\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\d01ec1c95cec8e13056bb11dff8547bc\jars\classes.jar'(**.class)
+-injars 'C:\Users\Wanve4K\.gradle\caches\modules-2\files-2.1\android.arch.lifecycle\common\1.0.0\e414a4cb28434e25c4f6aa71426eb20cf4874ae9\common-1.0.0.jar'(**.class)
+-injars 'C:\Users\Wanve4K\.gradle\caches\modules-2\files-2.1\android.arch.core\common\1.0.0\a2d487452376193fc8c103dd2b9bd5f2b1b44563\common-1.0.0.jar'(**.class)
+-injars 'D:\AndroidStudioProject\Android_PLA_GENL\build\intermediates\classes\debug'(**.class)
+-outjars 'D:\AndroidStudioProject\Android_PLA_GENL\build\intermediates\multi-dex\debug\componentClasses.jar'
+
+-libraryjars 'C:\android\android-sdk-windows\build-tools\26.0.2\lib\shrinkedAndroid.jar'
+
+-forceprocessing
+-dontoptimize
+-dontobfuscate
+-dontusemixedcaseclassnames
+-dontpreverify
+-dontnote **
+-dontwarn **
+-printconfiguration 'D:\AndroidStudioProject\Android_PLA_GENL\build\intermediates\multi-dex\debug\components.flags'
+
+
+# Referenced at D:\AndroidStudioProject\Android_PLA_GENL\build\intermediates\manifests\full\debug\AndroidManifest.xml:58
+-keep class com.topvs.platform.MyApp {
+    <init>(...);
+}
+
+-keep public class * extends android.app.Instrumentation {
+    <init>();
+}
+
+-keep public class * extends android.app.Application {
+    <init>();
+    void attachBaseContext(android.content.Context);
+}
+
+-keep public class * extends android.app.backup.BackupAgent {
+    <init>();
+}
+
+-keep public class * extends java.lang.annotation.Annotation {
+    <fields>;
+    <methods>;
+}
+
+-keep class com.android.tools.ir.** {
+    <fields>;
+    <methods>;
+}

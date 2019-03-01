@@ -20,6 +20,7 @@ import android.widget.Toast;
 import com.tencent.cloud.cameralib.ICamcorder;
 import com.tencent.cloud.cameralib.impl.CamcorderImpl;
 import com.topvs.platform.R;
+import com.topvs.wanve.util.ToastUtil;
 
 public class RecorderActivity extends Activity {
 
@@ -91,7 +92,7 @@ public class RecorderActivity extends Activity {
 
             @Override
             public void onAnythingFailed(Exception e) {
-                Toast.makeText(RecorderActivity.this, e.toString(), Toast.LENGTH_SHORT).show();
+                ToastUtil.show(RecorderActivity.this, e.toString());
                 e.printStackTrace();
             }
         });

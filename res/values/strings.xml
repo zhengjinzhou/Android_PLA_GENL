@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">湛江城管局</string>
-    <string name="head_title">湛江城管局</string><!--登陆界面-->
+    <string name="app_name">东江区工务局</string>
+    <string name="head_title">东江区工务局</string><!--登陆界面-->
     <string name="head_content">工程数据管理平台</string><!--登陆界面-->
-    <string name="main_title">湛江城管局工程数据管理平台</string>
+    <string name="main_title">东江区工务局工程数据管理平台</string>
     <string name="eim">(EIM)</string>
     <string name="app">wanvebotong</string>
 

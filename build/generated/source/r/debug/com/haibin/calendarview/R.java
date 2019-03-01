@@ -526,7 +526,7 @@ public final class R {
         public static final int abc_textfield_search_default_mtrl_alpha = 0x7f070068;
         public static final int abc_textfield_search_material = 0x7f070069;
         public static final int cv_bg_material = 0x7f07007e;
-        public static final int notification_template_icon_bg = 0x7f0700b4;
+        public static final int notification_template_icon_bg = 0x7f0700b6;
     }
     public static final class id {
         public static final int action0 = 0x7f080017;
@@ -639,12 +639,12 @@ public final class R {
         public static final int title = 0x7f08012c;
         public static final int title_template = 0x7f08012e;
         public static final int topPanel = 0x7f080131;
-        public static final int up = 0x7f080152;
-        public static final int useLogo = 0x7f080155;
-        public static final int vp_month = 0x7f080157;
-        public static final int vp_week = 0x7f080158;
-        public static final int withText = 0x7f080160;
-        public static final int wrap_content = 0x7f080162;
+        public static final int up = 0x7f080153;
+        public static final int useLogo = 0x7f080156;
+        public static final int vp_month = 0x7f080158;
+        public static final int vp_week = 0x7f080159;
+        public static final int withText = 0x7f080161;
+        public static final int wrap_content = 0x7f080163;
     }
     public static final class integer {
         public static final int abc_config_activityDefaultDur = 0x7f090000;

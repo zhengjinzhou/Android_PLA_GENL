@@ -21,7 +21,6 @@
         android:layout_below="@+id/tvTime"
         android:layout_marginTop="5dp"
         android:gravity="center"
-        android:text="记录您的最新打卡时间为 08:25"
         android:textColor="@color/white"
         android:textSize="17sp" />
 

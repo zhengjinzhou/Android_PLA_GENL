@@ -12,11 +12,10 @@ import android.support.v4.content.ContextCompat;
 import android.text.TextUtils;
 import android.util.Log;
 import android.view.View;
+import android.view.WindowManager;
 import android.widget.CheckBox;
 import android.widget.CompoundButton;
 import android.widget.EditText;
-import android.widget.Toast;
-
 import com.topvs.platform.DeviceListActivity;
 import com.topvs.platform.LibAPI;
 import com.topvs.platform.R;
@@ -66,6 +65,7 @@ public class LoginActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
+
 
         init();
     }
@@ -200,7 +200,7 @@ public class LoginActivity extends Activity {
                         str = "登录设备失败，错误码" + ret;
                         break;
                 }
-                Toast.makeText(this, str, Toast.LENGTH_SHORT).show();
+                ToastUtil.show(this,str);
             } else {
                 Intent in = new Intent(this, DeviceListActivity.class);
                 in.putExtra("INSDCARD", m_InSDCard);

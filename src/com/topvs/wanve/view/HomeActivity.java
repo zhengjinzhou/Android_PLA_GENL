@@ -41,17 +41,17 @@ import android.webkit.WebChromeClient;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.PopupWindow;
 import android.widget.TextView;
-import android.widget.Toast;
-
 import com.google.gson.Gson;
 import com.topvs.platform.DeviceListActivity;
 import com.topvs.platform.LibAPI;
 import com.topvs.platform.NVSPlayer;
 import com.topvs.platform.R;
 import com.topvs.wanve.base.Constant;
+import com.topvs.wanve.bean.goCCTVBean;
 import com.topvs.wanve.bean.goClockInBean;
 import com.topvs.wanve.util.SpUtil;
 import com.topvs.wanve.util.ToastUtil;
@@ -91,6 +91,8 @@ public class HomeActivity extends Activity {
     private ValueCallback<Uri[]> mUploadCallbackAboveL;
     private ValueCallback<Uri> mUploadMessage;// 表单的数据信息
     protected LoadDialog dialog;
+    private ImageView iv_login;
+    private LinearLayout layout;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -189,7 +191,7 @@ public class HomeActivity extends Activity {
         pop.setBackgroundDrawable(new BitmapDrawable());
         pop.setOutsideTouchable(true);
         pop.setAnimationStyle(R.anim.mypop_anim);
-        pop.showAtLocation(tv_center, Gravity.BOTTOM, tv_center.getHeight(), tv_center.getWidth());
+        pop.showAtLocation(layout, Gravity.BOTTOM, 0, layout.getHeight());
         //按项目状态
         contentView.findViewById(R.id.tv_pro_stat).setOnClickListener(new View.OnClickListener() {
             @Override
@@ -365,7 +367,7 @@ public class HomeActivity extends Activity {
         pop.setOutsideTouchable(true);
         pop.setAnimationStyle(R.anim.mypop_anim);
         //pop.showAsDropDown(tv_center, Gravity.TOP, 0);
-        pop.showAtLocation(tv_sum, Gravity.BOTTOM, tv_sum.getWidth() * 2, tv_center.getWidth());
+        pop.showAtLocation(layout, Gravity.BOTTOM, layout.getHeight(), layout.getHeight());
 
         //内部资料
         contentView.findViewById(R.id.tv_reference_private).setOnClickListener(new View.OnClickListener() {
@@ -420,6 +422,8 @@ public class HomeActivity extends Activity {
         tv_center = findViewById(R.id.tv_center);
         webView = findViewById(R.id.webView);
         ll = findViewById(R.id.ll);
+        iv_login = findViewById(R.id.iv_login);
+        layout = findViewById(R.id.layout);
     }
 
     private void init() {
@@ -532,7 +536,9 @@ public class HomeActivity extends Activity {
         //initPLALogin();
         //startActivity(new Intent(getApplicationContext(),NVSPlayer.class));
         Log.d(TAG, "goCCTV: "+json);
-        LoginEvent();
+        Gson gson = new Gson();
+        goCCTVBean goCCTVBean = gson.fromJson(json, goCCTVBean.class);
+        LoginEvent(goCCTVBean.getCameraID(),goCCTVBean.getCameraPwd());
         m_bInited = false;
     }
 
@@ -541,9 +547,9 @@ public class HomeActivity extends Activity {
      */
     int m_InSDCard = 0;
     boolean m_bInited = false;
-    private void LoginEvent() {
-        String m_name = "wane";
-        String m_pwd = "wanve";
+    private void LoginEvent(String m_name, String m_pwd) {
+       /* String m_name = "wane";
+        String m_pwd = "wanve";*/
         String m_ipAddr = "112.74.94.235";
         int m_port = 9901;
         if (!m_bInited) {
@@ -586,7 +592,7 @@ public class HomeActivity extends Activity {
                         str = "该用户已在其他地方登陆..";
                         break;
                     case -13:
-                        str = "登陆请求被拒绝, 用户名未激活";
+                        str = "该项目未配置视频监控设备，请联系管理员！";
                         break;
                     case -14:
                         str = "登陆请求被拒绝, 用户名已超过使用期限";
@@ -598,7 +604,7 @@ public class HomeActivity extends Activity {
                         str = "登录设备失败，错误码" + ret;
                         break;
                 }
-                Toast.makeText(this, str, Toast.LENGTH_SHORT).show();
+                ToastUtil.show(this,str);
             } else {
                 Intent in = new Intent(this, DeviceListActivity.class);
                 in.putExtra("INSDCARD", m_InSDCard);
@@ -633,7 +639,6 @@ public class HomeActivity extends Activity {
                 i.setPackage(packageName);
                 i.putExtra(MediaStore.EXTRA_OUTPUT, imageUri);
                 cameraIntents.add(i);
-
             }
             Intent i = new Intent(Intent.ACTION_GET_CONTENT);
             i.addCategory(Intent.CATEGORY_OPENABLE);
@@ -696,7 +701,7 @@ public class HomeActivity extends Activity {
                     HomeActivity.this.startActivityForResult(chooserIntent, FILECHOOSER_RESULTCODE);
                 } else {
                     //这里是拒绝给APP摄像头权限，给个提示什么的说明一下都可以。
-                    Toast.makeText(HomeActivity.this, "请手动打开相机权限", Toast.LENGTH_SHORT).show();
+                    ToastUtil.show(HomeActivity.this,"请手动打开相机权限");
                 }
                 break;
             default:

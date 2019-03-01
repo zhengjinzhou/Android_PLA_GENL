@@ -20,6 +20,7 @@ public class ToastUtil {
 
     private static TextView mTextView;
     private static ImageView mImageView;
+
     /*public static void show(Context context, String str){
         Toast.makeText(context,str,Toast.LENGTH_LONG).show();
     }*/
@@ -28,8 +29,8 @@ public class ToastUtil {
         //加载Toast布局
         View toastRoot = LayoutInflater.from(context).inflate(R.layout.toast, null);
         //初始化布局控件
-        mTextView = (TextView) toastRoot.findViewById(R.id.message);
-        mImageView = (ImageView) toastRoot.findViewById(R.id.imageView);
+        mTextView =  toastRoot.findViewById(R.id.message);
+        mImageView =  toastRoot.findViewById(R.id.imageView);
         mImageView.setImageResource(R.drawable.icon);
         //为控件设置属性
         mTextView.setText(message);

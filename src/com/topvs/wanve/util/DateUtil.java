@@ -73,8 +73,13 @@ public class DateUtil {
         return time;
     }
 
+    /**
+     *
+     * @param date
+     * @return
+     */
     public static String lineHDate(Date date) {
-        SimpleDateFormat format = new SimpleDateFormat("yyyyMMddHHmmss");
+        SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd HH:mm");
         String time = format.format(date);
         return time;
     }

@@ -1759,7 +1759,7 @@ public final class R {
      * <tr><td>barrier</td><td>2</td><td></td></tr>
      * <tr><td>chains</td><td>4</td><td></td></tr>
      * <tr><td>dimensions</td><td>8</td><td></td></tr>
-     * <tr><td>direct</td><td>1</td><td>direct, barriers, chains</td></tr>
+     * <tr><td>direct</td><td>1</td><td></td></tr>
      * <tr><td>groups</td><td>20</td><td></td></tr>
      * <tr><td>none</td><td>0</td><td></td></tr>
      * <tr><td>standard</td><td>7</td><td></td></tr>
@@ -3112,10 +3112,11 @@ public final class R {
     public static final int tooltip_background_dark=0x7f05005e;
     public static final int tooltip_background_light=0x7f05005f;
     public static final int tx_color=0x7f050060;
-    public static final int txt_1=0x7f050061;
-    public static final int txt_2=0x7f050062;
-    public static final int white=0x7f050063;
-    public static final int yellow=0x7f050064;
+    public static final int tx_red=0x7f050061;
+    public static final int txt_1=0x7f050062;
+    public static final int txt_2=0x7f050063;
+    public static final int white=0x7f050064;
+    public static final int yellow=0x7f050065;
   }
   public static final class dimen {
     public static final int abc_action_bar_content_inset_material=0x7f060000;
@@ -3361,114 +3362,116 @@ public final class R {
     public static final int checkbox_style=0x7f07007c;
     public static final int clock=0x7f07007d;
     public static final int cv_bg_material=0x7f07007e;
-    public static final int djqjzgwj=0x7f07007f;
-    public static final int down=0x7f070080;
-    public static final int dualtalk_off_f=0x7f070081;
-    public static final int dualtalk_on=0x7f070082;
-    public static final int dualtalk_on_f=0x7f070083;
-    public static final int exit=0x7f070084;
-    public static final int expand=0x7f070085;
-    public static final int expand2=0x7f070086;
-    public static final int fullscreen=0x7f070087;
-    public static final int gmxq=0x7f070088;
-    public static final int guangqadd=0x7f070089;
-    public static final int guangqminu=0x7f07008a;
-    public static final int help=0x7f07008b;
-    public static final int home=0x7f07008c;
-    public static final int ic_launcher=0x7f07008d;
-    public static final int ic_loading_bg=0x7f07008e;
-    public static final int icon=0x7f07008f;
-    public static final int imagefile=0x7f070090;
-    public static final int index_off=0x7f070091;
-    public static final int index_on=0x7f070092;
-    public static final int launch_image=0x7f070093;
-    public static final int left=0x7f070094;
-    public static final int light_blue=0x7f070095;
-    public static final int list_selector=0x7f070096;
-    public static final int location=0x7f070097;
-    public static final int login=0x7f070098;
-    public static final int login_bg=0x7f070099;
-    public static final int login_icon1=0x7f07009a;
-    public static final int login_icon2=0x7f07009b;
-    public static final int login_icon3=0x7f07009c;
-    public static final int login_icon4=0x7f07009d;
-    public static final int login_icon5=0x7f07009e;
-    public static final int login_logo=0x7f07009f;
-    public static final int loginpwd=0x7f0700a0;
-    public static final int logo=0x7f0700a1;
-    public static final int logo2=0x7f0700a2;
-    public static final int logo_1=0x7f0700a3;
-    public static final int logo_wave=0x7f0700a4;
-    public static final int luqiao=0x7f0700a5;
-    public static final int map_off=0x7f0700a6;
-    public static final int map_on=0x7f0700a7;
-    public static final int mesurement=0x7f0700a8;
-    public static final int microphone_off=0x7f0700a9;
-    public static final int microphone_on=0x7f0700aa;
-    public static final int minus=0x7f0700ab;
-    public static final int notification_action_background=0x7f0700ac;
-    public static final int notification_bg=0x7f0700ad;
-    public static final int notification_bg_low=0x7f0700ae;
-    public static final int notification_bg_low_normal=0x7f0700af;
-    public static final int notification_bg_low_pressed=0x7f0700b0;
-    public static final int notification_bg_normal=0x7f0700b1;
-    public static final int notification_bg_normal_pressed=0x7f0700b2;
-    public static final int notification_icon_background=0x7f0700b3;
-    public static final int notification_template_icon_bg=0x7f0700b4;
-    public static final int notification_template_icon_low_bg=0x7f0700b5;
-    public static final int notification_tile_bg=0x7f0700b6;
-    public static final int notify_panel_notification_icon_bg=0x7f0700b7;
-    public static final int notonline=0x7f0700b8;
-    public static final int online=0x7f0700b9;
-    public static final int photos=0x7f0700ba;
-    public static final int realtime_camera=0x7f0700bb;
-    public static final int record=0x7f0700bc;
-    public static final int record_yt=0x7f0700bd;
-    public static final int recording=0x7f0700be;
-    public static final int recording_f=0x7f0700bf;
-    public static final int right=0x7f0700c0;
-    public static final int rlsb_jl=0x7f0700c1;
-    public static final int rlsb_select=0x7f0700c2;
-    public static final int rlsb_yuan=0x7f0700c3;
-    public static final int selector_16views=0x7f0700c4;
-    public static final int selector_4views=0x7f0700c5;
-    public static final int selector_9views=0x7f0700c6;
-    public static final int selector_chart=0x7f0700c7;
-    public static final int selector_record=0x7f0700c8;
-    public static final int selector_refresh=0x7f0700c9;
-    public static final int selector_takephoto=0x7f0700ca;
-    public static final int selector_turndown=0x7f0700cb;
-    public static final int selector_turnleft=0x7f0700cc;
-    public static final int selector_turnright=0x7f0700cd;
-    public static final int selector_turnup=0x7f0700ce;
-    public static final int selector_zoomin=0x7f0700cf;
-    public static final int selector_zoomout=0x7f0700d0;
-    public static final int share=0x7f0700d1;
-    public static final int smallicon=0x7f0700d2;
-    public static final int space=0x7f0700d3;
-    public static final int startwatch=0x7f0700d4;
-    public static final int statistics_off=0x7f0700d5;
-    public static final int statistics_on=0x7f0700d6;
-    public static final int stopwatch=0x7f0700d7;
-    public static final int switch_in=0x7f0700d8;
-    public static final int switch_out=0x7f0700d9;
-    public static final int takephoto=0x7f0700da;
-    public static final int takephoto_yt=0x7f0700db;
-    public static final int toaststyle=0x7f0700dc;
-    public static final int tooltip_frame_dark=0x7f0700dd;
-    public static final int tooltip_frame_light=0x7f0700de;
-    public static final int up=0x7f0700df;
-    public static final int username=0x7f0700e0;
-    public static final int video=0x7f0700e1;
-    public static final int videofile=0x7f0700e2;
-    public static final int videos=0x7f0700e3;
-    public static final int warn=0x7f0700e4;
-    public static final int white=0x7f0700e5;
-    public static final int ytbg=0x7f0700e6;
-    public static final int ytbg2=0x7f0700e7;
-    public static final int zjcgj=0x7f0700e8;
-    public static final int zoomin=0x7f0700e9;
-    public static final int zoomout=0x7f0700ea;
+    public static final int dai_off=0x7f07007f;
+    public static final int dai_on=0x7f070080;
+    public static final int djqjzgwj=0x7f070081;
+    public static final int down=0x7f070082;
+    public static final int dualtalk_off_f=0x7f070083;
+    public static final int dualtalk_on=0x7f070084;
+    public static final int dualtalk_on_f=0x7f070085;
+    public static final int exit=0x7f070086;
+    public static final int expand=0x7f070087;
+    public static final int expand2=0x7f070088;
+    public static final int fullscreen=0x7f070089;
+    public static final int gmxq=0x7f07008a;
+    public static final int guangqadd=0x7f07008b;
+    public static final int guangqminu=0x7f07008c;
+    public static final int help=0x7f07008d;
+    public static final int home=0x7f07008e;
+    public static final int ic_launcher=0x7f07008f;
+    public static final int ic_loading_bg=0x7f070090;
+    public static final int icon=0x7f070091;
+    public static final int imagefile=0x7f070092;
+    public static final int index_off=0x7f070093;
+    public static final int index_on=0x7f070094;
+    public static final int launch_image=0x7f070095;
+    public static final int left=0x7f070096;
+    public static final int light_blue=0x7f070097;
+    public static final int list_selector=0x7f070098;
+    public static final int location=0x7f070099;
+    public static final int login=0x7f07009a;
+    public static final int login_bg=0x7f07009b;
+    public static final int login_icon1=0x7f07009c;
+    public static final int login_icon2=0x7f07009d;
+    public static final int login_icon3=0x7f07009e;
+    public static final int login_icon4=0x7f07009f;
+    public static final int login_icon5=0x7f0700a0;
+    public static final int login_logo=0x7f0700a1;
+    public static final int loginpwd=0x7f0700a2;
+    public static final int logo=0x7f0700a3;
+    public static final int logo2=0x7f0700a4;
+    public static final int logo_1=0x7f0700a5;
+    public static final int logo_wave=0x7f0700a6;
+    public static final int luqiao=0x7f0700a7;
+    public static final int map_off=0x7f0700a8;
+    public static final int map_on=0x7f0700a9;
+    public static final int mesurement=0x7f0700aa;
+    public static final int microphone_off=0x7f0700ab;
+    public static final int microphone_on=0x7f0700ac;
+    public static final int minus=0x7f0700ad;
+    public static final int notification_action_background=0x7f0700ae;
+    public static final int notification_bg=0x7f0700af;
+    public static final int notification_bg_low=0x7f0700b0;
+    public static final int notification_bg_low_normal=0x7f0700b1;
+    public static final int notification_bg_low_pressed=0x7f0700b2;
+    public static final int notification_bg_normal=0x7f0700b3;
+    public static final int notification_bg_normal_pressed=0x7f0700b4;
+    public static final int notification_icon_background=0x7f0700b5;
+    public static final int notification_template_icon_bg=0x7f0700b6;
+    public static final int notification_template_icon_low_bg=0x7f0700b7;
+    public static final int notification_tile_bg=0x7f0700b8;
+    public static final int notify_panel_notification_icon_bg=0x7f0700b9;
+    public static final int notonline=0x7f0700ba;
+    public static final int online=0x7f0700bb;
+    public static final int photos=0x7f0700bc;
+    public static final int realtime_camera=0x7f0700bd;
+    public static final int record=0x7f0700be;
+    public static final int record_yt=0x7f0700bf;
+    public static final int recording=0x7f0700c0;
+    public static final int recording_f=0x7f0700c1;
+    public static final int right=0x7f0700c2;
+    public static final int rlsb_jl=0x7f0700c3;
+    public static final int rlsb_select=0x7f0700c4;
+    public static final int rlsb_yuan=0x7f0700c5;
+    public static final int selector_16views=0x7f0700c6;
+    public static final int selector_4views=0x7f0700c7;
+    public static final int selector_9views=0x7f0700c8;
+    public static final int selector_chart=0x7f0700c9;
+    public static final int selector_record=0x7f0700ca;
+    public static final int selector_refresh=0x7f0700cb;
+    public static final int selector_takephoto=0x7f0700cc;
+    public static final int selector_turndown=0x7f0700cd;
+    public static final int selector_turnleft=0x7f0700ce;
+    public static final int selector_turnright=0x7f0700cf;
+    public static final int selector_turnup=0x7f0700d0;
+    public static final int selector_zoomin=0x7f0700d1;
+    public static final int selector_zoomout=0x7f0700d2;
+    public static final int share=0x7f0700d3;
+    public static final int smallicon=0x7f0700d4;
+    public static final int space=0x7f0700d5;
+    public static final int startwatch=0x7f0700d6;
+    public static final int statistics_off=0x7f0700d7;
+    public static final int statistics_on=0x7f0700d8;
+    public static final int stopwatch=0x7f0700d9;
+    public static final int switch_in=0x7f0700da;
+    public static final int switch_out=0x7f0700db;
+    public static final int takephoto=0x7f0700dc;
+    public static final int takephoto_yt=0x7f0700dd;
+    public static final int toaststyle=0x7f0700de;
+    public static final int tooltip_frame_dark=0x7f0700df;
+    public static final int tooltip_frame_light=0x7f0700e0;
+    public static final int up=0x7f0700e1;
+    public static final int username=0x7f0700e2;
+    public static final int video=0x7f0700e3;
+    public static final int videofile=0x7f0700e4;
+    public static final int videos=0x7f0700e5;
+    public static final int warn=0x7f0700e6;
+    public static final int white=0x7f0700e7;
+    public static final int ytbg=0x7f0700e8;
+    public static final int ytbg2=0x7f0700e9;
+    public static final int zjcgj=0x7f0700ea;
+    public static final int zoomin=0x7f0700eb;
+    public static final int zoomout=0x7f0700ec;
   }
   public static final class id {
     public static final int ALT=0x7f080000;
@@ -3793,44 +3796,45 @@ public final class R {
     public static final int tv_brand=0x7f08013f;
     public static final int tv_center=0x7f080140;
     public static final int tv_change=0x7f080141;
-    public static final int tv_delete=0x7f080142;
-    public static final int tv_department=0x7f080143;
-    public static final int tv_index=0x7f080144;
-    public static final int tv_map=0x7f080145;
-    public static final int tv_pro_stat=0x7f080146;
-    public static final int tv_reference=0x7f080147;
-    public static final int tv_reference_private=0x7f080148;
-    public static final int tv_signout=0x7f080149;
-    public static final int tv_standard=0x7f08014a;
-    public static final int tv_sum=0x7f08014b;
-    public static final int tv_table=0x7f08014c;
-    public static final int tv_type=0x7f08014d;
-    public static final int tv_tze=0x7f08014e;
-    public static final int tv_unit=0x7f08014f;
-    public static final int txtViewTitleBar1=0x7f080150;
-    public static final int uniform=0x7f080151;
-    public static final int up=0x7f080152;
-    public static final int upbtn=0x7f080153;
-    public static final int upbtn_f=0x7f080154;
-    public static final int useLogo=0x7f080155;
-    public static final int use_video=0x7f080156;
-    public static final int vp_month=0x7f080157;
-    public static final int vp_week=0x7f080158;
-    public static final int webView=0x7f080159;
-    public static final int widget_layout_device=0x7f08015a;
-    public static final int widget_layout_device_sch=0x7f08015b;
-    public static final int widget_layout_info=0x7f08015c;
-    public static final int widget_layout_photo=0x7f08015d;
-    public static final int widget_layout_record=0x7f08015e;
-    public static final int widget_layout_switchbar=0x7f08015f;
-    public static final int withText=0x7f080160;
-    public static final int wrap=0x7f080161;
-    public static final int wrap_content=0x7f080162;
-    public static final int ytline=0x7f080163;
-    public static final int zoominbtn=0x7f080164;
-    public static final int zoominbtn_f=0x7f080165;
-    public static final int zoomoutbtn=0x7f080166;
-    public static final int zoomoutbtn_f=0x7f080167;
+    public static final int tv_dai=0x7f080142;
+    public static final int tv_delete=0x7f080143;
+    public static final int tv_department=0x7f080144;
+    public static final int tv_index=0x7f080145;
+    public static final int tv_map=0x7f080146;
+    public static final int tv_pro_stat=0x7f080147;
+    public static final int tv_reference=0x7f080148;
+    public static final int tv_reference_private=0x7f080149;
+    public static final int tv_signout=0x7f08014a;
+    public static final int tv_standard=0x7f08014b;
+    public static final int tv_sum=0x7f08014c;
+    public static final int tv_table=0x7f08014d;
+    public static final int tv_type=0x7f08014e;
+    public static final int tv_tze=0x7f08014f;
+    public static final int tv_unit=0x7f080150;
+    public static final int txtViewTitleBar1=0x7f080151;
+    public static final int uniform=0x7f080152;
+    public static final int up=0x7f080153;
+    public static final int upbtn=0x7f080154;
+    public static final int upbtn_f=0x7f080155;
+    public static final int useLogo=0x7f080156;
+    public static final int use_video=0x7f080157;
+    public static final int vp_month=0x7f080158;
+    public static final int vp_week=0x7f080159;
+    public static final int webView=0x7f08015a;
+    public static final int widget_layout_device=0x7f08015b;
+    public static final int widget_layout_device_sch=0x7f08015c;
+    public static final int widget_layout_info=0x7f08015d;
+    public static final int widget_layout_photo=0x7f08015e;
+    public static final int widget_layout_record=0x7f08015f;
+    public static final int widget_layout_switchbar=0x7f080160;
+    public static final int withText=0x7f080161;
+    public static final int wrap=0x7f080162;
+    public static final int wrap_content=0x7f080163;
+    public static final int ytline=0x7f080164;
+    public static final int zoominbtn=0x7f080165;
+    public static final int zoominbtn_f=0x7f080166;
+    public static final int zoomoutbtn=0x7f080167;
+    public static final int zoomoutbtn_f=0x7f080168;
   }
   public static final class integer {
     public static final int abc_config_activityDefaultDur=0x7f090000;
@@ -4432,35 +4436,35 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ActionBar_background com.topvs.platform:background}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_backgroundSplit com.topvs.platform:backgroundSplit}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_backgroundStacked com.topvs.platform:backgroundStacked}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetEnd com.topvs.platform:contentInsetEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetEndWithActions com.topvs.platform:contentInsetEndWithActions}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetLeft com.topvs.platform:contentInsetLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetRight com.topvs.platform:contentInsetRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetStart com.topvs.platform:contentInsetStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetStartWithNavigation com.topvs.platform:contentInsetStartWithNavigation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_customNavigationLayout com.topvs.platform:customNavigationLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_displayOptions com.topvs.platform:displayOptions}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_divider com.topvs.platform:divider}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_elevation com.topvs.platform:elevation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_height com.topvs.platform:height}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_hideOnContentScroll com.topvs.platform:hideOnContentScroll}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_homeAsUpIndicator com.topvs.platform:homeAsUpIndicator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_homeLayout com.topvs.platform:homeLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_icon com.topvs.platform:icon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_indeterminateProgressStyle com.topvs.platform:indeterminateProgressStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_itemPadding com.topvs.platform:itemPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_logo com.topvs.platform:logo}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_navigationMode com.topvs.platform:navigationMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_popupTheme com.topvs.platform:popupTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_progressBarPadding com.topvs.platform:progressBarPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_progressBarStyle com.topvs.platform:progressBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_subtitle com.topvs.platform:subtitle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_subtitleTextStyle com.topvs.platform:subtitleTextStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_title com.topvs.platform:title}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_titleTextStyle com.topvs.platform:titleTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_background com.zhou.djqjzgwj:background}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_backgroundSplit com.zhou.djqjzgwj:backgroundSplit}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_backgroundStacked com.zhou.djqjzgwj:backgroundStacked}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetEnd com.zhou.djqjzgwj:contentInsetEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetEndWithActions com.zhou.djqjzgwj:contentInsetEndWithActions}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetLeft com.zhou.djqjzgwj:contentInsetLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetRight com.zhou.djqjzgwj:contentInsetRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetStart com.zhou.djqjzgwj:contentInsetStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetStartWithNavigation com.zhou.djqjzgwj:contentInsetStartWithNavigation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_customNavigationLayout com.zhou.djqjzgwj:customNavigationLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_displayOptions com.zhou.djqjzgwj:displayOptions}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_divider com.zhou.djqjzgwj:divider}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_elevation com.zhou.djqjzgwj:elevation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_height com.zhou.djqjzgwj:height}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_hideOnContentScroll com.zhou.djqjzgwj:hideOnContentScroll}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_homeAsUpIndicator com.zhou.djqjzgwj:homeAsUpIndicator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_homeLayout com.zhou.djqjzgwj:homeLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_icon com.zhou.djqjzgwj:icon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_indeterminateProgressStyle com.zhou.djqjzgwj:indeterminateProgressStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_itemPadding com.zhou.djqjzgwj:itemPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_logo com.zhou.djqjzgwj:logo}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_navigationMode com.zhou.djqjzgwj:navigationMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_popupTheme com.zhou.djqjzgwj:popupTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_progressBarPadding com.zhou.djqjzgwj:progressBarPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_progressBarStyle com.zhou.djqjzgwj:progressBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_subtitle com.zhou.djqjzgwj:subtitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_subtitleTextStyle com.zhou.djqjzgwj:subtitleTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_title com.zhou.djqjzgwj:title}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_titleTextStyle com.zhou.djqjzgwj:titleTextStyle}</code></td><td></td></tr>
      * </table>
      * @see #ActionBar_background
      * @see #ActionBar_backgroundSplit
@@ -4546,7 +4550,7 @@ public final class R {
      */
     public static final int ActionBarLayout_android_layout_gravity=0;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#background}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#background}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4554,11 +4558,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.topvs.platform:background
+     * @attr name com.zhou.djqjzgwj:background
      */
     public static final int ActionBar_background=0;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#backgroundSplit}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#backgroundSplit}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4569,11 +4573,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.topvs.platform:backgroundSplit
+     * @attr name com.zhou.djqjzgwj:backgroundSplit
      */
     public static final int ActionBar_backgroundSplit=1;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#backgroundStacked}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#backgroundStacked}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4584,11 +4588,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.topvs.platform:backgroundStacked
+     * @attr name com.zhou.djqjzgwj:backgroundStacked
      */
     public static final int ActionBar_backgroundStacked=2;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#contentInsetEnd}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#contentInsetEnd}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4597,11 +4601,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.topvs.platform:contentInsetEnd
+     * @attr name com.zhou.djqjzgwj:contentInsetEnd
      */
     public static final int ActionBar_contentInsetEnd=3;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#contentInsetEndWithActions}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#contentInsetEndWithActions}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4610,11 +4614,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.topvs.platform:contentInsetEndWithActions
+     * @attr name com.zhou.djqjzgwj:contentInsetEndWithActions
      */
     public static final int ActionBar_contentInsetEndWithActions=4;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#contentInsetLeft}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#contentInsetLeft}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4623,11 +4627,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.topvs.platform:contentInsetLeft
+     * @attr name com.zhou.djqjzgwj:contentInsetLeft
      */
     public static final int ActionBar_contentInsetLeft=5;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#contentInsetRight}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#contentInsetRight}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4636,11 +4640,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.topvs.platform:contentInsetRight
+     * @attr name com.zhou.djqjzgwj:contentInsetRight
      */
     public static final int ActionBar_contentInsetRight=6;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#contentInsetStart}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#contentInsetStart}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4649,11 +4653,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.topvs.platform:contentInsetStart
+     * @attr name com.zhou.djqjzgwj:contentInsetStart
      */
     public static final int ActionBar_contentInsetStart=7;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#contentInsetStartWithNavigation}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#contentInsetStartWithNavigation}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4662,11 +4666,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.topvs.platform:contentInsetStartWithNavigation
+     * @attr name com.zhou.djqjzgwj:contentInsetStartWithNavigation
      */
     public static final int ActionBar_contentInsetStartWithNavigation=8;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#customNavigationLayout}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#customNavigationLayout}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4674,11 +4678,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.topvs.platform:customNavigationLayout
+     * @attr name com.zhou.djqjzgwj:customNavigationLayout
      */
     public static final int ActionBar_customNavigationLayout=9;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#displayOptions}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#displayOptions}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -4696,11 +4700,11 @@ public final class R {
      * <tr><td>useLogo</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.topvs.platform:displayOptions
+     * @attr name com.zhou.djqjzgwj:displayOptions
      */
     public static final int ActionBar_displayOptions=10;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#divider}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#divider}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4708,11 +4712,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.topvs.platform:divider
+     * @attr name com.zhou.djqjzgwj:divider
      */
     public static final int ActionBar_divider=11;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#elevation}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#elevation}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4721,11 +4725,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.topvs.platform:elevation
+     * @attr name com.zhou.djqjzgwj:elevation
      */
     public static final int ActionBar_elevation=12;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#height}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#height}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4734,21 +4738,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.topvs.platform:height
+     * @attr name com.zhou.djqjzgwj:height
      */
     public static final int ActionBar_height=13;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#hideOnContentScroll}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#hideOnContentScroll}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.topvs.platform:hideOnContentScroll
+     * @attr name com.zhou.djqjzgwj:hideOnContentScroll
      */
     public static final int ActionBar_hideOnContentScroll=14;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#homeAsUpIndicator}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#homeAsUpIndicator}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4756,11 +4760,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.topvs.platform:homeAsUpIndicator
+     * @attr name com.zhou.djqjzgwj:homeAsUpIndicator
      */
     public static final int ActionBar_homeAsUpIndicator=15;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#homeLayout}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#homeLayout}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4768,11 +4772,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.topvs.platform:homeLayout
+     * @attr name com.zhou.djqjzgwj:homeLayout
      */
     public static final int ActionBar_homeLayout=16;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#icon}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#icon}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4780,11 +4784,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.topvs.platform:icon
+     * @attr name com.zhou.djqjzgwj:icon
      */
     public static final int ActionBar_icon=17;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#indeterminateProgressStyle}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#indeterminateProgressStyle}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4792,11 +4796,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.topvs.platform:indeterminateProgressStyle
+     * @attr name com.zhou.djqjzgwj:indeterminateProgressStyle
      */
     public static final int ActionBar_indeterminateProgressStyle=18;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#itemPadding}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#itemPadding}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4805,11 +4809,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.topvs.platform:itemPadding
+     * @attr name com.zhou.djqjzgwj:itemPadding
      */
     public static final int ActionBar_itemPadding=19;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#logo}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#logo}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4817,11 +4821,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.topvs.platform:logo
+     * @attr name com.zhou.djqjzgwj:logo
      */
     public static final int ActionBar_logo=20;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#navigationMode}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#navigationMode}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -4835,11 +4839,11 @@ public final class R {
      * <tr><td>tabMode</td><td>2</td><td></td></tr>
      * </table>
      *
-     * @attr name com.topvs.platform:navigationMode
+     * @attr name com.zhou.djqjzgwj:navigationMode
      */
     public static final int ActionBar_navigationMode=21;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#popupTheme}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#popupTheme}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4847,11 +4851,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.topvs.platform:popupTheme
+     * @attr name com.zhou.djqjzgwj:popupTheme
      */
     public static final int ActionBar_popupTheme=22;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#progressBarPadding}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#progressBarPadding}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4860,11 +4864,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.topvs.platform:progressBarPadding
+     * @attr name com.zhou.djqjzgwj:progressBarPadding
      */
     public static final int ActionBar_progressBarPadding=23;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#progressBarStyle}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#progressBarStyle}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4872,21 +4876,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.topvs.platform:progressBarStyle
+     * @attr name com.zhou.djqjzgwj:progressBarStyle
      */
     public static final int ActionBar_progressBarStyle=24;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#subtitle}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#subtitle}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.topvs.platform:subtitle
+     * @attr name com.zhou.djqjzgwj:subtitle
      */
     public static final int ActionBar_subtitle=25;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#subtitleTextStyle}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#subtitleTextStyle}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4894,21 +4898,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.topvs.platform:subtitleTextStyle
+     * @attr name com.zhou.djqjzgwj:subtitleTextStyle
      */
     public static final int ActionBar_subtitleTextStyle=26;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#title}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#title}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.topvs.platform:title
+     * @attr name com.zhou.djqjzgwj:title
      */
     public static final int ActionBar_title=27;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#titleTextStyle}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#titleTextStyle}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4916,7 +4920,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.topvs.platform:titleTextStyle
+     * @attr name com.zhou.djqjzgwj:titleTextStyle
      */
     public static final int ActionBar_titleTextStyle=28;
     /**
@@ -4955,12 +4959,12 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ActionMode_background com.topvs.platform:background}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionMode_backgroundSplit com.topvs.platform:backgroundSplit}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionMode_closeItemLayout com.topvs.platform:closeItemLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionMode_height com.topvs.platform:height}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionMode_subtitleTextStyle com.topvs.platform:subtitleTextStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionMode_titleTextStyle com.topvs.platform:titleTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_background com.zhou.djqjzgwj:background}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_backgroundSplit com.zhou.djqjzgwj:backgroundSplit}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_closeItemLayout com.zhou.djqjzgwj:closeItemLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_height com.zhou.djqjzgwj:height}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_subtitleTextStyle com.zhou.djqjzgwj:subtitleTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_titleTextStyle com.zhou.djqjzgwj:titleTextStyle}</code></td><td></td></tr>
      * </table>
      * @see #ActionMode_background
      * @see #ActionMode_backgroundSplit
@@ -4974,7 +4978,7 @@ public final class R {
         0x7f030130, 0x7f030154
       };
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#background}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#background}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4982,11 +4986,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.topvs.platform:background
+     * @attr name com.zhou.djqjzgwj:background
      */
     public static final int ActionMode_background=0;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#backgroundSplit}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#backgroundSplit}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4997,11 +5001,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.topvs.platform:backgroundSplit
+     * @attr name com.zhou.djqjzgwj:backgroundSplit
      */
     public static final int ActionMode_backgroundSplit=1;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#closeItemLayout}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#closeItemLayout}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5009,11 +5013,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.topvs.platform:closeItemLayout
+     * @attr name com.zhou.djqjzgwj:closeItemLayout
      */
     public static final int ActionMode_closeItemLayout=2;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#height}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#height}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5022,11 +5026,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.topvs.platform:height
+     * @attr name com.zhou.djqjzgwj:height
      */
     public static final int ActionMode_height=3;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#subtitleTextStyle}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#subtitleTextStyle}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5034,11 +5038,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.topvs.platform:subtitleTextStyle
+     * @attr name com.zhou.djqjzgwj:subtitleTextStyle
      */
     public static final int ActionMode_subtitleTextStyle=4;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#titleTextStyle}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#titleTextStyle}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5046,7 +5050,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.topvs.platform:titleTextStyle
+     * @attr name com.zhou.djqjzgwj:titleTextStyle
      */
     public static final int ActionMode_titleTextStyle=5;
     /**
@@ -5056,8 +5060,8 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable com.topvs.platform:expandActivityOverflowButtonDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActivityChooserView_initialActivityCount com.topvs.platform:initialActivityCount}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable com.zhou.djqjzgwj:expandActivityOverflowButtonDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActivityChooserView_initialActivityCount com.zhou.djqjzgwj:initialActivityCount}</code></td><td></td></tr>
      * </table>
      * @see #ActivityChooserView_expandActivityOverflowButtonDrawable
      * @see #ActivityChooserView_initialActivityCount
@@ -5066,7 +5070,7 @@ public final class R {
         0x7f03007f, 0x7f0300a0
       };
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#expandActivityOverflowButtonDrawable}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#expandActivityOverflowButtonDrawable}
      * attribute's value can be found in the {@link #ActivityChooserView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5074,17 +5078,17 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.topvs.platform:expandActivityOverflowButtonDrawable
+     * @attr name com.zhou.djqjzgwj:expandActivityOverflowButtonDrawable
      */
     public static final int ActivityChooserView_expandActivityOverflowButtonDrawable=0;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#initialActivityCount}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#initialActivityCount}
      * attribute's value can be found in the {@link #ActivityChooserView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.topvs.platform:initialActivityCount
+     * @attr name com.zhou.djqjzgwj:initialActivityCount
      */
     public static final int ActivityChooserView_initialActivityCount=1;
     /**
@@ -5095,12 +5099,12 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AlertDialog_android_layout android:layout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_buttonPanelSideLayout com.topvs.platform:buttonPanelSideLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_listItemLayout com.topvs.platform:listItemLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_listLayout com.topvs.platform:listLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_multiChoiceItemLayout com.topvs.platform:multiChoiceItemLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_showTitle com.topvs.platform:showTitle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_singleChoiceItemLayout com.topvs.platform:singleChoiceItemLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_buttonPanelSideLayout com.zhou.djqjzgwj:buttonPanelSideLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_listItemLayout com.zhou.djqjzgwj:listItemLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_listLayout com.zhou.djqjzgwj:listLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_multiChoiceItemLayout com.zhou.djqjzgwj:multiChoiceItemLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_showTitle com.zhou.djqjzgwj:showTitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_singleChoiceItemLayout com.zhou.djqjzgwj:singleChoiceItemLayout}</code></td><td></td></tr>
      * </table>
      * @see #AlertDialog_android_layout
      * @see #AlertDialog_buttonPanelSideLayout
@@ -5127,7 +5131,7 @@ public final class R {
      */
     public static final int AlertDialog_android_layout=0;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#buttonPanelSideLayout}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#buttonPanelSideLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5135,11 +5139,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.topvs.platform:buttonPanelSideLayout
+     * @attr name com.zhou.djqjzgwj:buttonPanelSideLayout
      */
     public static final int AlertDialog_buttonPanelSideLayout=1;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#listItemLayout}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#listItemLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5147,11 +5151,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.topvs.platform:listItemLayout
+     * @attr name com.zhou.djqjzgwj:listItemLayout
      */
     public static final int AlertDialog_listItemLayout=2;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#listLayout}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#listLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5159,11 +5163,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.topvs.platform:listLayout
+     * @attr name com.zhou.djqjzgwj:listLayout
      */
     public static final int AlertDialog_listLayout=3;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#multiChoiceItemLayout}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#multiChoiceItemLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5171,21 +5175,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.topvs.platform:multiChoiceItemLayout
+     * @attr name com.zhou.djqjzgwj:multiChoiceItemLayout
      */
     public static final int AlertDialog_multiChoiceItemLayout=4;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#showTitle}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#showTitle}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.topvs.platform:showTitle
+     * @attr name com.zhou.djqjzgwj:showTitle
      */
     public static final int AlertDialog_showTitle=5;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#singleChoiceItemLayout}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#singleChoiceItemLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5193,7 +5197,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.topvs.platform:singleChoiceItemLayout
+     * @attr name com.zhou.djqjzgwj:singleChoiceItemLayout
      */
     public static final int AlertDialog_singleChoiceItemLayout=6;
     /**
@@ -5204,9 +5208,9 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AppCompatImageView_android_src android:src}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatImageView_srcCompat com.topvs.platform:srcCompat}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatImageView_tint com.topvs.platform:tint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatImageView_tintMode com.topvs.platform:tintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatImageView_srcCompat com.zhou.djqjzgwj:srcCompat}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatImageView_tint com.zhou.djqjzgwj:tint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatImageView_tintMode com.zhou.djqjzgwj:tintMode}</code></td><td></td></tr>
      * </table>
      * @see #AppCompatImageView_android_src
      * @see #AppCompatImageView_srcCompat
@@ -5232,7 +5236,7 @@ public final class R {
      */
     public static final int AppCompatImageView_android_src=0;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#srcCompat}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#srcCompat}
      * attribute's value can be found in the {@link #AppCompatImageView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5240,22 +5244,22 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.topvs.platform:srcCompat
+     * @attr name com.zhou.djqjzgwj:srcCompat
      */
     public static final int AppCompatImageView_srcCompat=1;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#tint}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#tint}
      * attribute's value can be found in the {@link #AppCompatImageView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.topvs.platform:tint
+     * @attr name com.zhou.djqjzgwj:tint
      */
     public static final int AppCompatImageView_tint=2;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#tintMode}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#tintMode}
      * attribute's value can be found in the {@link #AppCompatImageView} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -5271,7 +5275,7 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.topvs.platform:tintMode
+     * @attr name com.zhou.djqjzgwj:tintMode
      */
     public static final int AppCompatImageView_tintMode=3;
     /**
@@ -5282,9 +5286,9 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AppCompatSeekBar_android_thumb android:thumb}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatSeekBar_tickMark com.topvs.platform:tickMark}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatSeekBar_tickMarkTint com.topvs.platform:tickMarkTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatSeekBar_tickMarkTintMode com.topvs.platform:tickMarkTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatSeekBar_tickMark com.zhou.djqjzgwj:tickMark}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatSeekBar_tickMarkTint com.zhou.djqjzgwj:tickMarkTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatSeekBar_tickMarkTintMode com.zhou.djqjzgwj:tickMarkTintMode}</code></td><td></td></tr>
      * </table>
      * @see #AppCompatSeekBar_android_thumb
      * @see #AppCompatSeekBar_tickMark
@@ -5307,7 +5311,7 @@ public final class R {
      */
     public static final int AppCompatSeekBar_android_thumb=0;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#tickMark}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#tickMark}
      * attribute's value can be found in the {@link #AppCompatSeekBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5315,22 +5319,22 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.topvs.platform:tickMark
+     * @attr name com.zhou.djqjzgwj:tickMark
      */
     public static final int AppCompatSeekBar_tickMark=1;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#tickMarkTint}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#tickMarkTint}
      * attribute's value can be found in the {@link #AppCompatSeekBar} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.topvs.platform:tickMarkTint
+     * @attr name com.zhou.djqjzgwj:tickMarkTint
      */
     public static final int AppCompatSeekBar_tickMarkTint=2;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#tickMarkTintMode}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#tickMarkTintMode}
      * attribute's value can be found in the {@link #AppCompatSeekBar} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -5347,7 +5351,7 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.topvs.platform:tickMarkTintMode
+     * @attr name com.zhou.djqjzgwj:tickMarkTintMode
      */
     public static final int AppCompatSeekBar_tickMarkTintMode=3;
     /**
@@ -5487,13 +5491,13 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AppCompatTextView_android_textAppearance android:textAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_autoSizeMaxTextSize com.topvs.platform:autoSizeMaxTextSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_autoSizeMinTextSize com.topvs.platform:autoSizeMinTextSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_autoSizePresetSizes com.topvs.platform:autoSizePresetSizes}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_autoSizeStepGranularity com.topvs.platform:autoSizeStepGranularity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_autoSizeTextType com.topvs.platform:autoSizeTextType}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_fontFamily com.topvs.platform:fontFamily}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_textAllCaps com.topvs.platform:textAllCaps}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_autoSizeMaxTextSize com.zhou.djqjzgwj:autoSizeMaxTextSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_autoSizeMinTextSize com.zhou.djqjzgwj:autoSizeMinTextSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_autoSizePresetSizes com.zhou.djqjzgwj:autoSizePresetSizes}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_autoSizeStepGranularity com.zhou.djqjzgwj:autoSizeStepGranularity}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_autoSizeTextType com.zhou.djqjzgwj:autoSizeTextType}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_fontFamily com.zhou.djqjzgwj:fontFamily}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_textAllCaps com.zhou.djqjzgwj:textAllCaps}</code></td><td></td></tr>
      * </table>
      * @see #AppCompatTextView_android_textAppearance
      * @see #AppCompatTextView_autoSizeMaxTextSize
@@ -5521,7 +5525,7 @@ public final class R {
      */
     public static final int AppCompatTextView_android_textAppearance=0;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#autoSizeMaxTextSize}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#autoSizeMaxTextSize}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5530,11 +5534,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.topvs.platform:autoSizeMaxTextSize
+     * @attr name com.zhou.djqjzgwj:autoSizeMaxTextSize
      */
     public static final int AppCompatTextView_autoSizeMaxTextSize=1;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#autoSizeMinTextSize}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#autoSizeMinTextSize}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5543,11 +5547,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.topvs.platform:autoSizeMinTextSize
+     * @attr name com.zhou.djqjzgwj:autoSizeMinTextSize
      */
     public static final int AppCompatTextView_autoSizeMinTextSize=2;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#autoSizePresetSizes}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#autoSizePresetSizes}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5555,11 +5559,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.topvs.platform:autoSizePresetSizes
+     * @attr name com.zhou.djqjzgwj:autoSizePresetSizes
      */
     public static final int AppCompatTextView_autoSizePresetSizes=3;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#autoSizeStepGranularity}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#autoSizeStepGranularity}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5568,11 +5572,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.topvs.platform:autoSizeStepGranularity
+     * @attr name com.zhou.djqjzgwj:autoSizeStepGranularity
      */
     public static final int AppCompatTextView_autoSizeStepGranularity=4;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#autoSizeTextType}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#autoSizeTextType}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -5585,21 +5589,21 @@ public final class R {
      * <tr><td>uniform</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.topvs.platform:autoSizeTextType
+     * @attr name com.zhou.djqjzgwj:autoSizeTextType
      */
     public static final int AppCompatTextView_autoSizeTextType=5;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#fontFamily}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#fontFamily}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.topvs.platform:fontFamily
+     * @attr name com.zhou.djqjzgwj:fontFamily
      */
     public static final int AppCompatTextView_fontFamily=6;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#textAllCaps}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#textAllCaps}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5609,7 +5613,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.topvs.platform:textAllCaps
+     * @attr name com.zhou.djqjzgwj:textAllCaps
      */
     public static final int AppCompatTextView_textAllCaps=7;
     /**
@@ -5621,123 +5625,123 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AppCompatTheme_android_windowIsFloating android:windowIsFloating}</code></td><td></td></tr>
      * <tr><td><code>{@link #AppCompatTheme_android_windowAnimationStyle android:windowAnimationStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarDivider com.topvs.platform:actionBarDivider}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarItemBackground com.topvs.platform:actionBarItemBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarPopupTheme com.topvs.platform:actionBarPopupTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarSize com.topvs.platform:actionBarSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarSplitStyle com.topvs.platform:actionBarSplitStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarStyle com.topvs.platform:actionBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarTabBarStyle com.topvs.platform:actionBarTabBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarTabStyle com.topvs.platform:actionBarTabStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarTabTextStyle com.topvs.platform:actionBarTabTextStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarTheme com.topvs.platform:actionBarTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarWidgetTheme com.topvs.platform:actionBarWidgetTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionButtonStyle com.topvs.platform:actionButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionDropDownStyle com.topvs.platform:actionDropDownStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionMenuTextAppearance com.topvs.platform:actionMenuTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionMenuTextColor com.topvs.platform:actionMenuTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeBackground com.topvs.platform:actionModeBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeCloseButtonStyle com.topvs.platform:actionModeCloseButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeCloseDrawable com.topvs.platform:actionModeCloseDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeCopyDrawable com.topvs.platform:actionModeCopyDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeCutDrawable com.topvs.platform:actionModeCutDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeFindDrawable com.topvs.platform:actionModeFindDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModePasteDrawable com.topvs.platform:actionModePasteDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModePopupWindowStyle com.topvs.platform:actionModePopupWindowStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeSelectAllDrawable com.topvs.platform:actionModeSelectAllDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeShareDrawable com.topvs.platform:actionModeShareDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeSplitBackground com.topvs.platform:actionModeSplitBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeStyle com.topvs.platform:actionModeStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeWebSearchDrawable com.topvs.platform:actionModeWebSearchDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionOverflowButtonStyle com.topvs.platform:actionOverflowButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionOverflowMenuStyle com.topvs.platform:actionOverflowMenuStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_activityChooserViewStyle com.topvs.platform:activityChooserViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_alertDialogButtonGroupStyle com.topvs.platform:alertDialogButtonGroupStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_alertDialogCenterButtons com.topvs.platform:alertDialogCenterButtons}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_alertDialogStyle com.topvs.platform:alertDialogStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_alertDialogTheme com.topvs.platform:alertDialogTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_autoCompleteTextViewStyle com.topvs.platform:autoCompleteTextViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_borderlessButtonStyle com.topvs.platform:borderlessButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarButtonStyle com.topvs.platform:buttonBarButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarNegativeButtonStyle com.topvs.platform:buttonBarNegativeButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarNeutralButtonStyle com.topvs.platform:buttonBarNeutralButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarPositiveButtonStyle com.topvs.platform:buttonBarPositiveButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarStyle com.topvs.platform:buttonBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonStyle com.topvs.platform:buttonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonStyleSmall com.topvs.platform:buttonStyleSmall}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_checkboxStyle com.topvs.platform:checkboxStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_checkedTextViewStyle com.topvs.platform:checkedTextViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorAccent com.topvs.platform:colorAccent}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorBackgroundFloating com.topvs.platform:colorBackgroundFloating}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorButtonNormal com.topvs.platform:colorButtonNormal}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorControlActivated com.topvs.platform:colorControlActivated}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorControlHighlight com.topvs.platform:colorControlHighlight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorControlNormal com.topvs.platform:colorControlNormal}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorError com.topvs.platform:colorError}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorPrimary com.topvs.platform:colorPrimary}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorPrimaryDark com.topvs.platform:colorPrimaryDark}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorSwitchThumbNormal com.topvs.platform:colorSwitchThumbNormal}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_controlBackground com.topvs.platform:controlBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dialogPreferredPadding com.topvs.platform:dialogPreferredPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dialogTheme com.topvs.platform:dialogTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dividerHorizontal com.topvs.platform:dividerHorizontal}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dividerVertical com.topvs.platform:dividerVertical}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dropDownListViewStyle com.topvs.platform:dropDownListViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dropdownListPreferredItemHeight com.topvs.platform:dropdownListPreferredItemHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_editTextBackground com.topvs.platform:editTextBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_editTextColor com.topvs.platform:editTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_editTextStyle com.topvs.platform:editTextStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_homeAsUpIndicator com.topvs.platform:homeAsUpIndicator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_imageButtonStyle com.topvs.platform:imageButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listChoiceBackgroundIndicator com.topvs.platform:listChoiceBackgroundIndicator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listDividerAlertDialog com.topvs.platform:listDividerAlertDialog}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listMenuViewStyle com.topvs.platform:listMenuViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPopupWindowStyle com.topvs.platform:listPopupWindowStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeight com.topvs.platform:listPreferredItemHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightLarge com.topvs.platform:listPreferredItemHeightLarge}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightSmall com.topvs.platform:listPreferredItemHeightSmall}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingLeft com.topvs.platform:listPreferredItemPaddingLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingRight com.topvs.platform:listPreferredItemPaddingRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_panelBackground com.topvs.platform:panelBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_panelMenuListTheme com.topvs.platform:panelMenuListTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_panelMenuListWidth com.topvs.platform:panelMenuListWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_popupMenuStyle com.topvs.platform:popupMenuStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_popupWindowStyle com.topvs.platform:popupWindowStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_radioButtonStyle com.topvs.platform:radioButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyle com.topvs.platform:ratingBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyleIndicator com.topvs.platform:ratingBarStyleIndicator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyleSmall com.topvs.platform:ratingBarStyleSmall}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_searchViewStyle com.topvs.platform:searchViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_seekBarStyle com.topvs.platform:seekBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_selectableItemBackground com.topvs.platform:selectableItemBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_selectableItemBackgroundBorderless com.topvs.platform:selectableItemBackgroundBorderless}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_spinnerDropDownItemStyle com.topvs.platform:spinnerDropDownItemStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_spinnerStyle com.topvs.platform:spinnerStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_switchStyle com.topvs.platform:switchStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceLargePopupMenu com.topvs.platform:textAppearanceLargePopupMenu}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItem com.topvs.platform:textAppearanceListItem}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSecondary com.topvs.platform:textAppearanceListItemSecondary}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSmall com.topvs.platform:textAppearanceListItemSmall}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearancePopupMenuHeader com.topvs.platform:textAppearancePopupMenuHeader}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultSubtitle com.topvs.platform:textAppearanceSearchResultSubtitle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultTitle com.topvs.platform:textAppearanceSearchResultTitle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSmallPopupMenu com.topvs.platform:textAppearanceSmallPopupMenu}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textColorAlertDialogListItem com.topvs.platform:textColorAlertDialogListItem}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textColorSearchUrl com.topvs.platform:textColorSearchUrl}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_toolbarNavigationButtonStyle com.topvs.platform:toolbarNavigationButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_toolbarStyle com.topvs.platform:toolbarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_tooltipForegroundColor com.topvs.platform:tooltipForegroundColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_tooltipFrameBackground com.topvs.platform:tooltipFrameBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowActionBar com.topvs.platform:windowActionBar}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowActionBarOverlay com.topvs.platform:windowActionBarOverlay}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowActionModeOverlay com.topvs.platform:windowActionModeOverlay}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMajor com.topvs.platform:windowFixedHeightMajor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMinor com.topvs.platform:windowFixedHeightMinor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMajor com.topvs.platform:windowFixedWidthMajor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMinor com.topvs.platform:windowFixedWidthMinor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowMinWidthMajor com.topvs.platform:windowMinWidthMajor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowMinWidthMinor com.topvs.platform:windowMinWidthMinor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowNoTitle com.topvs.platform:windowNoTitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarDivider com.zhou.djqjzgwj:actionBarDivider}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarItemBackground com.zhou.djqjzgwj:actionBarItemBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarPopupTheme com.zhou.djqjzgwj:actionBarPopupTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarSize com.zhou.djqjzgwj:actionBarSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarSplitStyle com.zhou.djqjzgwj:actionBarSplitStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarStyle com.zhou.djqjzgwj:actionBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarTabBarStyle com.zhou.djqjzgwj:actionBarTabBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarTabStyle com.zhou.djqjzgwj:actionBarTabStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarTabTextStyle com.zhou.djqjzgwj:actionBarTabTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarTheme com.zhou.djqjzgwj:actionBarTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarWidgetTheme com.zhou.djqjzgwj:actionBarWidgetTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionButtonStyle com.zhou.djqjzgwj:actionButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionDropDownStyle com.zhou.djqjzgwj:actionDropDownStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionMenuTextAppearance com.zhou.djqjzgwj:actionMenuTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionMenuTextColor com.zhou.djqjzgwj:actionMenuTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeBackground com.zhou.djqjzgwj:actionModeBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCloseButtonStyle com.zhou.djqjzgwj:actionModeCloseButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCloseDrawable com.zhou.djqjzgwj:actionModeCloseDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCopyDrawable com.zhou.djqjzgwj:actionModeCopyDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCutDrawable com.zhou.djqjzgwj:actionModeCutDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeFindDrawable com.zhou.djqjzgwj:actionModeFindDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModePasteDrawable com.zhou.djqjzgwj:actionModePasteDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModePopupWindowStyle com.zhou.djqjzgwj:actionModePopupWindowStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeSelectAllDrawable com.zhou.djqjzgwj:actionModeSelectAllDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeShareDrawable com.zhou.djqjzgwj:actionModeShareDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeSplitBackground com.zhou.djqjzgwj:actionModeSplitBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeStyle com.zhou.djqjzgwj:actionModeStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeWebSearchDrawable com.zhou.djqjzgwj:actionModeWebSearchDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionOverflowButtonStyle com.zhou.djqjzgwj:actionOverflowButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionOverflowMenuStyle com.zhou.djqjzgwj:actionOverflowMenuStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_activityChooserViewStyle com.zhou.djqjzgwj:activityChooserViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_alertDialogButtonGroupStyle com.zhou.djqjzgwj:alertDialogButtonGroupStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_alertDialogCenterButtons com.zhou.djqjzgwj:alertDialogCenterButtons}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_alertDialogStyle com.zhou.djqjzgwj:alertDialogStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_alertDialogTheme com.zhou.djqjzgwj:alertDialogTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_autoCompleteTextViewStyle com.zhou.djqjzgwj:autoCompleteTextViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_borderlessButtonStyle com.zhou.djqjzgwj:borderlessButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarButtonStyle com.zhou.djqjzgwj:buttonBarButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarNegativeButtonStyle com.zhou.djqjzgwj:buttonBarNegativeButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarNeutralButtonStyle com.zhou.djqjzgwj:buttonBarNeutralButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarPositiveButtonStyle com.zhou.djqjzgwj:buttonBarPositiveButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarStyle com.zhou.djqjzgwj:buttonBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonStyle com.zhou.djqjzgwj:buttonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonStyleSmall com.zhou.djqjzgwj:buttonStyleSmall}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_checkboxStyle com.zhou.djqjzgwj:checkboxStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_checkedTextViewStyle com.zhou.djqjzgwj:checkedTextViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorAccent com.zhou.djqjzgwj:colorAccent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorBackgroundFloating com.zhou.djqjzgwj:colorBackgroundFloating}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorButtonNormal com.zhou.djqjzgwj:colorButtonNormal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorControlActivated com.zhou.djqjzgwj:colorControlActivated}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorControlHighlight com.zhou.djqjzgwj:colorControlHighlight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorControlNormal com.zhou.djqjzgwj:colorControlNormal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorError com.zhou.djqjzgwj:colorError}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorPrimary com.zhou.djqjzgwj:colorPrimary}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorPrimaryDark com.zhou.djqjzgwj:colorPrimaryDark}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorSwitchThumbNormal com.zhou.djqjzgwj:colorSwitchThumbNormal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_controlBackground com.zhou.djqjzgwj:controlBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dialogPreferredPadding com.zhou.djqjzgwj:dialogPreferredPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dialogTheme com.zhou.djqjzgwj:dialogTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dividerHorizontal com.zhou.djqjzgwj:dividerHorizontal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dividerVertical com.zhou.djqjzgwj:dividerVertical}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dropDownListViewStyle com.zhou.djqjzgwj:dropDownListViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dropdownListPreferredItemHeight com.zhou.djqjzgwj:dropdownListPreferredItemHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_editTextBackground com.zhou.djqjzgwj:editTextBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_editTextColor com.zhou.djqjzgwj:editTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_editTextStyle com.zhou.djqjzgwj:editTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_homeAsUpIndicator com.zhou.djqjzgwj:homeAsUpIndicator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_imageButtonStyle com.zhou.djqjzgwj:imageButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listChoiceBackgroundIndicator com.zhou.djqjzgwj:listChoiceBackgroundIndicator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listDividerAlertDialog com.zhou.djqjzgwj:listDividerAlertDialog}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listMenuViewStyle com.zhou.djqjzgwj:listMenuViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPopupWindowStyle com.zhou.djqjzgwj:listPopupWindowStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeight com.zhou.djqjzgwj:listPreferredItemHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightLarge com.zhou.djqjzgwj:listPreferredItemHeightLarge}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightSmall com.zhou.djqjzgwj:listPreferredItemHeightSmall}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingLeft com.zhou.djqjzgwj:listPreferredItemPaddingLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingRight com.zhou.djqjzgwj:listPreferredItemPaddingRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_panelBackground com.zhou.djqjzgwj:panelBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_panelMenuListTheme com.zhou.djqjzgwj:panelMenuListTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_panelMenuListWidth com.zhou.djqjzgwj:panelMenuListWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_popupMenuStyle com.zhou.djqjzgwj:popupMenuStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_popupWindowStyle com.zhou.djqjzgwj:popupWindowStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_radioButtonStyle com.zhou.djqjzgwj:radioButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyle com.zhou.djqjzgwj:ratingBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyleIndicator com.zhou.djqjzgwj:ratingBarStyleIndicator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyleSmall com.zhou.djqjzgwj:ratingBarStyleSmall}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_searchViewStyle com.zhou.djqjzgwj:searchViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_seekBarStyle com.zhou.djqjzgwj:seekBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_selectableItemBackground com.zhou.djqjzgwj:selectableItemBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_selectableItemBackgroundBorderless com.zhou.djqjzgwj:selectableItemBackgroundBorderless}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_spinnerDropDownItemStyle com.zhou.djqjzgwj:spinnerDropDownItemStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_spinnerStyle com.zhou.djqjzgwj:spinnerStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_switchStyle com.zhou.djqjzgwj:switchStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceLargePopupMenu com.zhou.djqjzgwj:textAppearanceLargePopupMenu}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItem com.zhou.djqjzgwj:textAppearanceListItem}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSecondary com.zhou.djqjzgwj:textAppearanceListItemSecondary}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSmall com.zhou.djqjzgwj:textAppearanceListItemSmall}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearancePopupMenuHeader com.zhou.djqjzgwj:textAppearancePopupMenuHeader}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultSubtitle com.zhou.djqjzgwj:textAppearanceSearchResultSubtitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultTitle com.zhou.djqjzgwj:textAppearanceSearchResultTitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSmallPopupMenu com.zhou.djqjzgwj:textAppearanceSmallPopupMenu}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textColorAlertDialogListItem com.zhou.djqjzgwj:textColorAlertDialogListItem}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textColorSearchUrl com.zhou.djqjzgwj:textColorSearchUrl}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_toolbarNavigationButtonStyle com.zhou.djqjzgwj:toolbarNavigationButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_toolbarStyle com.zhou.djqjzgwj:toolbarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_tooltipForegroundColor com.zhou.djqjzgwj:tooltipForegroundColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_tooltipFrameBackground com.zhou.djqjzgwj:tooltipFrameBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowActionBar com.zhou.djqjzgwj:windowActionBar}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowActionBarOverlay com.zhou.djqjzgwj:windowActionBarOverlay}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowActionModeOverlay com.zhou.djqjzgwj:windowActionModeOverlay}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMajor com.zhou.djqjzgwj:windowFixedHeightMajor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMinor com.zhou.djqjzgwj:windowFixedHeightMinor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMajor com.zhou.djqjzgwj:windowFixedWidthMajor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMinor com.zhou.djqjzgwj:windowFixedWidthMinor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowMinWidthMajor com.zhou.djqjzgwj:windowMinWidthMajor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowMinWidthMinor com.zhou.djqjzgwj:windowMinWidthMinor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowNoTitle com.zhou.djqjzgwj:windowNoTitle}</code></td><td></td></tr>
      * </table>
      * @see #AppCompatTheme_android_windowIsFloating
      * @see #AppCompatTheme_android_windowAnimationStyle
@@ -5892,7 +5896,7 @@ public final class R {
         0x7f03016f, 0x7f030170, 0x7f030171
       };
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#actionBarDivider}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#actionBarDivider}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5900,11 +5904,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.topvs.platform:actionBarDivider
+     * @attr name com.zhou.djqjzgwj:actionBarDivider
      */
     public static final int AppCompatTheme_actionBarDivider=2;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#actionBarItemBackground}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#actionBarItemBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5912,11 +5916,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.topvs.platform:actionBarItemBackground
+     * @attr name com.zhou.djqjzgwj:actionBarItemBackground
      */
     public static final int AppCompatTheme_actionBarItemBackground=3;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#actionBarPopupTheme}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#actionBarPopupTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5924,11 +5928,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.topvs.platform:actionBarPopupTheme
+     * @attr name com.zhou.djqjzgwj:actionBarPopupTheme
      */
     public static final int AppCompatTheme_actionBarPopupTheme=4;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#actionBarSize}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#actionBarSize}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5945,11 +5949,11 @@ public final class R {
      * <tr><td>wrap_content</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.topvs.platform:actionBarSize
+     * @attr name com.zhou.djqjzgwj:actionBarSize
      */
     public static final int AppCompatTheme_actionBarSize=5;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#actionBarSplitStyle}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#actionBarSplitStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5957,11 +5961,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.topvs.platform:actionBarSplitStyle
+     * @attr name com.zhou.djqjzgwj:actionBarSplitStyle
      */
     public static final int AppCompatTheme_actionBarSplitStyle=6;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#actionBarStyle}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#actionBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5969,11 +5973,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.topvs.platform:actionBarStyle
+     * @attr name com.zhou.djqjzgwj:actionBarStyle
      */
     public static final int AppCompatTheme_actionBarStyle=7;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#actionBarTabBarStyle}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#actionBarTabBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5981,11 +5985,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.topvs.platform:actionBarTabBarStyle
+     * @attr name com.zhou.djqjzgwj:actionBarTabBarStyle
      */
     public static final int AppCompatTheme_actionBarTabBarStyle=8;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#actionBarTabStyle}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#actionBarTabStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5993,11 +5997,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.topvs.platform:actionBarTabStyle
+     * @attr name com.zhou.djqjzgwj:actionBarTabStyle
      */
     public static final int AppCompatTheme_actionBarTabStyle=9;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#actionBarTabTextStyle}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#actionBarTabTextStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6005,11 +6009,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.topvs.platform:actionBarTabTextStyle
+     * @attr name com.zhou.djqjzgwj:actionBarTabTextStyle
      */
     public static final int AppCompatTheme_actionBarTabTextStyle=10;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#actionBarTheme}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#actionBarTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6017,11 +6021,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.topvs.platform:actionBarTheme
+     * @attr name com.zhou.djqjzgwj:actionBarTheme
      */
     public static final int AppCompatTheme_actionBarTheme=11;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#actionBarWidgetTheme}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#actionBarWidgetTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6029,11 +6033,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.topvs.platform:actionBarWidgetTheme
+     * @attr name com.zhou.djqjzgwj:actionBarWidgetTheme
      */
     public static final int AppCompatTheme_actionBarWidgetTheme=12;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#actionButtonStyle}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#actionButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6041,11 +6045,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.topvs.platform:actionButtonStyle
+     * @attr name com.zhou.djqjzgwj:actionButtonStyle
      */
     public static final int AppCompatTheme_actionButtonStyle=13;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#actionDropDownStyle}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#actionDropDownStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6053,11 +6057,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.topvs.platform:actionDropDownStyle
+     * @attr name com.zhou.djqjzgwj:actionDropDownStyle
      */
     public static final int AppCompatTheme_actionDropDownStyle=14;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#actionMenuTextAppearance}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#actionMenuTextAppearance}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6065,11 +6069,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.topvs.platform:actionMenuTextAppearance
+     * @attr name com.zhou.djqjzgwj:actionMenuTextAppearance
      */
     public static final int AppCompatTheme_actionMenuTextAppearance=15;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#actionMenuTextColor}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#actionMenuTextColor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6080,11 +6084,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.topvs.platform:actionMenuTextColor
+     * @attr name com.zhou.djqjzgwj:actionMenuTextColor
      */
     public static final int AppCompatTheme_actionMenuTextColor=16;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#actionModeBackground}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#actionModeBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6092,11 +6096,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.topvs.platform:actionModeBackground
+     * @attr name com.zhou.djqjzgwj:actionModeBackground
      */
     public static final int AppCompatTheme_actionModeBackground=17;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#actionModeCloseButtonStyle}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#actionModeCloseButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6104,11 +6108,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.topvs.platform:actionModeCloseButtonStyle
+     * @attr name com.zhou.djqjzgwj:actionModeCloseButtonStyle
      */
     public static final int AppCompatTheme_actionModeCloseButtonStyle=18;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#actionModeCloseDrawable}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#actionModeCloseDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6116,11 +6120,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.topvs.platform:actionModeCloseDrawable
+     * @attr name com.zhou.djqjzgwj:actionModeCloseDrawable
      */
     public static final int AppCompatTheme_actionModeCloseDrawable=19;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#actionModeCopyDrawable}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#actionModeCopyDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6128,11 +6132,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.topvs.platform:actionModeCopyDrawable
+     * @attr name com.zhou.djqjzgwj:actionModeCopyDrawable
      */
     public static final int AppCompatTheme_actionModeCopyDrawable=20;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#actionModeCutDrawable}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#actionModeCutDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6140,11 +6144,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.topvs.platform:actionModeCutDrawable
+     * @attr name com.zhou.djqjzgwj:actionModeCutDrawable
      */
     public static final int AppCompatTheme_actionModeCutDrawable=21;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#actionModeFindDrawable}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#actionModeFindDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6152,11 +6156,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.topvs.platform:actionModeFindDrawable
+     * @attr name com.zhou.djqjzgwj:actionModeFindDrawable
      */
     public static final int AppCompatTheme_actionModeFindDrawable=22;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#actionModePasteDrawable}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#actionModePasteDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6164,11 +6168,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.topvs.platform:actionModePasteDrawable
+     * @attr name com.zhou.djqjzgwj:actionModePasteDrawable
      */
     public static final int AppCompatTheme_actionModePasteDrawable=23;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#actionModePopupWindowStyle}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#actionModePopupWindowStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6176,11 +6180,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.topvs.platform:actionModePopupWindowStyle
+     * @attr name com.zhou.djqjzgwj:actionModePopupWindowStyle
      */
     public static final int AppCompatTheme_actionModePopupWindowStyle=24;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#actionModeSelectAllDrawable}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#actionModeSelectAllDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6188,11 +6192,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.topvs.platform:actionModeSelectAllDrawable
+     * @attr name com.zhou.djqjzgwj:actionModeSelectAllDrawable
      */
     public static final int AppCompatTheme_actionModeSelectAllDrawable=25;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#actionModeShareDrawable}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#actionModeShareDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6200,11 +6204,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.topvs.platform:actionModeShareDrawable
+     * @attr name com.zhou.djqjzgwj:actionModeShareDrawable
      */
     public static final int AppCompatTheme_actionModeShareDrawable=26;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#actionModeSplitBackground}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#actionModeSplitBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6212,11 +6216,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.topvs.platform:actionModeSplitBackground
+     * @attr name com.zhou.djqjzgwj:actionModeSplitBackground
      */
     public static final int AppCompatTheme_actionModeSplitBackground=27;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#actionModeStyle}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#actionModeStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6224,11 +6228,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.topvs.platform:actionModeStyle
+     * @attr name com.zhou.djqjzgwj:actionModeStyle
      */
     public static final int AppCompatTheme_actionModeStyle=28;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#actionModeWebSearchDrawable}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#actionModeWebSearchDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6236,11 +6240,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.topvs.platform:actionModeWebSearchDrawable
+     * @attr name com.zhou.djqjzgwj:actionModeWebSearchDrawable
      */
     public static final int AppCompatTheme_actionModeWebSearchDrawable=29;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#actionOverflowButtonStyle}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#actionOverflowButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6248,11 +6252,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.topvs.platform:actionOverflowButtonStyle
+     * @attr name com.zhou.djqjzgwj:actionOverflowButtonStyle
      */
     public static final int AppCompatTheme_actionOverflowButtonStyle=30;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#actionOverflowMenuStyle}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#actionOverflowMenuStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6260,11 +6264,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.topvs.platform:actionOverflowMenuStyle
+     * @attr name com.zhou.djqjzgwj:actionOverflowMenuStyle
      */
     public static final int AppCompatTheme_actionOverflowMenuStyle=31;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#activityChooserViewStyle}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#activityChooserViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6272,11 +6276,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.topvs.platform:activityChooserViewStyle
+     * @attr name com.zhou.djqjzgwj:activityChooserViewStyle
      */
     public static final int AppCompatTheme_activityChooserViewStyle=32;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#alertDialogButtonGroupStyle}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#alertDialogButtonGroupStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6284,21 +6288,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.topvs.platform:alertDialogButtonGroupStyle
+     * @attr name com.zhou.djqjzgwj:alertDialogButtonGroupStyle
      */
     public static final int AppCompatTheme_alertDialogButtonGroupStyle=33;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#alertDialogCenterButtons}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#alertDialogCenterButtons}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.topvs.platform:alertDialogCenterButtons
+     * @attr name com.zhou.djqjzgwj:alertDialogCenterButtons
      */
     public static final int AppCompatTheme_alertDialogCenterButtons=34;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#alertDialogStyle}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#alertDialogStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6306,11 +6310,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.topvs.platform:alertDialogStyle
+     * @attr name com.zhou.djqjzgwj:alertDialogStyle
      */
     public static final int AppCompatTheme_alertDialogStyle=35;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#alertDialogTheme}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#alertDialogTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6318,7 +6322,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.topvs.platform:alertDialogTheme
+     * @attr name com.zhou.djqjzgwj:alertDialogTheme
      */
     public static final int AppCompatTheme_alertDialogTheme=36;
     /**
@@ -6344,7 +6348,7 @@ public final class R {
      */
     public static final int AppCompatTheme_android_windowIsFloating=0;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#autoCompleteTextViewStyle}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#autoCompleteTextViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6352,11 +6356,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.topvs.platform:autoCompleteTextViewStyle
+     * @attr name com.zhou.djqjzgwj:autoCompleteTextViewStyle
      */
     public static final int AppCompatTheme_autoCompleteTextViewStyle=37;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#borderlessButtonStyle}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#borderlessButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6364,11 +6368,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.topvs.platform:borderlessButtonStyle
+     * @attr name com.zhou.djqjzgwj:borderlessButtonStyle
      */
     public static final int AppCompatTheme_borderlessButtonStyle=38;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#buttonBarButtonStyle}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#buttonBarButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6376,11 +6380,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.topvs.platform:buttonBarButtonStyle
+     * @attr name com.zhou.djqjzgwj:buttonBarButtonStyle
      */
     public static final int AppCompatTheme_buttonBarButtonStyle=39;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#buttonBarNegativeButtonStyle}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#buttonBarNegativeButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6388,11 +6392,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.topvs.platform:buttonBarNegativeButtonStyle
+     * @attr name com.zhou.djqjzgwj:buttonBarNegativeButtonStyle
      */
     public static final int AppCompatTheme_buttonBarNegativeButtonStyle=40;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#buttonBarNeutralButtonStyle}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#buttonBarNeutralButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6400,11 +6404,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.topvs.platform:buttonBarNeutralButtonStyle
+     * @attr name com.zhou.djqjzgwj:buttonBarNeutralButtonStyle
      */
     public static final int AppCompatTheme_buttonBarNeutralButtonStyle=41;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#buttonBarPositiveButtonStyle}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#buttonBarPositiveButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6412,11 +6416,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.topvs.platform:buttonBarPositiveButtonStyle
+     * @attr name com.zhou.djqjzgwj:buttonBarPositiveButtonStyle
      */
     public static final int AppCompatTheme_buttonBarPositiveButtonStyle=42;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#buttonBarStyle}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#buttonBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6424,11 +6428,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.topvs.platform:buttonBarStyle
+     * @attr name com.zhou.djqjzgwj:buttonBarStyle
      */
     public static final int AppCompatTheme_buttonBarStyle=43;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#buttonStyle}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#buttonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6436,11 +6440,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.topvs.platform:buttonStyle
+     * @attr name com.zhou.djqjzgwj:buttonStyle
      */
     public static final int AppCompatTheme_buttonStyle=44;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#buttonStyleSmall}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#buttonStyleSmall}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6448,11 +6452,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.topvs.platform:buttonStyleSmall
+     * @attr name com.zhou.djqjzgwj:buttonStyleSmall
      */
     public static final int AppCompatTheme_buttonStyleSmall=45;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#checkboxStyle}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#checkboxStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6460,11 +6464,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.topvs.platform:checkboxStyle
+     * @attr name com.zhou.djqjzgwj:checkboxStyle
      */
     public static final int AppCompatTheme_checkboxStyle=46;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#checkedTextViewStyle}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#checkedTextViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6472,77 +6476,77 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.topvs.platform:checkedTextViewStyle
+     * @attr name com.zhou.djqjzgwj:checkedTextViewStyle
      */
     public static final int AppCompatTheme_checkedTextViewStyle=47;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#colorAccent}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#colorAccent}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.topvs.platform:colorAccent
+     * @attr name com.zhou.djqjzgwj:colorAccent
      */
     public static final int AppCompatTheme_colorAccent=48;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#colorBackgroundFloating}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#colorBackgroundFloating}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.topvs.platform:colorBackgroundFloating
+     * @attr name com.zhou.djqjzgwj:colorBackgroundFloating
      */
     public static final int AppCompatTheme_colorBackgroundFloating=49;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#colorButtonNormal}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#colorButtonNormal}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.topvs.platform:colorButtonNormal
+     * @attr name com.zhou.djqjzgwj:colorButtonNormal
      */
     public static final int AppCompatTheme_colorButtonNormal=50;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#colorControlActivated}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#colorControlActivated}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.topvs.platform:colorControlActivated
+     * @attr name com.zhou.djqjzgwj:colorControlActivated
      */
     public static final int AppCompatTheme_colorControlActivated=51;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#colorControlHighlight}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#colorControlHighlight}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.topvs.platform:colorControlHighlight
+     * @attr name com.zhou.djqjzgwj:colorControlHighlight
      */
     public static final int AppCompatTheme_colorControlHighlight=52;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#colorControlNormal}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#colorControlNormal}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.topvs.platform:colorControlNormal
+     * @attr name com.zhou.djqjzgwj:colorControlNormal
      */
     public static final int AppCompatTheme_colorControlNormal=53;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#colorError}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#colorError}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6553,44 +6557,44 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.topvs.platform:colorError
+     * @attr name com.zhou.djqjzgwj:colorError
      */
     public static final int AppCompatTheme_colorError=54;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#colorPrimary}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#colorPrimary}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.topvs.platform:colorPrimary
+     * @attr name com.zhou.djqjzgwj:colorPrimary
      */
     public static final int AppCompatTheme_colorPrimary=55;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#colorPrimaryDark}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#colorPrimaryDark}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.topvs.platform:colorPrimaryDark
+     * @attr name com.zhou.djqjzgwj:colorPrimaryDark
      */
     public static final int AppCompatTheme_colorPrimaryDark=56;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#colorSwitchThumbNormal}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#colorSwitchThumbNormal}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.topvs.platform:colorSwitchThumbNormal
+     * @attr name com.zhou.djqjzgwj:colorSwitchThumbNormal
      */
     public static final int AppCompatTheme_colorSwitchThumbNormal=57;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#controlBackground}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#controlBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6598,11 +6602,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.topvs.platform:controlBackground
+     * @attr name com.zhou.djqjzgwj:controlBackground
      */
     public static final int AppCompatTheme_controlBackground=58;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#dialogPreferredPadding}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#dialogPreferredPadding}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6611,11 +6615,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.topvs.platform:dialogPreferredPadding
+     * @attr name com.zhou.djqjzgwj:dialogPreferredPadding
      */
     public static final int AppCompatTheme_dialogPreferredPadding=59;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#dialogTheme}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#dialogTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6623,11 +6627,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.topvs.platform:dialogTheme
+     * @attr name com.zhou.djqjzgwj:dialogTheme
      */
     public static final int AppCompatTheme_dialogTheme=60;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#dividerHorizontal}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#dividerHorizontal}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6635,11 +6639,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.topvs.platform:dividerHorizontal
+     * @attr name com.zhou.djqjzgwj:dividerHorizontal
      */
     public static final int AppCompatTheme_dividerHorizontal=61;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#dividerVertical}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#dividerVertical}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6647,11 +6651,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.topvs.platform:dividerVertical
+     * @attr name com.zhou.djqjzgwj:dividerVertical
      */
     public static final int AppCompatTheme_dividerVertical=62;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#dropDownListViewStyle}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#dropDownListViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6659,11 +6663,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.topvs.platform:dropDownListViewStyle
+     * @attr name com.zhou.djqjzgwj:dropDownListViewStyle
      */
     public static final int AppCompatTheme_dropDownListViewStyle=63;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#dropdownListPreferredItemHeight}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#dropdownListPreferredItemHeight}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6672,11 +6676,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.topvs.platform:dropdownListPreferredItemHeight
+     * @attr name com.zhou.djqjzgwj:dropdownListPreferredItemHeight
      */
     public static final int AppCompatTheme_dropdownListPreferredItemHeight=64;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#editTextBackground}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#editTextBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6684,11 +6688,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.topvs.platform:editTextBackground
+     * @attr name com.zhou.djqjzgwj:editTextBackground
      */
     public static final int AppCompatTheme_editTextBackground=65;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#editTextColor}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#editTextColor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6699,11 +6703,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.topvs.platform:editTextColor
+     * @attr name com.zhou.djqjzgwj:editTextColor
      */
     public static final int AppCompatTheme_editTextColor=66;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#editTextStyle}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#editTextStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6711,11 +6715,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.topvs.platform:editTextStyle
+     * @attr name com.zhou.djqjzgwj:editTextStyle
      */
     public static final int AppCompatTheme_editTextStyle=67;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#homeAsUpIndicator}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#homeAsUpIndicator}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6723,11 +6727,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.topvs.platform:homeAsUpIndicator
+     * @attr name com.zhou.djqjzgwj:homeAsUpIndicator
      */
     public static final int AppCompatTheme_homeAsUpIndicator=68;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#imageButtonStyle}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#imageButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6735,11 +6739,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.topvs.platform:imageButtonStyle
+     * @attr name com.zhou.djqjzgwj:imageButtonStyle
      */
     public static final int AppCompatTheme_imageButtonStyle=69;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#listChoiceBackgroundIndicator}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#listChoiceBackgroundIndicator}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6747,11 +6751,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.topvs.platform:listChoiceBackgroundIndicator
+     * @attr name com.zhou.djqjzgwj:listChoiceBackgroundIndicator
      */
     public static final int AppCompatTheme_listChoiceBackgroundIndicator=70;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#listDividerAlertDialog}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#listDividerAlertDialog}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6759,11 +6763,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.topvs.platform:listDividerAlertDialog
+     * @attr name com.zhou.djqjzgwj:listDividerAlertDialog
      */
     public static final int AppCompatTheme_listDividerAlertDialog=71;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#listMenuViewStyle}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#listMenuViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6771,11 +6775,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.topvs.platform:listMenuViewStyle
+     * @attr name com.zhou.djqjzgwj:listMenuViewStyle
      */
     public static final int AppCompatTheme_listMenuViewStyle=72;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#listPopupWindowStyle}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#listPopupWindowStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6783,11 +6787,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.topvs.platform:listPopupWindowStyle
+     * @attr name com.zhou.djqjzgwj:listPopupWindowStyle
      */
     public static final int AppCompatTheme_listPopupWindowStyle=73;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#listPreferredItemHeight}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#listPreferredItemHeight}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6796,11 +6800,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.topvs.platform:listPreferredItemHeight
+     * @attr name com.zhou.djqjzgwj:listPreferredItemHeight
      */
     public static final int AppCompatTheme_listPreferredItemHeight=74;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#listPreferredItemHeightLarge}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#listPreferredItemHeightLarge}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6809,11 +6813,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.topvs.platform:listPreferredItemHeightLarge
+     * @attr name com.zhou.djqjzgwj:listPreferredItemHeightLarge
      */
     public static final int AppCompatTheme_listPreferredItemHeightLarge=75;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#listPreferredItemHeightSmall}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#listPreferredItemHeightSmall}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6822,11 +6826,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.topvs.platform:listPreferredItemHeightSmall
+     * @attr name com.zhou.djqjzgwj:listPreferredItemHeightSmall
      */
     public static final int AppCompatTheme_listPreferredItemHeightSmall=76;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#listPreferredItemPaddingLeft}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#listPreferredItemPaddingLeft}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6835,11 +6839,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.topvs.platform:listPreferredItemPaddingLeft
+     * @attr name com.zhou.djqjzgwj:listPreferredItemPaddingLeft
      */
     public static final int AppCompatTheme_listPreferredItemPaddingLeft=77;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#listPreferredItemPaddingRight}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#listPreferredItemPaddingRight}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6848,11 +6852,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.topvs.platform:listPreferredItemPaddingRight
+     * @attr name com.zhou.djqjzgwj:listPreferredItemPaddingRight
      */
     public static final int AppCompatTheme_listPreferredItemPaddingRight=78;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#panelBackground}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#panelBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6860,11 +6864,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.topvs.platform:panelBackground
+     * @attr name com.zhou.djqjzgwj:panelBackground
      */
     public static final int AppCompatTheme_panelBackground=79;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#panelMenuListTheme}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#panelMenuListTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6872,11 +6876,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.topvs.platform:panelMenuListTheme
+     * @attr name com.zhou.djqjzgwj:panelMenuListTheme
      */
     public static final int AppCompatTheme_panelMenuListTheme=80;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#panelMenuListWidth}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#panelMenuListWidth}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6885,11 +6889,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.topvs.platform:panelMenuListWidth
+     * @attr name com.zhou.djqjzgwj:panelMenuListWidth
      */
     public static final int AppCompatTheme_panelMenuListWidth=81;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#popupMenuStyle}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#popupMenuStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6897,11 +6901,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.topvs.platform:popupMenuStyle
+     * @attr name com.zhou.djqjzgwj:popupMenuStyle
      */
     public static final int AppCompatTheme_popupMenuStyle=82;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#popupWindowStyle}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#popupWindowStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6909,11 +6913,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.topvs.platform:popupWindowStyle
+     * @attr name com.zhou.djqjzgwj:popupWindowStyle
      */
     public static final int AppCompatTheme_popupWindowStyle=83;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#radioButtonStyle}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#radioButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6921,11 +6925,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.topvs.platform:radioButtonStyle
+     * @attr name com.zhou.djqjzgwj:radioButtonStyle
      */
     public static final int AppCompatTheme_radioButtonStyle=84;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#ratingBarStyle}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#ratingBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6933,11 +6937,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.topvs.platform:ratingBarStyle
+     * @attr name com.zhou.djqjzgwj:ratingBarStyle
      */
     public static final int AppCompatTheme_ratingBarStyle=85;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#ratingBarStyleIndicator}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#ratingBarStyleIndicator}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6945,11 +6949,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.topvs.platform:ratingBarStyleIndicator
+     * @attr name com.zhou.djqjzgwj:ratingBarStyleIndicator
      */
     public static final int AppCompatTheme_ratingBarStyleIndicator=86;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#ratingBarStyleSmall}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#ratingBarStyleSmall}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6957,11 +6961,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.topvs.platform:ratingBarStyleSmall
+     * @attr name com.zhou.djqjzgwj:ratingBarStyleSmall
      */
     public static final int AppCompatTheme_ratingBarStyleSmall=87;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#searchViewStyle}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#searchViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6969,11 +6973,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.topvs.platform:searchViewStyle
+     * @attr name com.zhou.djqjzgwj:searchViewStyle
      */
     public static final int AppCompatTheme_searchViewStyle=88;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#seekBarStyle}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#seekBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6981,11 +6985,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.topvs.platform:seekBarStyle
+     * @attr name com.zhou.djqjzgwj:seekBarStyle
      */
     public static final int AppCompatTheme_seekBarStyle=89;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#selectableItemBackground}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#selectableItemBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6993,11 +6997,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.topvs.platform:selectableItemBackground
+     * @attr name com.zhou.djqjzgwj:selectableItemBackground
      */
     public static final int AppCompatTheme_selectableItemBackground=90;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#selectableItemBackgroundBorderless}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#selectableItemBackgroundBorderless}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7005,11 +7009,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.topvs.platform:selectableItemBackgroundBorderless
+     * @attr name com.zhou.djqjzgwj:selectableItemBackgroundBorderless
      */
     public static final int AppCompatTheme_selectableItemBackgroundBorderless=91;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#spinnerDropDownItemStyle}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#spinnerDropDownItemStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7017,11 +7021,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.topvs.platform:spinnerDropDownItemStyle
+     * @attr name com.zhou.djqjzgwj:spinnerDropDownItemStyle
      */
     public static final int AppCompatTheme_spinnerDropDownItemStyle=92;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#spinnerStyle}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#spinnerStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7029,11 +7033,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.topvs.platform:spinnerStyle
+     * @attr name com.zhou.djqjzgwj:spinnerStyle
      */
     public static final int AppCompatTheme_spinnerStyle=93;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#switchStyle}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#switchStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7041,11 +7045,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.topvs.platform:switchStyle
+     * @attr name com.zhou.djqjzgwj:switchStyle
      */
     public static final int AppCompatTheme_switchStyle=94;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#textAppearanceLargePopupMenu}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#textAppearanceLargePopupMenu}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7053,11 +7057,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.topvs.platform:textAppearanceLargePopupMenu
+     * @attr name com.zhou.djqjzgwj:textAppearanceLargePopupMenu
      */
     public static final int AppCompatTheme_textAppearanceLargePopupMenu=95;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#textAppearanceListItem}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#textAppearanceListItem}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7065,11 +7069,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.topvs.platform:textAppearanceListItem
+     * @attr name com.zhou.djqjzgwj:textAppearanceListItem
      */
     public static final int AppCompatTheme_textAppearanceListItem=96;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#textAppearanceListItemSecondary}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#textAppearanceListItemSecondary}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7077,11 +7081,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.topvs.platform:textAppearanceListItemSecondary
+     * @attr name com.zhou.djqjzgwj:textAppearanceListItemSecondary
      */
     public static final int AppCompatTheme_textAppearanceListItemSecondary=97;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#textAppearanceListItemSmall}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#textAppearanceListItemSmall}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7089,11 +7093,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.topvs.platform:textAppearanceListItemSmall
+     * @attr name com.zhou.djqjzgwj:textAppearanceListItemSmall
      */
     public static final int AppCompatTheme_textAppearanceListItemSmall=98;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#textAppearancePopupMenuHeader}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#textAppearancePopupMenuHeader}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7101,11 +7105,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.topvs.platform:textAppearancePopupMenuHeader
+     * @attr name com.zhou.djqjzgwj:textAppearancePopupMenuHeader
      */
     public static final int AppCompatTheme_textAppearancePopupMenuHeader=99;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#textAppearanceSearchResultSubtitle}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#textAppearanceSearchResultSubtitle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7113,11 +7117,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.topvs.platform:textAppearanceSearchResultSubtitle
+     * @attr name com.zhou.djqjzgwj:textAppearanceSearchResultSubtitle
      */
     public static final int AppCompatTheme_textAppearanceSearchResultSubtitle=100;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#textAppearanceSearchResultTitle}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#textAppearanceSearchResultTitle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7125,11 +7129,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.topvs.platform:textAppearanceSearchResultTitle
+     * @attr name com.zhou.djqjzgwj:textAppearanceSearchResultTitle
      */
     public static final int AppCompatTheme_textAppearanceSearchResultTitle=101;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#textAppearanceSmallPopupMenu}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#textAppearanceSmallPopupMenu}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7137,11 +7141,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.topvs.platform:textAppearanceSmallPopupMenu
+     * @attr name com.zhou.djqjzgwj:textAppearanceSmallPopupMenu
      */
     public static final int AppCompatTheme_textAppearanceSmallPopupMenu=102;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#textColorAlertDialogListItem}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#textColorAlertDialogListItem}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7152,11 +7156,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.topvs.platform:textColorAlertDialogListItem
+     * @attr name com.zhou.djqjzgwj:textColorAlertDialogListItem
      */
     public static final int AppCompatTheme_textColorAlertDialogListItem=103;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#textColorSearchUrl}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#textColorSearchUrl}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7167,11 +7171,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.topvs.platform:textColorSearchUrl
+     * @attr name com.zhou.djqjzgwj:textColorSearchUrl
      */
     public static final int AppCompatTheme_textColorSearchUrl=104;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#toolbarNavigationButtonStyle}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#toolbarNavigationButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7179,11 +7183,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.topvs.platform:toolbarNavigationButtonStyle
+     * @attr name com.zhou.djqjzgwj:toolbarNavigationButtonStyle
      */
     public static final int AppCompatTheme_toolbarNavigationButtonStyle=105;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#toolbarStyle}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#toolbarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7191,11 +7195,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.topvs.platform:toolbarStyle
+     * @attr name com.zhou.djqjzgwj:toolbarStyle
      */
     public static final int AppCompatTheme_toolbarStyle=106;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#tooltipForegroundColor}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#tooltipForegroundColor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7206,11 +7210,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.topvs.platform:tooltipForegroundColor
+     * @attr name com.zhou.djqjzgwj:tooltipForegroundColor
      */
     public static final int AppCompatTheme_tooltipForegroundColor=107;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#tooltipFrameBackground}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#tooltipFrameBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7218,41 +7222,41 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.topvs.platform:tooltipFrameBackground
+     * @attr name com.zhou.djqjzgwj:tooltipFrameBackground
      */
     public static final int AppCompatTheme_tooltipFrameBackground=108;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#windowActionBar}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#windowActionBar}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.topvs.platform:windowActionBar
+     * @attr name com.zhou.djqjzgwj:windowActionBar
      */
     public static final int AppCompatTheme_windowActionBar=109;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#windowActionBarOverlay}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#windowActionBarOverlay}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.topvs.platform:windowActionBarOverlay
+     * @attr name com.zhou.djqjzgwj:windowActionBarOverlay
      */
     public static final int AppCompatTheme_windowActionBarOverlay=110;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#windowActionModeOverlay}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#windowActionModeOverlay}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.topvs.platform:windowActionModeOverlay
+     * @attr name com.zhou.djqjzgwj:windowActionModeOverlay
      */
     public static final int AppCompatTheme_windowActionModeOverlay=111;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#windowFixedHeightMajor}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#windowFixedHeightMajor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7265,11 +7269,11 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.topvs.platform:windowFixedHeightMajor
+     * @attr name com.zhou.djqjzgwj:windowFixedHeightMajor
      */
     public static final int AppCompatTheme_windowFixedHeightMajor=112;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#windowFixedHeightMinor}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#windowFixedHeightMinor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7282,11 +7286,11 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.topvs.platform:windowFixedHeightMinor
+     * @attr name com.zhou.djqjzgwj:windowFixedHeightMinor
      */
     public static final int AppCompatTheme_windowFixedHeightMinor=113;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#windowFixedWidthMajor}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#windowFixedWidthMajor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7299,11 +7303,11 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.topvs.platform:windowFixedWidthMajor
+     * @attr name com.zhou.djqjzgwj:windowFixedWidthMajor
      */
     public static final int AppCompatTheme_windowFixedWidthMajor=114;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#windowFixedWidthMinor}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#windowFixedWidthMinor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7316,11 +7320,11 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.topvs.platform:windowFixedWidthMinor
+     * @attr name com.zhou.djqjzgwj:windowFixedWidthMinor
      */
     public static final int AppCompatTheme_windowFixedWidthMinor=115;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#windowMinWidthMajor}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#windowMinWidthMajor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7333,11 +7337,11 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.topvs.platform:windowMinWidthMajor
+     * @attr name com.zhou.djqjzgwj:windowMinWidthMajor
      */
     public static final int AppCompatTheme_windowMinWidthMajor=116;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#windowMinWidthMinor}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#windowMinWidthMinor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7350,17 +7354,17 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.topvs.platform:windowMinWidthMinor
+     * @attr name com.zhou.djqjzgwj:windowMinWidthMinor
      */
     public static final int AppCompatTheme_windowMinWidthMinor=117;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#windowNoTitle}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#windowNoTitle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.topvs.platform:windowNoTitle
+     * @attr name com.zhou.djqjzgwj:windowNoTitle
      */
     public static final int AppCompatTheme_windowNoTitle=118;
     /**
@@ -7370,7 +7374,7 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ButtonBarLayout_allowStacking com.topvs.platform:allowStacking}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ButtonBarLayout_allowStacking com.zhou.djqjzgwj:allowStacking}</code></td><td></td></tr>
      * </table>
      * @see #ButtonBarLayout_allowStacking
      */
@@ -7378,13 +7382,13 @@ public final class R {
         0x7f030026
       };
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#allowStacking}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#allowStacking}
      * attribute's value can be found in the {@link #ButtonBarLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.topvs.platform:allowStacking
+     * @attr name com.zhou.djqjzgwj:allowStacking
      */
     public static final int ButtonBarLayout_allowStacking=0;
     /**
@@ -7394,10 +7398,10 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #CalendarLayout_calendar_content_view_id com.topvs.platform:calendar_content_view_id}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CalendarLayout_calendar_show_mode com.topvs.platform:calendar_show_mode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CalendarLayout_default_status com.topvs.platform:default_status}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CalendarLayout_gesture_mode com.topvs.platform:gesture_mode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CalendarLayout_calendar_content_view_id com.zhou.djqjzgwj:calendar_content_view_id}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CalendarLayout_calendar_show_mode com.zhou.djqjzgwj:calendar_show_mode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CalendarLayout_default_status com.zhou.djqjzgwj:default_status}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CalendarLayout_gesture_mode com.zhou.djqjzgwj:gesture_mode}</code></td><td></td></tr>
      * </table>
      * @see #CalendarLayout_calendar_content_view_id
      * @see #CalendarLayout_calendar_show_mode
@@ -7408,16 +7412,16 @@ public final class R {
         0x7f030045, 0x7f030048, 0x7f03006e, 0x7f03008b
       };
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#calendar_content_view_id}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#calendar_content_view_id}
      * attribute's value can be found in the {@link #CalendarLayout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.topvs.platform:calendar_content_view_id
+     * @attr name com.zhou.djqjzgwj:calendar_content_view_id
      */
     public static final int CalendarLayout_calendar_content_view_id=0;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#calendar_show_mode}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#calendar_show_mode}
      * attribute's value can be found in the {@link #CalendarLayout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -7431,11 +7435,11 @@ public final class R {
      * <tr><td>only_week_view</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.topvs.platform:calendar_show_mode
+     * @attr name com.zhou.djqjzgwj:calendar_show_mode
      */
     public static final int CalendarLayout_calendar_show_mode=1;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#default_status}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#default_status}
      * attribute's value can be found in the {@link #CalendarLayout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -7448,11 +7452,11 @@ public final class R {
      * <tr><td>shrink</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.topvs.platform:default_status
+     * @attr name com.zhou.djqjzgwj:default_status
      */
     public static final int CalendarLayout_default_status=2;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#gesture_mode}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#gesture_mode}
      * attribute's value can be found in the {@link #CalendarLayout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -7465,7 +7469,7 @@ public final class R {
      * <tr><td>disabled</td><td>2</td><td></td></tr>
      * </table>
      *
-     * @attr name com.topvs.platform:gesture_mode
+     * @attr name com.zhou.djqjzgwj:gesture_mode
      */
     public static final int CalendarLayout_gesture_mode=3;
     /**
@@ -7475,62 +7479,62 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #CalendarView_calendar_height com.topvs.platform:calendar_height}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CalendarView_calendar_padding com.topvs.platform:calendar_padding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CalendarView_current_day_lunar_text_color com.topvs.platform:current_day_lunar_text_color}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CalendarView_current_day_text_color com.topvs.platform:current_day_text_color}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CalendarView_current_month_lunar_text_color com.topvs.platform:current_month_lunar_text_color}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CalendarView_current_month_text_color com.topvs.platform:current_month_text_color}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CalendarView_day_text_size com.topvs.platform:day_text_size}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CalendarView_lunar_text_size com.topvs.platform:lunar_text_size}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CalendarView_max_multi_select_size com.topvs.platform:max_multi_select_size}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CalendarView_max_select_range com.topvs.platform:max_select_range}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CalendarView_max_year com.topvs.platform:max_year}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CalendarView_max_year_day com.topvs.platform:max_year_day}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CalendarView_max_year_month com.topvs.platform:max_year_month}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CalendarView_min_select_range com.topvs.platform:min_select_range}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CalendarView_min_year com.topvs.platform:min_year}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CalendarView_min_year_day com.topvs.platform:min_year_day}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CalendarView_min_year_month com.topvs.platform:min_year_month}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CalendarView_month_view com.topvs.platform:month_view}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CalendarView_month_view_scrollable com.topvs.platform:month_view_scrollable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CalendarView_month_view_show_mode com.topvs.platform:month_view_show_mode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CalendarView_other_month_lunar_text_color com.topvs.platform:other_month_lunar_text_color}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CalendarView_other_month_text_color com.topvs.platform:other_month_text_color}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CalendarView_scheme_lunar_text_color com.topvs.platform:scheme_lunar_text_color}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CalendarView_scheme_month_text_color com.topvs.platform:scheme_month_text_color}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CalendarView_scheme_text com.topvs.platform:scheme_text}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CalendarView_scheme_text_color com.topvs.platform:scheme_text_color}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CalendarView_scheme_theme_color com.topvs.platform:scheme_theme_color}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CalendarView_select_mode com.topvs.platform:select_mode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CalendarView_selected_lunar_text_color com.topvs.platform:selected_lunar_text_color}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CalendarView_selected_text_color com.topvs.platform:selected_text_color}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CalendarView_selected_theme_color com.topvs.platform:selected_theme_color}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CalendarView_week_background com.topvs.platform:week_background}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CalendarView_week_bar_height com.topvs.platform:week_bar_height}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CalendarView_week_bar_view com.topvs.platform:week_bar_view}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CalendarView_week_line_background com.topvs.platform:week_line_background}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CalendarView_week_line_margin com.topvs.platform:week_line_margin}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CalendarView_week_start_with com.topvs.platform:week_start_with}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CalendarView_week_text_color com.topvs.platform:week_text_color}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CalendarView_week_text_size com.topvs.platform:week_text_size}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CalendarView_week_view com.topvs.platform:week_view}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CalendarView_week_view_scrollable com.topvs.platform:week_view_scrollable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CalendarView_year_view com.topvs.platform:year_view}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CalendarView_year_view_background com.topvs.platform:year_view_background}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CalendarView_year_view_day_text_color com.topvs.platform:year_view_day_text_color}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CalendarView_year_view_day_text_size com.topvs.platform:year_view_day_text_size}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CalendarView_year_view_month_height com.topvs.platform:year_view_month_height}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CalendarView_year_view_month_margin_bottom com.topvs.platform:year_view_month_margin_bottom}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CalendarView_year_view_month_margin_top com.topvs.platform:year_view_month_margin_top}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CalendarView_year_view_month_text_color com.topvs.platform:year_view_month_text_color}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CalendarView_year_view_month_text_size com.topvs.platform:year_view_month_text_size}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CalendarView_year_view_padding com.topvs.platform:year_view_padding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CalendarView_year_view_scheme_color com.topvs.platform:year_view_scheme_color}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CalendarView_year_view_scrollable com.topvs.platform:year_view_scrollable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CalendarView_year_view_week_height com.topvs.platform:year_view_week_height}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CalendarView_year_view_week_text_color com.topvs.platform:year_view_week_text_color}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CalendarView_year_view_week_text_size com.topvs.platform:year_view_week_text_size}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CalendarView_calendar_height com.zhou.djqjzgwj:calendar_height}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CalendarView_calendar_padding com.zhou.djqjzgwj:calendar_padding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CalendarView_current_day_lunar_text_color com.zhou.djqjzgwj:current_day_lunar_text_color}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CalendarView_current_day_text_color com.zhou.djqjzgwj:current_day_text_color}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CalendarView_current_month_lunar_text_color com.zhou.djqjzgwj:current_month_lunar_text_color}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CalendarView_current_month_text_color com.zhou.djqjzgwj:current_month_text_color}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CalendarView_day_text_size com.zhou.djqjzgwj:day_text_size}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CalendarView_lunar_text_size com.zhou.djqjzgwj:lunar_text_size}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CalendarView_max_multi_select_size com.zhou.djqjzgwj:max_multi_select_size}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CalendarView_max_select_range com.zhou.djqjzgwj:max_select_range}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CalendarView_max_year com.zhou.djqjzgwj:max_year}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CalendarView_max_year_day com.zhou.djqjzgwj:max_year_day}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CalendarView_max_year_month com.zhou.djqjzgwj:max_year_month}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CalendarView_min_select_range com.zhou.djqjzgwj:min_select_range}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CalendarView_min_year com.zhou.djqjzgwj:min_year}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CalendarView_min_year_day com.zhou.djqjzgwj:min_year_day}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CalendarView_min_year_month com.zhou.djqjzgwj:min_year_month}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CalendarView_month_view com.zhou.djqjzgwj:month_view}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CalendarView_month_view_scrollable com.zhou.djqjzgwj:month_view_scrollable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CalendarView_month_view_show_mode com.zhou.djqjzgwj:month_view_show_mode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CalendarView_other_month_lunar_text_color com.zhou.djqjzgwj:other_month_lunar_text_color}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CalendarView_other_month_text_color com.zhou.djqjzgwj:other_month_text_color}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CalendarView_scheme_lunar_text_color com.zhou.djqjzgwj:scheme_lunar_text_color}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CalendarView_scheme_month_text_color com.zhou.djqjzgwj:scheme_month_text_color}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CalendarView_scheme_text com.zhou.djqjzgwj:scheme_text}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CalendarView_scheme_text_color com.zhou.djqjzgwj:scheme_text_color}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CalendarView_scheme_theme_color com.zhou.djqjzgwj:scheme_theme_color}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CalendarView_select_mode com.zhou.djqjzgwj:select_mode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CalendarView_selected_lunar_text_color com.zhou.djqjzgwj:selected_lunar_text_color}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CalendarView_selected_text_color com.zhou.djqjzgwj:selected_text_color}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CalendarView_selected_theme_color com.zhou.djqjzgwj:selected_theme_color}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CalendarView_week_background com.zhou.djqjzgwj:week_background}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CalendarView_week_bar_height com.zhou.djqjzgwj:week_bar_height}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CalendarView_week_bar_view com.zhou.djqjzgwj:week_bar_view}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CalendarView_week_line_background com.zhou.djqjzgwj:week_line_background}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CalendarView_week_line_margin com.zhou.djqjzgwj:week_line_margin}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CalendarView_week_start_with com.zhou.djqjzgwj:week_start_with}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CalendarView_week_text_color com.zhou.djqjzgwj:week_text_color}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CalendarView_week_text_size com.zhou.djqjzgwj:week_text_size}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CalendarView_week_view com.zhou.djqjzgwj:week_view}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CalendarView_week_view_scrollable com.zhou.djqjzgwj:week_view_scrollable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CalendarView_year_view com.zhou.djqjzgwj:year_view}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CalendarView_year_view_background com.zhou.djqjzgwj:year_view_background}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CalendarView_year_view_day_text_color com.zhou.djqjzgwj:year_view_day_text_color}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CalendarView_year_view_day_text_size com.zhou.djqjzgwj:year_view_day_text_size}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CalendarView_year_view_month_height com.zhou.djqjzgwj:year_view_month_height}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CalendarView_year_view_month_margin_bottom com.zhou.djqjzgwj:year_view_month_margin_bottom}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CalendarView_year_view_month_margin_top com.zhou.djqjzgwj:year_view_month_margin_top}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CalendarView_year_view_month_text_color com.zhou.djqjzgwj:year_view_month_text_color}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CalendarView_year_view_month_text_size com.zhou.djqjzgwj:year_view_month_text_size}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CalendarView_year_view_padding com.zhou.djqjzgwj:year_view_padding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CalendarView_year_view_scheme_color com.zhou.djqjzgwj:year_view_scheme_color}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CalendarView_year_view_scrollable com.zhou.djqjzgwj:year_view_scrollable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CalendarView_year_view_week_height com.zhou.djqjzgwj:year_view_week_height}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CalendarView_year_view_week_text_color com.zhou.djqjzgwj:year_view_week_text_color}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CalendarView_year_view_week_text_size com.zhou.djqjzgwj:year_view_week_text_size}</code></td><td></td></tr>
      * </table>
      * @see #CalendarView_calendar_height
      * @see #CalendarView_calendar_padding
@@ -7606,7 +7610,7 @@ public final class R {
         0x7f03017d, 0x7f03017e, 0x7f03017f, 0x7f030180
       };
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#calendar_height}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#calendar_height}
      * attribute's value can be found in the {@link #CalendarView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7615,11 +7619,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.topvs.platform:calendar_height
+     * @attr name com.zhou.djqjzgwj:calendar_height
      */
     public static final int CalendarView_calendar_height=0;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#calendar_padding}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#calendar_padding}
      * attribute's value can be found in the {@link #CalendarView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7628,55 +7632,55 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.topvs.platform:calendar_padding
+     * @attr name com.zhou.djqjzgwj:calendar_padding
      */
     public static final int CalendarView_calendar_padding=1;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#current_day_lunar_text_color}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#current_day_lunar_text_color}
      * attribute's value can be found in the {@link #CalendarView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.topvs.platform:current_day_lunar_text_color
+     * @attr name com.zhou.djqjzgwj:current_day_lunar_text_color
      */
     public static final int CalendarView_current_day_lunar_text_color=2;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#current_day_text_color}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#current_day_text_color}
      * attribute's value can be found in the {@link #CalendarView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.topvs.platform:current_day_text_color
+     * @attr name com.zhou.djqjzgwj:current_day_text_color
      */
     public static final int CalendarView_current_day_text_color=3;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#current_month_lunar_text_color}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#current_month_lunar_text_color}
      * attribute's value can be found in the {@link #CalendarView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.topvs.platform:current_month_lunar_text_color
+     * @attr name com.zhou.djqjzgwj:current_month_lunar_text_color
      */
     public static final int CalendarView_current_month_lunar_text_color=4;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#current_month_text_color}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#current_month_text_color}
      * attribute's value can be found in the {@link #CalendarView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.topvs.platform:current_month_text_color
+     * @attr name com.zhou.djqjzgwj:current_month_text_color
      */
     public static final int CalendarView_current_month_text_color=5;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#day_text_size}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#day_text_size}
      * attribute's value can be found in the {@link #CalendarView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7685,11 +7689,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.topvs.platform:day_text_size
+     * @attr name com.zhou.djqjzgwj:day_text_size
      */
     public static final int CalendarView_day_text_size=6;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#lunar_text_size}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#lunar_text_size}
      * attribute's value can be found in the {@link #CalendarView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7698,112 +7702,112 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.topvs.platform:lunar_text_size
+     * @attr name com.zhou.djqjzgwj:lunar_text_size
      */
     public static final int CalendarView_lunar_text_size=7;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#max_multi_select_size}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#max_multi_select_size}
      * attribute's value can be found in the {@link #CalendarView} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.topvs.platform:max_multi_select_size
+     * @attr name com.zhou.djqjzgwj:max_multi_select_size
      */
     public static final int CalendarView_max_multi_select_size=8;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#max_select_range}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#max_select_range}
      * attribute's value can be found in the {@link #CalendarView} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.topvs.platform:max_select_range
+     * @attr name com.zhou.djqjzgwj:max_select_range
      */
     public static final int CalendarView_max_select_range=9;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#max_year}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#max_year}
      * attribute's value can be found in the {@link #CalendarView} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.topvs.platform:max_year
+     * @attr name com.zhou.djqjzgwj:max_year
      */
     public static final int CalendarView_max_year=10;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#max_year_day}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#max_year_day}
      * attribute's value can be found in the {@link #CalendarView} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.topvs.platform:max_year_day
+     * @attr name com.zhou.djqjzgwj:max_year_day
      */
     public static final int CalendarView_max_year_day=11;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#max_year_month}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#max_year_month}
      * attribute's value can be found in the {@link #CalendarView} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.topvs.platform:max_year_month
+     * @attr name com.zhou.djqjzgwj:max_year_month
      */
     public static final int CalendarView_max_year_month=12;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#min_select_range}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#min_select_range}
      * attribute's value can be found in the {@link #CalendarView} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.topvs.platform:min_select_range
+     * @attr name com.zhou.djqjzgwj:min_select_range
      */
     public static final int CalendarView_min_select_range=13;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#min_year}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#min_year}
      * attribute's value can be found in the {@link #CalendarView} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.topvs.platform:min_year
+     * @attr name com.zhou.djqjzgwj:min_year
      */
     public static final int CalendarView_min_year=14;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#min_year_day}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#min_year_day}
      * attribute's value can be found in the {@link #CalendarView} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.topvs.platform:min_year_day
+     * @attr name com.zhou.djqjzgwj:min_year_day
      */
     public static final int CalendarView_min_year_day=15;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#min_year_month}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#min_year_month}
      * attribute's value can be found in the {@link #CalendarView} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.topvs.platform:min_year_month
+     * @attr name com.zhou.djqjzgwj:min_year_month
      */
     public static final int CalendarView_min_year_month=16;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#month_view}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#month_view}
      * attribute's value can be found in the {@link #CalendarView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.topvs.platform:month_view
+     * @attr name com.zhou.djqjzgwj:month_view
      */
     public static final int CalendarView_month_view=17;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#month_view_scrollable}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#month_view_scrollable}
      * attribute's value can be found in the {@link #CalendarView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.topvs.platform:month_view_scrollable
+     * @attr name com.zhou.djqjzgwj:month_view_scrollable
      */
     public static final int CalendarView_month_view_scrollable=18;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#month_view_show_mode}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#month_view_show_mode}
      * attribute's value can be found in the {@link #CalendarView} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -7817,87 +7821,87 @@ public final class R {
      * <tr><td>mode_only_current</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.topvs.platform:month_view_show_mode
+     * @attr name com.zhou.djqjzgwj:month_view_show_mode
      */
     public static final int CalendarView_month_view_show_mode=19;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#other_month_lunar_text_color}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#other_month_lunar_text_color}
      * attribute's value can be found in the {@link #CalendarView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.topvs.platform:other_month_lunar_text_color
+     * @attr name com.zhou.djqjzgwj:other_month_lunar_text_color
      */
     public static final int CalendarView_other_month_lunar_text_color=20;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#other_month_text_color}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#other_month_text_color}
      * attribute's value can be found in the {@link #CalendarView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.topvs.platform:other_month_text_color
+     * @attr name com.zhou.djqjzgwj:other_month_text_color
      */
     public static final int CalendarView_other_month_text_color=21;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#scheme_lunar_text_color}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#scheme_lunar_text_color}
      * attribute's value can be found in the {@link #CalendarView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.topvs.platform:scheme_lunar_text_color
+     * @attr name com.zhou.djqjzgwj:scheme_lunar_text_color
      */
     public static final int CalendarView_scheme_lunar_text_color=22;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#scheme_month_text_color}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#scheme_month_text_color}
      * attribute's value can be found in the {@link #CalendarView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.topvs.platform:scheme_month_text_color
+     * @attr name com.zhou.djqjzgwj:scheme_month_text_color
      */
     public static final int CalendarView_scheme_month_text_color=23;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#scheme_text}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#scheme_text}
      * attribute's value can be found in the {@link #CalendarView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.topvs.platform:scheme_text
+     * @attr name com.zhou.djqjzgwj:scheme_text
      */
     public static final int CalendarView_scheme_text=24;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#scheme_text_color}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#scheme_text_color}
      * attribute's value can be found in the {@link #CalendarView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.topvs.platform:scheme_text_color
+     * @attr name com.zhou.djqjzgwj:scheme_text_color
      */
     public static final int CalendarView_scheme_text_color=25;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#scheme_theme_color}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#scheme_theme_color}
      * attribute's value can be found in the {@link #CalendarView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.topvs.platform:scheme_theme_color
+     * @attr name com.zhou.djqjzgwj:scheme_theme_color
      */
     public static final int CalendarView_scheme_theme_color=26;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#select_mode}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#select_mode}
      * attribute's value can be found in the {@link #CalendarView} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -7912,55 +7916,55 @@ public final class R {
      * <tr><td>single_mode</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.topvs.platform:select_mode
+     * @attr name com.zhou.djqjzgwj:select_mode
      */
     public static final int CalendarView_select_mode=27;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#selected_lunar_text_color}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#selected_lunar_text_color}
      * attribute's value can be found in the {@link #CalendarView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.topvs.platform:selected_lunar_text_color
+     * @attr name com.zhou.djqjzgwj:selected_lunar_text_color
      */
     public static final int CalendarView_selected_lunar_text_color=28;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#selected_text_color}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#selected_text_color}
      * attribute's value can be found in the {@link #CalendarView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.topvs.platform:selected_text_color
+     * @attr name com.zhou.djqjzgwj:selected_text_color
      */
     public static final int CalendarView_selected_text_color=29;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#selected_theme_color}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#selected_theme_color}
      * attribute's value can be found in the {@link #CalendarView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.topvs.platform:selected_theme_color
+     * @attr name com.zhou.djqjzgwj:selected_theme_color
      */
     public static final int CalendarView_selected_theme_color=30;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#week_background}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#week_background}
      * attribute's value can be found in the {@link #CalendarView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.topvs.platform:week_background
+     * @attr name com.zhou.djqjzgwj:week_background
      */
     public static final int CalendarView_week_background=31;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#week_bar_height}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#week_bar_height}
      * attribute's value can be found in the {@link #CalendarView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7969,32 +7973,32 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.topvs.platform:week_bar_height
+     * @attr name com.zhou.djqjzgwj:week_bar_height
      */
     public static final int CalendarView_week_bar_height=32;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#week_bar_view}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#week_bar_view}
      * attribute's value can be found in the {@link #CalendarView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.topvs.platform:week_bar_view
+     * @attr name com.zhou.djqjzgwj:week_bar_view
      */
     public static final int CalendarView_week_bar_view=33;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#week_line_background}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#week_line_background}
      * attribute's value can be found in the {@link #CalendarView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.topvs.platform:week_line_background
+     * @attr name com.zhou.djqjzgwj:week_line_background
      */
     public static final int CalendarView_week_line_background=34;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#week_line_margin}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#week_line_margin}
      * attribute's value can be found in the {@link #CalendarView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8003,11 +8007,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.topvs.platform:week_line_margin
+     * @attr name com.zhou.djqjzgwj:week_line_margin
      */
     public static final int CalendarView_week_line_margin=35;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#week_start_with}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#week_start_with}
      * attribute's value can be found in the {@link #CalendarView} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -8021,22 +8025,22 @@ public final class R {
      * <tr><td>sun</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.topvs.platform:week_start_with
+     * @attr name com.zhou.djqjzgwj:week_start_with
      */
     public static final int CalendarView_week_start_with=36;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#week_text_color}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#week_text_color}
      * attribute's value can be found in the {@link #CalendarView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.topvs.platform:week_text_color
+     * @attr name com.zhou.djqjzgwj:week_text_color
      */
     public static final int CalendarView_week_text_color=37;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#week_text_size}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#week_text_size}
      * attribute's value can be found in the {@link #CalendarView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8045,63 +8049,63 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.topvs.platform:week_text_size
+     * @attr name com.zhou.djqjzgwj:week_text_size
      */
     public static final int CalendarView_week_text_size=38;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#week_view}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#week_view}
      * attribute's value can be found in the {@link #CalendarView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.topvs.platform:week_view
+     * @attr name com.zhou.djqjzgwj:week_view
      */
     public static final int CalendarView_week_view=39;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#week_view_scrollable}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#week_view_scrollable}
      * attribute's value can be found in the {@link #CalendarView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.topvs.platform:week_view_scrollable
+     * @attr name com.zhou.djqjzgwj:week_view_scrollable
      */
     public static final int CalendarView_week_view_scrollable=40;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#year_view}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#year_view}
      * attribute's value can be found in the {@link #CalendarView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.topvs.platform:year_view
+     * @attr name com.zhou.djqjzgwj:year_view
      */
     public static final int CalendarView_year_view=41;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#year_view_background}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#year_view_background}
      * attribute's value can be found in the {@link #CalendarView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.topvs.platform:year_view_background
+     * @attr name com.zhou.djqjzgwj:year_view_background
      */
     public static final int CalendarView_year_view_background=42;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#year_view_day_text_color}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#year_view_day_text_color}
      * attribute's value can be found in the {@link #CalendarView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.topvs.platform:year_view_day_text_color
+     * @attr name com.zhou.djqjzgwj:year_view_day_text_color
      */
     public static final int CalendarView_year_view_day_text_color=43;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#year_view_day_text_size}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#year_view_day_text_size}
      * attribute's value can be found in the {@link #CalendarView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8110,11 +8114,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.topvs.platform:year_view_day_text_size
+     * @attr name com.zhou.djqjzgwj:year_view_day_text_size
      */
     public static final int CalendarView_year_view_day_text_size=44;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#year_view_month_height}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#year_view_month_height}
      * attribute's value can be found in the {@link #CalendarView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8123,11 +8127,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.topvs.platform:year_view_month_height
+     * @attr name com.zhou.djqjzgwj:year_view_month_height
      */
     public static final int CalendarView_year_view_month_height=45;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#year_view_month_margin_bottom}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#year_view_month_margin_bottom}
      * attribute's value can be found in the {@link #CalendarView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8136,11 +8140,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.topvs.platform:year_view_month_margin_bottom
+     * @attr name com.zhou.djqjzgwj:year_view_month_margin_bottom
      */
     public static final int CalendarView_year_view_month_margin_bottom=46;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#year_view_month_margin_top}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#year_view_month_margin_top}
      * attribute's value can be found in the {@link #CalendarView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8149,22 +8153,22 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.topvs.platform:year_view_month_margin_top
+     * @attr name com.zhou.djqjzgwj:year_view_month_margin_top
      */
     public static final int CalendarView_year_view_month_margin_top=47;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#year_view_month_text_color}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#year_view_month_text_color}
      * attribute's value can be found in the {@link #CalendarView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.topvs.platform:year_view_month_text_color
+     * @attr name com.zhou.djqjzgwj:year_view_month_text_color
      */
     public static final int CalendarView_year_view_month_text_color=48;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#year_view_month_text_size}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#year_view_month_text_size}
      * attribute's value can be found in the {@link #CalendarView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8173,11 +8177,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.topvs.platform:year_view_month_text_size
+     * @attr name com.zhou.djqjzgwj:year_view_month_text_size
      */
     public static final int CalendarView_year_view_month_text_size=49;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#year_view_padding}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#year_view_padding}
      * attribute's value can be found in the {@link #CalendarView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8186,32 +8190,32 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.topvs.platform:year_view_padding
+     * @attr name com.zhou.djqjzgwj:year_view_padding
      */
     public static final int CalendarView_year_view_padding=50;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#year_view_scheme_color}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#year_view_scheme_color}
      * attribute's value can be found in the {@link #CalendarView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.topvs.platform:year_view_scheme_color
+     * @attr name com.zhou.djqjzgwj:year_view_scheme_color
      */
     public static final int CalendarView_year_view_scheme_color=51;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#year_view_scrollable}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#year_view_scrollable}
      * attribute's value can be found in the {@link #CalendarView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.topvs.platform:year_view_scrollable
+     * @attr name com.zhou.djqjzgwj:year_view_scrollable
      */
     public static final int CalendarView_year_view_scrollable=52;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#year_view_week_height}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#year_view_week_height}
      * attribute's value can be found in the {@link #CalendarView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8220,22 +8224,22 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.topvs.platform:year_view_week_height
+     * @attr name com.zhou.djqjzgwj:year_view_week_height
      */
     public static final int CalendarView_year_view_week_height=53;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#year_view_week_text_color}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#year_view_week_text_color}
      * attribute's value can be found in the {@link #CalendarView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.topvs.platform:year_view_week_text_color
+     * @attr name com.zhou.djqjzgwj:year_view_week_text_color
      */
     public static final int CalendarView_year_view_week_text_color=54;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#year_view_week_text_size}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#year_view_week_text_size}
      * attribute's value can be found in the {@link #CalendarView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8244,7 +8248,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.topvs.platform:year_view_week_text_size
+     * @attr name com.zhou.djqjzgwj:year_view_week_text_size
      */
     public static final int CalendarView_year_view_week_text_size=55;
     /**
@@ -8256,7 +8260,7 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #ColorStateListItem_android_color android:color}</code></td><td></td></tr>
      * <tr><td><code>{@link #ColorStateListItem_android_alpha android:alpha}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ColorStateListItem_alpha com.topvs.platform:alpha}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ColorStateListItem_alpha com.zhou.djqjzgwj:alpha}</code></td><td></td></tr>
      * </table>
      * @see #ColorStateListItem_android_color
      * @see #ColorStateListItem_android_alpha
@@ -8266,12 +8270,12 @@ public final class R {
         0x010101a5, 0x0101031f, 0x7f030027
       };
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#alpha}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#alpha}
      * attribute's value can be found in the {@link #ColorStateListItem} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.topvs.platform:alpha
+     * @attr name com.zhou.djqjzgwj:alpha
      */
     public static final int ColorStateListItem_alpha=2;
     /**
@@ -8302,8 +8306,8 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #CompoundButton_android_button android:button}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CompoundButton_buttonTint com.topvs.platform:buttonTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CompoundButton_buttonTintMode com.topvs.platform:buttonTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CompoundButton_buttonTint com.zhou.djqjzgwj:buttonTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CompoundButton_buttonTintMode com.zhou.djqjzgwj:buttonTintMode}</code></td><td></td></tr>
      * </table>
      * @see #CompoundButton_android_button
      * @see #CompoundButton_buttonTint
@@ -8325,18 +8329,18 @@ public final class R {
      */
     public static final int CompoundButton_android_button=0;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#buttonTint}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#buttonTint}
      * attribute's value can be found in the {@link #CompoundButton} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.topvs.platform:buttonTint
+     * @attr name com.zhou.djqjzgwj:buttonTint
      */
     public static final int CompoundButton_buttonTint=1;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#buttonTintMode}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#buttonTintMode}
      * attribute's value can be found in the {@link #CompoundButton} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -8352,7 +8356,7 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.topvs.platform:buttonTintMode
+     * @attr name com.zhou.djqjzgwj:buttonTintMode
      */
     public static final int CompoundButton_buttonTintMode=2;
     /**
@@ -8367,61 +8371,61 @@ public final class R {
      * <tr><td><code>{@link #ConstraintLayout_Layout_android_maxHeight android:maxHeight}</code></td><td></td></tr>
      * <tr><td><code>{@link #ConstraintLayout_Layout_android_minWidth android:minWidth}</code></td><td></td></tr>
      * <tr><td><code>{@link #ConstraintLayout_Layout_android_minHeight android:minHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_barrierAllowsGoneWidgets com.topvs.platform:barrierAllowsGoneWidgets}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_barrierDirection com.topvs.platform:barrierDirection}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_chainUseRtl com.topvs.platform:chainUseRtl}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_constraintSet com.topvs.platform:constraintSet}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_constraint_referenced_ids com.topvs.platform:constraint_referenced_ids}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constrainedHeight com.topvs.platform:layout_constrainedHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constrainedWidth com.topvs.platform:layout_constrainedWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBaseline_creator com.topvs.platform:layout_constraintBaseline_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBaseline_toBaselineOf com.topvs.platform:layout_constraintBaseline_toBaselineOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_creator com.topvs.platform:layout_constraintBottom_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_toBottomOf com.topvs.platform:layout_constraintBottom_toBottomOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_toTopOf com.topvs.platform:layout_constraintBottom_toTopOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintCircle com.topvs.platform:layout_constraintCircle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintCircleAngle com.topvs.platform:layout_constraintCircleAngle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintCircleRadius com.topvs.platform:layout_constraintCircleRadius}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintDimensionRatio com.topvs.platform:layout_constraintDimensionRatio}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintEnd_toEndOf com.topvs.platform:layout_constraintEnd_toEndOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintEnd_toStartOf com.topvs.platform:layout_constraintEnd_toStartOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_begin com.topvs.platform:layout_constraintGuide_begin}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_end com.topvs.platform:layout_constraintGuide_end}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_percent com.topvs.platform:layout_constraintGuide_percent}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_default com.topvs.platform:layout_constraintHeight_default}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_max com.topvs.platform:layout_constraintHeight_max}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_min com.topvs.platform:layout_constraintHeight_min}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_percent com.topvs.platform:layout_constraintHeight_percent}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHorizontal_bias com.topvs.platform:layout_constraintHorizontal_bias}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHorizontal_chainStyle com.topvs.platform:layout_constraintHorizontal_chainStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHorizontal_weight com.topvs.platform:layout_constraintHorizontal_weight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_creator com.topvs.platform:layout_constraintLeft_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_toLeftOf com.topvs.platform:layout_constraintLeft_toLeftOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_toRightOf com.topvs.platform:layout_constraintLeft_toRightOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_creator com.topvs.platform:layout_constraintRight_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_toLeftOf com.topvs.platform:layout_constraintRight_toLeftOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_toRightOf com.topvs.platform:layout_constraintRight_toRightOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintStart_toEndOf com.topvs.platform:layout_constraintStart_toEndOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintStart_toStartOf com.topvs.platform:layout_constraintStart_toStartOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_creator com.topvs.platform:layout_constraintTop_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_toBottomOf com.topvs.platform:layout_constraintTop_toBottomOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_toTopOf com.topvs.platform:layout_constraintTop_toTopOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintVertical_bias com.topvs.platform:layout_constraintVertical_bias}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintVertical_chainStyle com.topvs.platform:layout_constraintVertical_chainStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintVertical_weight com.topvs.platform:layout_constraintVertical_weight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_default com.topvs.platform:layout_constraintWidth_default}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_max com.topvs.platform:layout_constraintWidth_max}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_min com.topvs.platform:layout_constraintWidth_min}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_percent com.topvs.platform:layout_constraintWidth_percent}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_editor_absoluteX com.topvs.platform:layout_editor_absoluteX}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_editor_absoluteY com.topvs.platform:layout_editor_absoluteY}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginBottom com.topvs.platform:layout_goneMarginBottom}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginEnd com.topvs.platform:layout_goneMarginEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginLeft com.topvs.platform:layout_goneMarginLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginRight com.topvs.platform:layout_goneMarginRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginStart com.topvs.platform:layout_goneMarginStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginTop com.topvs.platform:layout_goneMarginTop}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_optimizationLevel com.topvs.platform:layout_optimizationLevel}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_barrierAllowsGoneWidgets com.zhou.djqjzgwj:barrierAllowsGoneWidgets}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_barrierDirection com.zhou.djqjzgwj:barrierDirection}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_chainUseRtl com.zhou.djqjzgwj:chainUseRtl}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_constraintSet com.zhou.djqjzgwj:constraintSet}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_constraint_referenced_ids com.zhou.djqjzgwj:constraint_referenced_ids}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constrainedHeight com.zhou.djqjzgwj:layout_constrainedHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constrainedWidth com.zhou.djqjzgwj:layout_constrainedWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBaseline_creator com.zhou.djqjzgwj:layout_constraintBaseline_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBaseline_toBaselineOf com.zhou.djqjzgwj:layout_constraintBaseline_toBaselineOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_creator com.zhou.djqjzgwj:layout_constraintBottom_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_toBottomOf com.zhou.djqjzgwj:layout_constraintBottom_toBottomOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_toTopOf com.zhou.djqjzgwj:layout_constraintBottom_toTopOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintCircle com.zhou.djqjzgwj:layout_constraintCircle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintCircleAngle com.zhou.djqjzgwj:layout_constraintCircleAngle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintCircleRadius com.zhou.djqjzgwj:layout_constraintCircleRadius}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintDimensionRatio com.zhou.djqjzgwj:layout_constraintDimensionRatio}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintEnd_toEndOf com.zhou.djqjzgwj:layout_constraintEnd_toEndOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintEnd_toStartOf com.zhou.djqjzgwj:layout_constraintEnd_toStartOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_begin com.zhou.djqjzgwj:layout_constraintGuide_begin}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_end com.zhou.djqjzgwj:layout_constraintGuide_end}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_percent com.zhou.djqjzgwj:layout_constraintGuide_percent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_default com.zhou.djqjzgwj:layout_constraintHeight_default}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_max com.zhou.djqjzgwj:layout_constraintHeight_max}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_min com.zhou.djqjzgwj:layout_constraintHeight_min}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_percent com.zhou.djqjzgwj:layout_constraintHeight_percent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHorizontal_bias com.zhou.djqjzgwj:layout_constraintHorizontal_bias}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHorizontal_chainStyle com.zhou.djqjzgwj:layout_constraintHorizontal_chainStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHorizontal_weight com.zhou.djqjzgwj:layout_constraintHorizontal_weight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_creator com.zhou.djqjzgwj:layout_constraintLeft_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_toLeftOf com.zhou.djqjzgwj:layout_constraintLeft_toLeftOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_toRightOf com.zhou.djqjzgwj:layout_constraintLeft_toRightOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_creator com.zhou.djqjzgwj:layout_constraintRight_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_toLeftOf com.zhou.djqjzgwj:layout_constraintRight_toLeftOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_toRightOf com.zhou.djqjzgwj:layout_constraintRight_toRightOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintStart_toEndOf com.zhou.djqjzgwj:layout_constraintStart_toEndOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintStart_toStartOf com.zhou.djqjzgwj:layout_constraintStart_toStartOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_creator com.zhou.djqjzgwj:layout_constraintTop_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_toBottomOf com.zhou.djqjzgwj:layout_constraintTop_toBottomOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_toTopOf com.zhou.djqjzgwj:layout_constraintTop_toTopOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintVertical_bias com.zhou.djqjzgwj:layout_constraintVertical_bias}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintVertical_chainStyle com.zhou.djqjzgwj:layout_constraintVertical_chainStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintVertical_weight com.zhou.djqjzgwj:layout_constraintVertical_weight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_default com.zhou.djqjzgwj:layout_constraintWidth_default}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_max com.zhou.djqjzgwj:layout_constraintWidth_max}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_min com.zhou.djqjzgwj:layout_constraintWidth_min}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_percent com.zhou.djqjzgwj:layout_constraintWidth_percent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_editor_absoluteX com.zhou.djqjzgwj:layout_editor_absoluteX}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_editor_absoluteY com.zhou.djqjzgwj:layout_editor_absoluteY}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginBottom com.zhou.djqjzgwj:layout_goneMarginBottom}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginEnd com.zhou.djqjzgwj:layout_goneMarginEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginLeft com.zhou.djqjzgwj:layout_goneMarginLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginRight com.zhou.djqjzgwj:layout_goneMarginRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginStart com.zhou.djqjzgwj:layout_goneMarginStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginTop com.zhou.djqjzgwj:layout_goneMarginTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_optimizationLevel com.zhou.djqjzgwj:layout_optimizationLevel}</code></td><td></td></tr>
      * </table>
      * @see #ConstraintLayout_Layout_android_orientation
      * @see #ConstraintLayout_Layout_android_maxWidth
@@ -8571,17 +8575,17 @@ public final class R {
      */
     public static final int ConstraintLayout_Layout_android_orientation=0;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#barrierAllowsGoneWidgets}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#barrierAllowsGoneWidgets}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.topvs.platform:barrierAllowsGoneWidgets
+     * @attr name com.zhou.djqjzgwj:barrierAllowsGoneWidgets
      */
     public static final int ConstraintLayout_Layout_barrierAllowsGoneWidgets=5;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#barrierDirection}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#barrierDirection}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -8598,21 +8602,21 @@ public final class R {
      * <tr><td>top</td><td>2</td><td></td></tr>
      * </table>
      *
-     * @attr name com.topvs.platform:barrierDirection
+     * @attr name com.zhou.djqjzgwj:barrierDirection
      */
     public static final int ConstraintLayout_Layout_barrierDirection=6;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#chainUseRtl}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#chainUseRtl}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.topvs.platform:chainUseRtl
+     * @attr name com.zhou.djqjzgwj:chainUseRtl
      */
     public static final int ConstraintLayout_Layout_chainUseRtl=7;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#constraintSet}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#constraintSet}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8620,50 +8624,50 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.topvs.platform:constraintSet
+     * @attr name com.zhou.djqjzgwj:constraintSet
      */
     public static final int ConstraintLayout_Layout_constraintSet=8;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#constraint_referenced_ids}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#constraint_referenced_ids}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.topvs.platform:constraint_referenced_ids
+     * @attr name com.zhou.djqjzgwj:constraint_referenced_ids
      */
     public static final int ConstraintLayout_Layout_constraint_referenced_ids=9;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#layout_constrainedHeight}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#layout_constrainedHeight}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.topvs.platform:layout_constrainedHeight
+     * @attr name com.zhou.djqjzgwj:layout_constrainedHeight
      */
     public static final int ConstraintLayout_Layout_layout_constrainedHeight=10;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#layout_constrainedWidth}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#layout_constrainedWidth}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.topvs.platform:layout_constrainedWidth
+     * @attr name com.zhou.djqjzgwj:layout_constrainedWidth
      */
     public static final int ConstraintLayout_Layout_layout_constrainedWidth=11;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#layout_constraintBaseline_creator}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#layout_constraintBaseline_creator}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.topvs.platform:layout_constraintBaseline_creator
+     * @attr name com.zhou.djqjzgwj:layout_constraintBaseline_creator
      */
     public static final int ConstraintLayout_Layout_layout_constraintBaseline_creator=12;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#layout_constraintBaseline_toBaselineOf}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#layout_constraintBaseline_toBaselineOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8679,20 +8683,20 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.topvs.platform:layout_constraintBaseline_toBaselineOf
+     * @attr name com.zhou.djqjzgwj:layout_constraintBaseline_toBaselineOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintBaseline_toBaselineOf=13;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#layout_constraintBottom_creator}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#layout_constraintBottom_creator}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.topvs.platform:layout_constraintBottom_creator
+     * @attr name com.zhou.djqjzgwj:layout_constraintBottom_creator
      */
     public static final int ConstraintLayout_Layout_layout_constraintBottom_creator=14;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#layout_constraintBottom_toBottomOf}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#layout_constraintBottom_toBottomOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8708,11 +8712,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.topvs.platform:layout_constraintBottom_toBottomOf
+     * @attr name com.zhou.djqjzgwj:layout_constraintBottom_toBottomOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintBottom_toBottomOf=15;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#layout_constraintBottom_toTopOf}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#layout_constraintBottom_toTopOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8728,11 +8732,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.topvs.platform:layout_constraintBottom_toTopOf
+     * @attr name com.zhou.djqjzgwj:layout_constraintBottom_toTopOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintBottom_toTopOf=16;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#layout_constraintCircle}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#layout_constraintCircle}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8740,20 +8744,20 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.topvs.platform:layout_constraintCircle
+     * @attr name com.zhou.djqjzgwj:layout_constraintCircle
      */
     public static final int ConstraintLayout_Layout_layout_constraintCircle=17;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#layout_constraintCircleAngle}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#layout_constraintCircleAngle}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.topvs.platform:layout_constraintCircleAngle
+     * @attr name com.zhou.djqjzgwj:layout_constraintCircleAngle
      */
     public static final int ConstraintLayout_Layout_layout_constraintCircleAngle=18;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#layout_constraintCircleRadius}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#layout_constraintCircleRadius}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8762,21 +8766,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.topvs.platform:layout_constraintCircleRadius
+     * @attr name com.zhou.djqjzgwj:layout_constraintCircleRadius
      */
     public static final int ConstraintLayout_Layout_layout_constraintCircleRadius=19;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#layout_constraintDimensionRatio}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#layout_constraintDimensionRatio}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.topvs.platform:layout_constraintDimensionRatio
+     * @attr name com.zhou.djqjzgwj:layout_constraintDimensionRatio
      */
     public static final int ConstraintLayout_Layout_layout_constraintDimensionRatio=20;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#layout_constraintEnd_toEndOf}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#layout_constraintEnd_toEndOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8792,11 +8796,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.topvs.platform:layout_constraintEnd_toEndOf
+     * @attr name com.zhou.djqjzgwj:layout_constraintEnd_toEndOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintEnd_toEndOf=21;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#layout_constraintEnd_toStartOf}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#layout_constraintEnd_toStartOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8812,11 +8816,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.topvs.platform:layout_constraintEnd_toStartOf
+     * @attr name com.zhou.djqjzgwj:layout_constraintEnd_toStartOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintEnd_toStartOf=22;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#layout_constraintGuide_begin}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#layout_constraintGuide_begin}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8825,11 +8829,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.topvs.platform:layout_constraintGuide_begin
+     * @attr name com.zhou.djqjzgwj:layout_constraintGuide_begin
      */
     public static final int ConstraintLayout_Layout_layout_constraintGuide_begin=23;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#layout_constraintGuide_end}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#layout_constraintGuide_end}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8838,20 +8842,20 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.topvs.platform:layout_constraintGuide_end
+     * @attr name com.zhou.djqjzgwj:layout_constraintGuide_end
      */
     public static final int ConstraintLayout_Layout_layout_constraintGuide_end=24;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#layout_constraintGuide_percent}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#layout_constraintGuide_percent}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.topvs.platform:layout_constraintGuide_percent
+     * @attr name com.zhou.djqjzgwj:layout_constraintGuide_percent
      */
     public static final int ConstraintLayout_Layout_layout_constraintGuide_percent=25;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#layout_constraintHeight_default}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#layout_constraintHeight_default}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -8865,11 +8869,11 @@ public final class R {
      * <tr><td>wrap</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.topvs.platform:layout_constraintHeight_default
+     * @attr name com.zhou.djqjzgwj:layout_constraintHeight_default
      */
     public static final int ConstraintLayout_Layout_layout_constraintHeight_default=26;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#layout_constraintHeight_max}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#layout_constraintHeight_max}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8886,11 +8890,11 @@ public final class R {
      * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
      * </table>
      *
-     * @attr name com.topvs.platform:layout_constraintHeight_max
+     * @attr name com.zhou.djqjzgwj:layout_constraintHeight_max
      */
     public static final int ConstraintLayout_Layout_layout_constraintHeight_max=27;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#layout_constraintHeight_min}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#layout_constraintHeight_min}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8907,29 +8911,29 @@ public final class R {
      * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
      * </table>
      *
-     * @attr name com.topvs.platform:layout_constraintHeight_min
+     * @attr name com.zhou.djqjzgwj:layout_constraintHeight_min
      */
     public static final int ConstraintLayout_Layout_layout_constraintHeight_min=28;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#layout_constraintHeight_percent}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#layout_constraintHeight_percent}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.topvs.platform:layout_constraintHeight_percent
+     * @attr name com.zhou.djqjzgwj:layout_constraintHeight_percent
      */
     public static final int ConstraintLayout_Layout_layout_constraintHeight_percent=29;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#layout_constraintHorizontal_bias}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#layout_constraintHorizontal_bias}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.topvs.platform:layout_constraintHorizontal_bias
+     * @attr name com.zhou.djqjzgwj:layout_constraintHorizontal_bias
      */
     public static final int ConstraintLayout_Layout_layout_constraintHorizontal_bias=30;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#layout_constraintHorizontal_chainStyle}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#layout_constraintHorizontal_chainStyle}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -8943,29 +8947,29 @@ public final class R {
      * <tr><td>spread_inside</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.topvs.platform:layout_constraintHorizontal_chainStyle
+     * @attr name com.zhou.djqjzgwj:layout_constraintHorizontal_chainStyle
      */
     public static final int ConstraintLayout_Layout_layout_constraintHorizontal_chainStyle=31;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#layout_constraintHorizontal_weight}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#layout_constraintHorizontal_weight}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.topvs.platform:layout_constraintHorizontal_weight
+     * @attr name com.zhou.djqjzgwj:layout_constraintHorizontal_weight
      */
     public static final int ConstraintLayout_Layout_layout_constraintHorizontal_weight=32;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#layout_constraintLeft_creator}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#layout_constraintLeft_creator}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.topvs.platform:layout_constraintLeft_creator
+     * @attr name com.zhou.djqjzgwj:layout_constraintLeft_creator
      */
     public static final int ConstraintLayout_Layout_layout_constraintLeft_creator=33;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#layout_constraintLeft_toLeftOf}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#layout_constraintLeft_toLeftOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8981,11 +8985,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.topvs.platform:layout_constraintLeft_toLeftOf
+     * @attr name com.zhou.djqjzgwj:layout_constraintLeft_toLeftOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintLeft_toLeftOf=34;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#layout_constraintLeft_toRightOf}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#layout_constraintLeft_toRightOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9001,20 +9005,20 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.topvs.platform:layout_constraintLeft_toRightOf
+     * @attr name com.zhou.djqjzgwj:layout_constraintLeft_toRightOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintLeft_toRightOf=35;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#layout_constraintRight_creator}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#layout_constraintRight_creator}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.topvs.platform:layout_constraintRight_creator
+     * @attr name com.zhou.djqjzgwj:layout_constraintRight_creator
      */
     public static final int ConstraintLayout_Layout_layout_constraintRight_creator=36;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#layout_constraintRight_toLeftOf}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#layout_constraintRight_toLeftOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9030,11 +9034,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.topvs.platform:layout_constraintRight_toLeftOf
+     * @attr name com.zhou.djqjzgwj:layout_constraintRight_toLeftOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintRight_toLeftOf=37;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#layout_constraintRight_toRightOf}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#layout_constraintRight_toRightOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9050,11 +9054,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.topvs.platform:layout_constraintRight_toRightOf
+     * @attr name com.zhou.djqjzgwj:layout_constraintRight_toRightOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintRight_toRightOf=38;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#layout_constraintStart_toEndOf}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#layout_constraintStart_toEndOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9070,11 +9074,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.topvs.platform:layout_constraintStart_toEndOf
+     * @attr name com.zhou.djqjzgwj:layout_constraintStart_toEndOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintStart_toEndOf=39;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#layout_constraintStart_toStartOf}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#layout_constraintStart_toStartOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9090,20 +9094,20 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.topvs.platform:layout_constraintStart_toStartOf
+     * @attr name com.zhou.djqjzgwj:layout_constraintStart_toStartOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintStart_toStartOf=40;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#layout_constraintTop_creator}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#layout_constraintTop_creator}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.topvs.platform:layout_constraintTop_creator
+     * @attr name com.zhou.djqjzgwj:layout_constraintTop_creator
      */
     public static final int ConstraintLayout_Layout_layout_constraintTop_creator=41;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#layout_constraintTop_toBottomOf}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#layout_constraintTop_toBottomOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9119,11 +9123,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.topvs.platform:layout_constraintTop_toBottomOf
+     * @attr name com.zhou.djqjzgwj:layout_constraintTop_toBottomOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintTop_toBottomOf=42;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#layout_constraintTop_toTopOf}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#layout_constraintTop_toTopOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9139,20 +9143,20 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.topvs.platform:layout_constraintTop_toTopOf
+     * @attr name com.zhou.djqjzgwj:layout_constraintTop_toTopOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintTop_toTopOf=43;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#layout_constraintVertical_bias}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#layout_constraintVertical_bias}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.topvs.platform:layout_constraintVertical_bias
+     * @attr name com.zhou.djqjzgwj:layout_constraintVertical_bias
      */
     public static final int ConstraintLayout_Layout_layout_constraintVertical_bias=44;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#layout_constraintVertical_chainStyle}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#layout_constraintVertical_chainStyle}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -9166,20 +9170,20 @@ public final class R {
      * <tr><td>spread_inside</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.topvs.platform:layout_constraintVertical_chainStyle
+     * @attr name com.zhou.djqjzgwj:layout_constraintVertical_chainStyle
      */
     public static final int ConstraintLayout_Layout_layout_constraintVertical_chainStyle=45;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#layout_constraintVertical_weight}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#layout_constraintVertical_weight}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.topvs.platform:layout_constraintVertical_weight
+     * @attr name com.zhou.djqjzgwj:layout_constraintVertical_weight
      */
     public static final int ConstraintLayout_Layout_layout_constraintVertical_weight=46;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#layout_constraintWidth_default}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#layout_constraintWidth_default}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -9193,11 +9197,11 @@ public final class R {
      * <tr><td>wrap</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.topvs.platform:layout_constraintWidth_default
+     * @attr name com.zhou.djqjzgwj:layout_constraintWidth_default
      */
     public static final int ConstraintLayout_Layout_layout_constraintWidth_default=47;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#layout_constraintWidth_max}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#layout_constraintWidth_max}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9214,11 +9218,11 @@ public final class R {
      * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
      * </table>
      *
-     * @attr name com.topvs.platform:layout_constraintWidth_max
+     * @attr name com.zhou.djqjzgwj:layout_constraintWidth_max
      */
     public static final int ConstraintLayout_Layout_layout_constraintWidth_max=48;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#layout_constraintWidth_min}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#layout_constraintWidth_min}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9235,20 +9239,20 @@ public final class R {
      * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
      * </table>
      *
-     * @attr name com.topvs.platform:layout_constraintWidth_min
+     * @attr name com.zhou.djqjzgwj:layout_constraintWidth_min
      */
     public static final int ConstraintLayout_Layout_layout_constraintWidth_min=49;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#layout_constraintWidth_percent}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#layout_constraintWidth_percent}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.topvs.platform:layout_constraintWidth_percent
+     * @attr name com.zhou.djqjzgwj:layout_constraintWidth_percent
      */
     public static final int ConstraintLayout_Layout_layout_constraintWidth_percent=50;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#layout_editor_absoluteX}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#layout_editor_absoluteX}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9257,11 +9261,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.topvs.platform:layout_editor_absoluteX
+     * @attr name com.zhou.djqjzgwj:layout_editor_absoluteX
      */
     public static final int ConstraintLayout_Layout_layout_editor_absoluteX=51;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#layout_editor_absoluteY}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#layout_editor_absoluteY}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9270,11 +9274,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.topvs.platform:layout_editor_absoluteY
+     * @attr name com.zhou.djqjzgwj:layout_editor_absoluteY
      */
     public static final int ConstraintLayout_Layout_layout_editor_absoluteY=52;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#layout_goneMarginBottom}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#layout_goneMarginBottom}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9283,11 +9287,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.topvs.platform:layout_goneMarginBottom
+     * @attr name com.zhou.djqjzgwj:layout_goneMarginBottom
      */
     public static final int ConstraintLayout_Layout_layout_goneMarginBottom=53;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#layout_goneMarginEnd}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#layout_goneMarginEnd}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9296,11 +9300,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.topvs.platform:layout_goneMarginEnd
+     * @attr name com.zhou.djqjzgwj:layout_goneMarginEnd
      */
     public static final int ConstraintLayout_Layout_layout_goneMarginEnd=54;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#layout_goneMarginLeft}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#layout_goneMarginLeft}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9309,11 +9313,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.topvs.platform:layout_goneMarginLeft
+     * @attr name com.zhou.djqjzgwj:layout_goneMarginLeft
      */
     public static final int ConstraintLayout_Layout_layout_goneMarginLeft=55;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#layout_goneMarginRight}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#layout_goneMarginRight}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9322,11 +9326,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.topvs.platform:layout_goneMarginRight
+     * @attr name com.zhou.djqjzgwj:layout_goneMarginRight
      */
     public static final int ConstraintLayout_Layout_layout_goneMarginRight=56;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#layout_goneMarginStart}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#layout_goneMarginStart}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9335,11 +9339,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.topvs.platform:layout_goneMarginStart
+     * @attr name com.zhou.djqjzgwj:layout_goneMarginStart
      */
     public static final int ConstraintLayout_Layout_layout_goneMarginStart=57;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#layout_goneMarginTop}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#layout_goneMarginTop}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9348,11 +9352,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.topvs.platform:layout_goneMarginTop
+     * @attr name com.zhou.djqjzgwj:layout_goneMarginTop
      */
     public static final int ConstraintLayout_Layout_layout_goneMarginTop=58;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#layout_optimizationLevel}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#layout_optimizationLevel}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -9364,13 +9368,13 @@ public final class R {
      * <tr><td>barrier</td><td>2</td><td></td></tr>
      * <tr><td>chains</td><td>4</td><td></td></tr>
      * <tr><td>dimensions</td><td>8</td><td></td></tr>
-     * <tr><td>direct</td><td>1</td><td>direct, barriers, chains</td></tr>
+     * <tr><td>direct</td><td>1</td><td></td></tr>
      * <tr><td>groups</td><td>20</td><td></td></tr>
      * <tr><td>none</td><td>0</td><td></td></tr>
      * <tr><td>standard</td><td>7</td><td></td></tr>
      * </table>
      *
-     * @attr name com.topvs.platform:layout_optimizationLevel
+     * @attr name com.zhou.djqjzgwj:layout_optimizationLevel
      */
     public static final int ConstraintLayout_Layout_layout_optimizationLevel=59;
     /**
@@ -9380,8 +9384,8 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ConstraintLayout_placeholder_content com.topvs.platform:content}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_placeholder_emptyVisibility com.topvs.platform:emptyVisibility}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_placeholder_content com.zhou.djqjzgwj:content}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_placeholder_emptyVisibility com.zhou.djqjzgwj:emptyVisibility}</code></td><td></td></tr>
      * </table>
      * @see #ConstraintLayout_placeholder_content
      * @see #ConstraintLayout_placeholder_emptyVisibility
@@ -9390,7 +9394,7 @@ public final class R {
         0x7f03005e, 0x7f03007e
       };
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#content}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#content}
      * attribute's value can be found in the {@link #ConstraintLayout_placeholder} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9398,11 +9402,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.topvs.platform:content
+     * @attr name com.zhou.djqjzgwj:content
      */
     public static final int ConstraintLayout_placeholder_content=0;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#emptyVisibility}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#emptyVisibility}
      * attribute's value can be found in the {@link #ConstraintLayout_placeholder} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -9415,7 +9419,7 @@ public final class R {
      * <tr><td>invisible</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.topvs.platform:emptyVisibility
+     * @attr name com.zhou.djqjzgwj:emptyVisibility
      */
     public static final int ConstraintLayout_placeholder_emptyVisibility=1;
     /**
@@ -9452,59 +9456,59 @@ public final class R {
      * <tr><td><code>{@link #ConstraintSet_android_layout_marginEnd android:layout_marginEnd}</code></td><td></td></tr>
      * <tr><td><code>{@link #ConstraintSet_android_translationZ android:translationZ}</code></td><td></td></tr>
      * <tr><td><code>{@link #ConstraintSet_android_elevation android:elevation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_barrierAllowsGoneWidgets com.topvs.platform:barrierAllowsGoneWidgets}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_barrierDirection com.topvs.platform:barrierDirection}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_chainUseRtl com.topvs.platform:chainUseRtl}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_constraint_referenced_ids com.topvs.platform:constraint_referenced_ids}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constrainedHeight com.topvs.platform:layout_constrainedHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constrainedWidth com.topvs.platform:layout_constrainedWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintBaseline_creator com.topvs.platform:layout_constraintBaseline_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintBaseline_toBaselineOf com.topvs.platform:layout_constraintBaseline_toBaselineOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintBottom_creator com.topvs.platform:layout_constraintBottom_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintBottom_toBottomOf com.topvs.platform:layout_constraintBottom_toBottomOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintBottom_toTopOf com.topvs.platform:layout_constraintBottom_toTopOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintCircle com.topvs.platform:layout_constraintCircle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintCircleAngle com.topvs.platform:layout_constraintCircleAngle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintCircleRadius com.topvs.platform:layout_constraintCircleRadius}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintDimensionRatio com.topvs.platform:layout_constraintDimensionRatio}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintEnd_toEndOf com.topvs.platform:layout_constraintEnd_toEndOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintEnd_toStartOf com.topvs.platform:layout_constraintEnd_toStartOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintGuide_begin com.topvs.platform:layout_constraintGuide_begin}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintGuide_end com.topvs.platform:layout_constraintGuide_end}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintGuide_percent com.topvs.platform:layout_constraintGuide_percent}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_default com.topvs.platform:layout_constraintHeight_default}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_max com.topvs.platform:layout_constraintHeight_max}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_min com.topvs.platform:layout_constraintHeight_min}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_percent com.topvs.platform:layout_constraintHeight_percent}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintHorizontal_bias com.topvs.platform:layout_constraintHorizontal_bias}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintHorizontal_chainStyle com.topvs.platform:layout_constraintHorizontal_chainStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintHorizontal_weight com.topvs.platform:layout_constraintHorizontal_weight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintLeft_creator com.topvs.platform:layout_constraintLeft_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintLeft_toLeftOf com.topvs.platform:layout_constraintLeft_toLeftOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintLeft_toRightOf com.topvs.platform:layout_constraintLeft_toRightOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintRight_creator com.topvs.platform:layout_constraintRight_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintRight_toLeftOf com.topvs.platform:layout_constraintRight_toLeftOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintRight_toRightOf com.topvs.platform:layout_constraintRight_toRightOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintStart_toEndOf com.topvs.platform:layout_constraintStart_toEndOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintStart_toStartOf com.topvs.platform:layout_constraintStart_toStartOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintTop_creator com.topvs.platform:layout_constraintTop_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintTop_toBottomOf com.topvs.platform:layout_constraintTop_toBottomOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintTop_toTopOf com.topvs.platform:layout_constraintTop_toTopOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintVertical_bias com.topvs.platform:layout_constraintVertical_bias}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintVertical_chainStyle com.topvs.platform:layout_constraintVertical_chainStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintVertical_weight com.topvs.platform:layout_constraintVertical_weight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_default com.topvs.platform:layout_constraintWidth_default}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_max com.topvs.platform:layout_constraintWidth_max}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_min com.topvs.platform:layout_constraintWidth_min}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_percent com.topvs.platform:layout_constraintWidth_percent}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_editor_absoluteX com.topvs.platform:layout_editor_absoluteX}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_editor_absoluteY com.topvs.platform:layout_editor_absoluteY}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginBottom com.topvs.platform:layout_goneMarginBottom}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginEnd com.topvs.platform:layout_goneMarginEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginLeft com.topvs.platform:layout_goneMarginLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginRight com.topvs.platform:layout_goneMarginRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginStart com.topvs.platform:layout_goneMarginStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginTop com.topvs.platform:layout_goneMarginTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_barrierAllowsGoneWidgets com.zhou.djqjzgwj:barrierAllowsGoneWidgets}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_barrierDirection com.zhou.djqjzgwj:barrierDirection}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_chainUseRtl com.zhou.djqjzgwj:chainUseRtl}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_constraint_referenced_ids com.zhou.djqjzgwj:constraint_referenced_ids}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constrainedHeight com.zhou.djqjzgwj:layout_constrainedHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constrainedWidth com.zhou.djqjzgwj:layout_constrainedWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintBaseline_creator com.zhou.djqjzgwj:layout_constraintBaseline_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintBaseline_toBaselineOf com.zhou.djqjzgwj:layout_constraintBaseline_toBaselineOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintBottom_creator com.zhou.djqjzgwj:layout_constraintBottom_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintBottom_toBottomOf com.zhou.djqjzgwj:layout_constraintBottom_toBottomOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintBottom_toTopOf com.zhou.djqjzgwj:layout_constraintBottom_toTopOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintCircle com.zhou.djqjzgwj:layout_constraintCircle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintCircleAngle com.zhou.djqjzgwj:layout_constraintCircleAngle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintCircleRadius com.zhou.djqjzgwj:layout_constraintCircleRadius}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintDimensionRatio com.zhou.djqjzgwj:layout_constraintDimensionRatio}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintEnd_toEndOf com.zhou.djqjzgwj:layout_constraintEnd_toEndOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintEnd_toStartOf com.zhou.djqjzgwj:layout_constraintEnd_toStartOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintGuide_begin com.zhou.djqjzgwj:layout_constraintGuide_begin}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintGuide_end com.zhou.djqjzgwj:layout_constraintGuide_end}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintGuide_percent com.zhou.djqjzgwj:layout_constraintGuide_percent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_default com.zhou.djqjzgwj:layout_constraintHeight_default}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_max com.zhou.djqjzgwj:layout_constraintHeight_max}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_min com.zhou.djqjzgwj:layout_constraintHeight_min}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_percent com.zhou.djqjzgwj:layout_constraintHeight_percent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintHorizontal_bias com.zhou.djqjzgwj:layout_constraintHorizontal_bias}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintHorizontal_chainStyle com.zhou.djqjzgwj:layout_constraintHorizontal_chainStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintHorizontal_weight com.zhou.djqjzgwj:layout_constraintHorizontal_weight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintLeft_creator com.zhou.djqjzgwj:layout_constraintLeft_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintLeft_toLeftOf com.zhou.djqjzgwj:layout_constraintLeft_toLeftOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintLeft_toRightOf com.zhou.djqjzgwj:layout_constraintLeft_toRightOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintRight_creator com.zhou.djqjzgwj:layout_constraintRight_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintRight_toLeftOf com.zhou.djqjzgwj:layout_constraintRight_toLeftOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintRight_toRightOf com.zhou.djqjzgwj:layout_constraintRight_toRightOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintStart_toEndOf com.zhou.djqjzgwj:layout_constraintStart_toEndOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintStart_toStartOf com.zhou.djqjzgwj:layout_constraintStart_toStartOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintTop_creator com.zhou.djqjzgwj:layout_constraintTop_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintTop_toBottomOf com.zhou.djqjzgwj:layout_constraintTop_toBottomOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintTop_toTopOf com.zhou.djqjzgwj:layout_constraintTop_toTopOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintVertical_bias com.zhou.djqjzgwj:layout_constraintVertical_bias}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintVertical_chainStyle com.zhou.djqjzgwj:layout_constraintVertical_chainStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintVertical_weight com.zhou.djqjzgwj:layout_constraintVertical_weight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_default com.zhou.djqjzgwj:layout_constraintWidth_default}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_max com.zhou.djqjzgwj:layout_constraintWidth_max}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_min com.zhou.djqjzgwj:layout_constraintWidth_min}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_percent com.zhou.djqjzgwj:layout_constraintWidth_percent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_editor_absoluteX com.zhou.djqjzgwj:layout_editor_absoluteX}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_editor_absoluteY com.zhou.djqjzgwj:layout_editor_absoluteY}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginBottom com.zhou.djqjzgwj:layout_goneMarginBottom}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginEnd com.zhou.djqjzgwj:layout_goneMarginEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginLeft com.zhou.djqjzgwj:layout_goneMarginLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginRight com.zhou.djqjzgwj:layout_goneMarginRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginStart com.zhou.djqjzgwj:layout_goneMarginStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginTop com.zhou.djqjzgwj:layout_goneMarginTop}</code></td><td></td></tr>
      * </table>
      * @see #ConstraintSet_android_orientation
      * @see #ConstraintSet_android_id
@@ -9965,17 +9969,17 @@ public final class R {
      */
     public static final int ConstraintSet_android_visibility=2;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#barrierAllowsGoneWidgets}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#barrierAllowsGoneWidgets}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.topvs.platform:barrierAllowsGoneWidgets
+     * @attr name com.zhou.djqjzgwj:barrierAllowsGoneWidgets
      */
     public static final int ConstraintSet_barrierAllowsGoneWidgets=27;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#barrierDirection}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#barrierDirection}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -9992,60 +9996,60 @@ public final class R {
      * <tr><td>top</td><td>2</td><td></td></tr>
      * </table>
      *
-     * @attr name com.topvs.platform:barrierDirection
+     * @attr name com.zhou.djqjzgwj:barrierDirection
      */
     public static final int ConstraintSet_barrierDirection=28;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#chainUseRtl}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#chainUseRtl}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.topvs.platform:chainUseRtl
+     * @attr name com.zhou.djqjzgwj:chainUseRtl
      */
     public static final int ConstraintSet_chainUseRtl=29;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#constraint_referenced_ids}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#constraint_referenced_ids}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.topvs.platform:constraint_referenced_ids
+     * @attr name com.zhou.djqjzgwj:constraint_referenced_ids
      */
     public static final int ConstraintSet_constraint_referenced_ids=30;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#layout_constrainedHeight}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#layout_constrainedHeight}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.topvs.platform:layout_constrainedHeight
+     * @attr name com.zhou.djqjzgwj:layout_constrainedHeight
      */
     public static final int ConstraintSet_layout_constrainedHeight=31;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#layout_constrainedWidth}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#layout_constrainedWidth}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.topvs.platform:layout_constrainedWidth
+     * @attr name com.zhou.djqjzgwj:layout_constrainedWidth
      */
     public static final int ConstraintSet_layout_constrainedWidth=32;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#layout_constraintBaseline_creator}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#layout_constraintBaseline_creator}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.topvs.platform:layout_constraintBaseline_creator
+     * @attr name com.zhou.djqjzgwj:layout_constraintBaseline_creator
      */
     public static final int ConstraintSet_layout_constraintBaseline_creator=33;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#layout_constraintBaseline_toBaselineOf}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#layout_constraintBaseline_toBaselineOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10061,20 +10065,20 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.topvs.platform:layout_constraintBaseline_toBaselineOf
+     * @attr name com.zhou.djqjzgwj:layout_constraintBaseline_toBaselineOf
      */
     public static final int ConstraintSet_layout_constraintBaseline_toBaselineOf=34;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#layout_constraintBottom_creator}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#layout_constraintBottom_creator}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.topvs.platform:layout_constraintBottom_creator
+     * @attr name com.zhou.djqjzgwj:layout_constraintBottom_creator
      */
     public static final int ConstraintSet_layout_constraintBottom_creator=35;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#layout_constraintBottom_toBottomOf}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#layout_constraintBottom_toBottomOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10090,11 +10094,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.topvs.platform:layout_constraintBottom_toBottomOf
+     * @attr name com.zhou.djqjzgwj:layout_constraintBottom_toBottomOf
      */
     public static final int ConstraintSet_layout_constraintBottom_toBottomOf=36;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#layout_constraintBottom_toTopOf}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#layout_constraintBottom_toTopOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10110,11 +10114,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.topvs.platform:layout_constraintBottom_toTopOf
+     * @attr name com.zhou.djqjzgwj:layout_constraintBottom_toTopOf
      */
     public static final int ConstraintSet_layout_constraintBottom_toTopOf=37;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#layout_constraintCircle}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#layout_constraintCircle}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10122,20 +10126,20 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.topvs.platform:layout_constraintCircle
+     * @attr name com.zhou.djqjzgwj:layout_constraintCircle
      */
     public static final int ConstraintSet_layout_constraintCircle=38;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#layout_constraintCircleAngle}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#layout_constraintCircleAngle}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.topvs.platform:layout_constraintCircleAngle
+     * @attr name com.zhou.djqjzgwj:layout_constraintCircleAngle
      */
     public static final int ConstraintSet_layout_constraintCircleAngle=39;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#layout_constraintCircleRadius}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#layout_constraintCircleRadius}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10144,21 +10148,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.topvs.platform:layout_constraintCircleRadius
+     * @attr name com.zhou.djqjzgwj:layout_constraintCircleRadius
      */
     public static final int ConstraintSet_layout_constraintCircleRadius=40;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#layout_constraintDimensionRatio}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#layout_constraintDimensionRatio}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.topvs.platform:layout_constraintDimensionRatio
+     * @attr name com.zhou.djqjzgwj:layout_constraintDimensionRatio
      */
     public static final int ConstraintSet_layout_constraintDimensionRatio=41;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#layout_constraintEnd_toEndOf}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#layout_constraintEnd_toEndOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10174,11 +10178,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.topvs.platform:layout_constraintEnd_toEndOf
+     * @attr name com.zhou.djqjzgwj:layout_constraintEnd_toEndOf
      */
     public static final int ConstraintSet_layout_constraintEnd_toEndOf=42;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#layout_constraintEnd_toStartOf}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#layout_constraintEnd_toStartOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10194,11 +10198,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.topvs.platform:layout_constraintEnd_toStartOf
+     * @attr name com.zhou.djqjzgwj:layout_constraintEnd_toStartOf
      */
     public static final int ConstraintSet_layout_constraintEnd_toStartOf=43;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#layout_constraintGuide_begin}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#layout_constraintGuide_begin}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10207,11 +10211,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.topvs.platform:layout_constraintGuide_begin
+     * @attr name com.zhou.djqjzgwj:layout_constraintGuide_begin
      */
     public static final int ConstraintSet_layout_constraintGuide_begin=44;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#layout_constraintGuide_end}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#layout_constraintGuide_end}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10220,20 +10224,20 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.topvs.platform:layout_constraintGuide_end
+     * @attr name com.zhou.djqjzgwj:layout_constraintGuide_end
      */
     public static final int ConstraintSet_layout_constraintGuide_end=45;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#layout_constraintGuide_percent}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#layout_constraintGuide_percent}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.topvs.platform:layout_constraintGuide_percent
+     * @attr name com.zhou.djqjzgwj:layout_constraintGuide_percent
      */
     public static final int ConstraintSet_layout_constraintGuide_percent=46;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#layout_constraintHeight_default}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#layout_constraintHeight_default}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -10247,11 +10251,11 @@ public final class R {
      * <tr><td>wrap</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.topvs.platform:layout_constraintHeight_default
+     * @attr name com.zhou.djqjzgwj:layout_constraintHeight_default
      */
     public static final int ConstraintSet_layout_constraintHeight_default=47;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#layout_constraintHeight_max}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#layout_constraintHeight_max}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10268,11 +10272,11 @@ public final class R {
      * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
      * </table>
      *
-     * @attr name com.topvs.platform:layout_constraintHeight_max
+     * @attr name com.zhou.djqjzgwj:layout_constraintHeight_max
      */
     public static final int ConstraintSet_layout_constraintHeight_max=48;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#layout_constraintHeight_min}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#layout_constraintHeight_min}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10289,29 +10293,29 @@ public final class R {
      * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
      * </table>
      *
-     * @attr name com.topvs.platform:layout_constraintHeight_min
+     * @attr name com.zhou.djqjzgwj:layout_constraintHeight_min
      */
     public static final int ConstraintSet_layout_constraintHeight_min=49;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#layout_constraintHeight_percent}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#layout_constraintHeight_percent}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.topvs.platform:layout_constraintHeight_percent
+     * @attr name com.zhou.djqjzgwj:layout_constraintHeight_percent
      */
     public static final int ConstraintSet_layout_constraintHeight_percent=50;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#layout_constraintHorizontal_bias}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#layout_constraintHorizontal_bias}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.topvs.platform:layout_constraintHorizontal_bias
+     * @attr name com.zhou.djqjzgwj:layout_constraintHorizontal_bias
      */
     public static final int ConstraintSet_layout_constraintHorizontal_bias=51;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#layout_constraintHorizontal_chainStyle}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#layout_constraintHorizontal_chainStyle}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -10325,29 +10329,29 @@ public final class R {
      * <tr><td>spread_inside</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.topvs.platform:layout_constraintHorizontal_chainStyle
+     * @attr name com.zhou.djqjzgwj:layout_constraintHorizontal_chainStyle
      */
     public static final int ConstraintSet_layout_constraintHorizontal_chainStyle=52;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#layout_constraintHorizontal_weight}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#layout_constraintHorizontal_weight}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.topvs.platform:layout_constraintHorizontal_weight
+     * @attr name com.zhou.djqjzgwj:layout_constraintHorizontal_weight
      */
     public static final int ConstraintSet_layout_constraintHorizontal_weight=53;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#layout_constraintLeft_creator}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#layout_constraintLeft_creator}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.topvs.platform:layout_constraintLeft_creator
+     * @attr name com.zhou.djqjzgwj:layout_constraintLeft_creator
      */
     public static final int ConstraintSet_layout_constraintLeft_creator=54;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#layout_constraintLeft_toLeftOf}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#layout_constraintLeft_toLeftOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10363,11 +10367,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.topvs.platform:layout_constraintLeft_toLeftOf
+     * @attr name com.zhou.djqjzgwj:layout_constraintLeft_toLeftOf
      */
     public static final int ConstraintSet_layout_constraintLeft_toLeftOf=55;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#layout_constraintLeft_toRightOf}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#layout_constraintLeft_toRightOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10383,20 +10387,20 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.topvs.platform:layout_constraintLeft_toRightOf
+     * @attr name com.zhou.djqjzgwj:layout_constraintLeft_toRightOf
      */
     public static final int ConstraintSet_layout_constraintLeft_toRightOf=56;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#layout_constraintRight_creator}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#layout_constraintRight_creator}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.topvs.platform:layout_constraintRight_creator
+     * @attr name com.zhou.djqjzgwj:layout_constraintRight_creator
      */
     public static final int ConstraintSet_layout_constraintRight_creator=57;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#layout_constraintRight_toLeftOf}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#layout_constraintRight_toLeftOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10412,11 +10416,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.topvs.platform:layout_constraintRight_toLeftOf
+     * @attr name com.zhou.djqjzgwj:layout_constraintRight_toLeftOf
      */
     public static final int ConstraintSet_layout_constraintRight_toLeftOf=58;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#layout_constraintRight_toRightOf}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#layout_constraintRight_toRightOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10432,11 +10436,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.topvs.platform:layout_constraintRight_toRightOf
+     * @attr name com.zhou.djqjzgwj:layout_constraintRight_toRightOf
      */
     public static final int ConstraintSet_layout_constraintRight_toRightOf=59;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#layout_constraintStart_toEndOf}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#layout_constraintStart_toEndOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10452,11 +10456,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.topvs.platform:layout_constraintStart_toEndOf
+     * @attr name com.zhou.djqjzgwj:layout_constraintStart_toEndOf
      */
     public static final int ConstraintSet_layout_constraintStart_toEndOf=60;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#layout_constraintStart_toStartOf}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#layout_constraintStart_toStartOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10472,20 +10476,20 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.topvs.platform:layout_constraintStart_toStartOf
+     * @attr name com.zhou.djqjzgwj:layout_constraintStart_toStartOf
      */
     public static final int ConstraintSet_layout_constraintStart_toStartOf=61;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#layout_constraintTop_creator}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#layout_constraintTop_creator}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.topvs.platform:layout_constraintTop_creator
+     * @attr name com.zhou.djqjzgwj:layout_constraintTop_creator
      */
     public static final int ConstraintSet_layout_constraintTop_creator=62;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#layout_constraintTop_toBottomOf}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#layout_constraintTop_toBottomOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10501,11 +10505,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.topvs.platform:layout_constraintTop_toBottomOf
+     * @attr name com.zhou.djqjzgwj:layout_constraintTop_toBottomOf
      */
     public static final int ConstraintSet_layout_constraintTop_toBottomOf=63;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#layout_constraintTop_toTopOf}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#layout_constraintTop_toTopOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10521,20 +10525,20 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.topvs.platform:layout_constraintTop_toTopOf
+     * @attr name com.zhou.djqjzgwj:layout_constraintTop_toTopOf
      */
     public static final int ConstraintSet_layout_constraintTop_toTopOf=64;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#layout_constraintVertical_bias}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#layout_constraintVertical_bias}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.topvs.platform:layout_constraintVertical_bias
+     * @attr name com.zhou.djqjzgwj:layout_constraintVertical_bias
      */
     public static final int ConstraintSet_layout_constraintVertical_bias=65;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#layout_constraintVertical_chainStyle}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#layout_constraintVertical_chainStyle}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -10548,20 +10552,20 @@ public final class R {
      * <tr><td>spread_inside</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.topvs.platform:layout_constraintVertical_chainStyle
+     * @attr name com.zhou.djqjzgwj:layout_constraintVertical_chainStyle
      */
     public static final int ConstraintSet_layout_constraintVertical_chainStyle=66;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#layout_constraintVertical_weight}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#layout_constraintVertical_weight}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.topvs.platform:layout_constraintVertical_weight
+     * @attr name com.zhou.djqjzgwj:layout_constraintVertical_weight
      */
     public static final int ConstraintSet_layout_constraintVertical_weight=67;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#layout_constraintWidth_default}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#layout_constraintWidth_default}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -10575,11 +10579,11 @@ public final class R {
      * <tr><td>wrap</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.topvs.platform:layout_constraintWidth_default
+     * @attr name com.zhou.djqjzgwj:layout_constraintWidth_default
      */
     public static final int ConstraintSet_layout_constraintWidth_default=68;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#layout_constraintWidth_max}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#layout_constraintWidth_max}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10596,11 +10600,11 @@ public final class R {
      * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
      * </table>
      *
-     * @attr name com.topvs.platform:layout_constraintWidth_max
+     * @attr name com.zhou.djqjzgwj:layout_constraintWidth_max
      */
     public static final int ConstraintSet_layout_constraintWidth_max=69;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#layout_constraintWidth_min}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#layout_constraintWidth_min}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10617,20 +10621,20 @@ public final class R {
      * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
      * </table>
      *
-     * @attr name com.topvs.platform:layout_constraintWidth_min
+     * @attr name com.zhou.djqjzgwj:layout_constraintWidth_min
      */
     public static final int ConstraintSet_layout_constraintWidth_min=70;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#layout_constraintWidth_percent}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#layout_constraintWidth_percent}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.topvs.platform:layout_constraintWidth_percent
+     * @attr name com.zhou.djqjzgwj:layout_constraintWidth_percent
      */
     public static final int ConstraintSet_layout_constraintWidth_percent=71;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#layout_editor_absoluteX}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#layout_editor_absoluteX}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10639,11 +10643,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.topvs.platform:layout_editor_absoluteX
+     * @attr name com.zhou.djqjzgwj:layout_editor_absoluteX
      */
     public static final int ConstraintSet_layout_editor_absoluteX=72;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#layout_editor_absoluteY}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#layout_editor_absoluteY}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10652,11 +10656,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.topvs.platform:layout_editor_absoluteY
+     * @attr name com.zhou.djqjzgwj:layout_editor_absoluteY
      */
     public static final int ConstraintSet_layout_editor_absoluteY=73;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#layout_goneMarginBottom}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#layout_goneMarginBottom}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10665,11 +10669,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.topvs.platform:layout_goneMarginBottom
+     * @attr name com.zhou.djqjzgwj:layout_goneMarginBottom
      */
     public static final int ConstraintSet_layout_goneMarginBottom=74;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#layout_goneMarginEnd}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#layout_goneMarginEnd}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10678,11 +10682,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.topvs.platform:layout_goneMarginEnd
+     * @attr name com.zhou.djqjzgwj:layout_goneMarginEnd
      */
     public static final int ConstraintSet_layout_goneMarginEnd=75;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#layout_goneMarginLeft}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#layout_goneMarginLeft}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10691,11 +10695,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.topvs.platform:layout_goneMarginLeft
+     * @attr name com.zhou.djqjzgwj:layout_goneMarginLeft
      */
     public static final int ConstraintSet_layout_goneMarginLeft=76;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#layout_goneMarginRight}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#layout_goneMarginRight}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10704,11 +10708,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.topvs.platform:layout_goneMarginRight
+     * @attr name com.zhou.djqjzgwj:layout_goneMarginRight
      */
     public static final int ConstraintSet_layout_goneMarginRight=77;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#layout_goneMarginStart}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#layout_goneMarginStart}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10717,11 +10721,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.topvs.platform:layout_goneMarginStart
+     * @attr name com.zhou.djqjzgwj:layout_goneMarginStart
      */
     public static final int ConstraintSet_layout_goneMarginStart=78;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#layout_goneMarginTop}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#layout_goneMarginTop}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10730,7 +10734,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.topvs.platform:layout_goneMarginTop
+     * @attr name com.zhou.djqjzgwj:layout_goneMarginTop
      */
     public static final int ConstraintSet_layout_goneMarginTop=79;
     /**
@@ -10740,14 +10744,14 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_arrowHeadLength com.topvs.platform:arrowHeadLength}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_arrowShaftLength com.topvs.platform:arrowShaftLength}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_barLength com.topvs.platform:barLength}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_color com.topvs.platform:color}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_drawableSize com.topvs.platform:drawableSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_gapBetweenBars com.topvs.platform:gapBetweenBars}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_spinBars com.topvs.platform:spinBars}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_thickness com.topvs.platform:thickness}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_arrowHeadLength com.zhou.djqjzgwj:arrowHeadLength}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_arrowShaftLength com.zhou.djqjzgwj:arrowShaftLength}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_barLength com.zhou.djqjzgwj:barLength}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_color com.zhou.djqjzgwj:color}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_drawableSize com.zhou.djqjzgwj:drawableSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_gapBetweenBars com.zhou.djqjzgwj:gapBetweenBars}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_spinBars com.zhou.djqjzgwj:spinBars}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_thickness com.zhou.djqjzgwj:thickness}</code></td><td></td></tr>
      * </table>
      * @see #DrawerArrowToggle_arrowHeadLength
      * @see #DrawerArrowToggle_arrowShaftLength
@@ -10763,7 +10767,7 @@ public final class R {
         0x7f030076, 0x7f03008a, 0x7f030124, 0x7f030142
       };
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#arrowHeadLength}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#arrowHeadLength}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10772,11 +10776,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.topvs.platform:arrowHeadLength
+     * @attr name com.zhou.djqjzgwj:arrowHeadLength
      */
     public static final int DrawerArrowToggle_arrowHeadLength=0;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#arrowShaftLength}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#arrowShaftLength}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10785,11 +10789,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.topvs.platform:arrowShaftLength
+     * @attr name com.zhou.djqjzgwj:arrowShaftLength
      */
     public static final int DrawerArrowToggle_arrowShaftLength=1;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#barLength}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#barLength}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10798,22 +10802,22 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.topvs.platform:barLength
+     * @attr name com.zhou.djqjzgwj:barLength
      */
     public static final int DrawerArrowToggle_barLength=2;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#color}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#color}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.topvs.platform:color
+     * @attr name com.zhou.djqjzgwj:color
      */
     public static final int DrawerArrowToggle_color=3;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#drawableSize}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#drawableSize}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10822,11 +10826,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.topvs.platform:drawableSize
+     * @attr name com.zhou.djqjzgwj:drawableSize
      */
     public static final int DrawerArrowToggle_drawableSize=4;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#gapBetweenBars}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#gapBetweenBars}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10835,21 +10839,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.topvs.platform:gapBetweenBars
+     * @attr name com.zhou.djqjzgwj:gapBetweenBars
      */
     public static final int DrawerArrowToggle_gapBetweenBars=5;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#spinBars}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#spinBars}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.topvs.platform:spinBars
+     * @attr name com.zhou.djqjzgwj:spinBars
      */
     public static final int DrawerArrowToggle_spinBars=6;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#thickness}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#thickness}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10858,7 +10862,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.topvs.platform:thickness
+     * @attr name com.zhou.djqjzgwj:thickness
      */
     public static final int DrawerArrowToggle_thickness=7;
     /**
@@ -10868,12 +10872,12 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderAuthority com.topvs.platform:fontProviderAuthority}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderCerts com.topvs.platform:fontProviderCerts}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderFetchStrategy com.topvs.platform:fontProviderFetchStrategy}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderFetchTimeout com.topvs.platform:fontProviderFetchTimeout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderPackage com.topvs.platform:fontProviderPackage}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderQuery com.topvs.platform:fontProviderQuery}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderAuthority com.zhou.djqjzgwj:fontProviderAuthority}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderCerts com.zhou.djqjzgwj:fontProviderCerts}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderFetchStrategy com.zhou.djqjzgwj:fontProviderFetchStrategy}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderFetchTimeout com.zhou.djqjzgwj:fontProviderFetchTimeout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderPackage com.zhou.djqjzgwj:fontProviderPackage}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderQuery com.zhou.djqjzgwj:fontProviderQuery}</code></td><td></td></tr>
      * </table>
      * @see #FontFamily_fontProviderAuthority
      * @see #FontFamily_fontProviderCerts
@@ -10893,9 +10897,9 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #FontFamilyFont_font com.topvs.platform:font}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamilyFont_fontStyle com.topvs.platform:fontStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamilyFont_fontWeight com.topvs.platform:fontWeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_font com.zhou.djqjzgwj:font}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_fontStyle com.zhou.djqjzgwj:fontStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_fontWeight com.zhou.djqjzgwj:fontWeight}</code></td><td></td></tr>
      * </table>
      * @see #FontFamilyFont_font
      * @see #FontFamilyFont_fontStyle
@@ -10905,7 +10909,7 @@ public final class R {
         0x7f030080, 0x7f030088, 0x7f030089
       };
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#font}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#font}
      * attribute's value can be found in the {@link #FontFamilyFont} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10913,11 +10917,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.topvs.platform:font
+     * @attr name com.zhou.djqjzgwj:font
      */
     public static final int FontFamilyFont_font=0;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#fontStyle}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#fontStyle}
      * attribute's value can be found in the {@link #FontFamilyFont} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -10930,30 +10934,30 @@ public final class R {
      * <tr><td>normal</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.topvs.platform:fontStyle
+     * @attr name com.zhou.djqjzgwj:fontStyle
      */
     public static final int FontFamilyFont_fontStyle=1;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#fontWeight}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#fontWeight}
      * attribute's value can be found in the {@link #FontFamilyFont} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.topvs.platform:fontWeight
+     * @attr name com.zhou.djqjzgwj:fontWeight
      */
     public static final int FontFamilyFont_fontWeight=2;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#fontProviderAuthority}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#fontProviderAuthority}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.topvs.platform:fontProviderAuthority
+     * @attr name com.zhou.djqjzgwj:fontProviderAuthority
      */
     public static final int FontFamily_fontProviderAuthority=0;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#fontProviderCerts}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#fontProviderCerts}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10961,11 +10965,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.topvs.platform:fontProviderCerts
+     * @attr name com.zhou.djqjzgwj:fontProviderCerts
      */
     public static final int FontFamily_fontProviderCerts=1;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#fontProviderFetchStrategy}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#fontProviderFetchStrategy}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -10978,11 +10982,11 @@ public final class R {
      * <tr><td>blocking</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.topvs.platform:fontProviderFetchStrategy
+     * @attr name com.zhou.djqjzgwj:fontProviderFetchStrategy
      */
     public static final int FontFamily_fontProviderFetchStrategy=2;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#fontProviderFetchTimeout}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#fontProviderFetchTimeout}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
@@ -10995,27 +10999,27 @@ public final class R {
      * <tr><td>forever</td><td>ffffffff</td><td></td></tr>
      * </table>
      *
-     * @attr name com.topvs.platform:fontProviderFetchTimeout
+     * @attr name com.zhou.djqjzgwj:fontProviderFetchTimeout
      */
     public static final int FontFamily_fontProviderFetchTimeout=3;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#fontProviderPackage}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#fontProviderPackage}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.topvs.platform:fontProviderPackage
+     * @attr name com.zhou.djqjzgwj:fontProviderPackage
      */
     public static final int FontFamily_fontProviderPackage=4;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#fontProviderQuery}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#fontProviderQuery}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.topvs.platform:fontProviderQuery
+     * @attr name com.zhou.djqjzgwj:fontProviderQuery
      */
     public static final int FontFamily_fontProviderQuery=5;
     /**
@@ -11025,15 +11029,15 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #GroupRecyclerView_group_background com.topvs.platform:group_background}</code></td><td></td></tr>
-     * <tr><td><code>{@link #GroupRecyclerView_group_center com.topvs.platform:group_center}</code></td><td></td></tr>
-     * <tr><td><code>{@link #GroupRecyclerView_group_child_offset com.topvs.platform:group_child_offset}</code></td><td></td></tr>
-     * <tr><td><code>{@link #GroupRecyclerView_group_has_header com.topvs.platform:group_has_header}</code></td><td></td></tr>
-     * <tr><td><code>{@link #GroupRecyclerView_group_height com.topvs.platform:group_height}</code></td><td></td></tr>
-     * <tr><td><code>{@link #GroupRecyclerView_group_padding_left com.topvs.platform:group_padding_left}</code></td><td></td></tr>
-     * <tr><td><code>{@link #GroupRecyclerView_group_padding_right com.topvs.platform:group_padding_right}</code></td><td></td></tr>
-     * <tr><td><code>{@link #GroupRecyclerView_group_text_color com.topvs.platform:group_text_color}</code></td><td></td></tr>
-     * <tr><td><code>{@link #GroupRecyclerView_group_text_size com.topvs.platform:group_text_size}</code></td><td></td></tr>
+     * <tr><td><code>{@link #GroupRecyclerView_group_background com.zhou.djqjzgwj:group_background}</code></td><td></td></tr>
+     * <tr><td><code>{@link #GroupRecyclerView_group_center com.zhou.djqjzgwj:group_center}</code></td><td></td></tr>
+     * <tr><td><code>{@link #GroupRecyclerView_group_child_offset com.zhou.djqjzgwj:group_child_offset}</code></td><td></td></tr>
+     * <tr><td><code>{@link #GroupRecyclerView_group_has_header com.zhou.djqjzgwj:group_has_header}</code></td><td></td></tr>
+     * <tr><td><code>{@link #GroupRecyclerView_group_height com.zhou.djqjzgwj:group_height}</code></td><td></td></tr>
+     * <tr><td><code>{@link #GroupRecyclerView_group_padding_left com.zhou.djqjzgwj:group_padding_left}</code></td><td></td></tr>
+     * <tr><td><code>{@link #GroupRecyclerView_group_padding_right com.zhou.djqjzgwj:group_padding_right}</code></td><td></td></tr>
+     * <tr><td><code>{@link #GroupRecyclerView_group_text_color com.zhou.djqjzgwj:group_text_color}</code></td><td></td></tr>
+     * <tr><td><code>{@link #GroupRecyclerView_group_text_size com.zhou.djqjzgwj:group_text_size}</code></td><td></td></tr>
      * </table>
      * @see #GroupRecyclerView_group_background
      * @see #GroupRecyclerView_group_center
@@ -11051,28 +11055,28 @@ public final class R {
         0x7f030095
       };
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#group_background}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#group_background}
      * attribute's value can be found in the {@link #GroupRecyclerView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.topvs.platform:group_background
+     * @attr name com.zhou.djqjzgwj:group_background
      */
     public static final int GroupRecyclerView_group_background=0;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#group_center}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#group_center}
      * attribute's value can be found in the {@link #GroupRecyclerView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.topvs.platform:group_center
+     * @attr name com.zhou.djqjzgwj:group_center
      */
     public static final int GroupRecyclerView_group_center=1;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#group_child_offset}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#group_child_offset}
      * attribute's value can be found in the {@link #GroupRecyclerView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11081,21 +11085,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.topvs.platform:group_child_offset
+     * @attr name com.zhou.djqjzgwj:group_child_offset
      */
     public static final int GroupRecyclerView_group_child_offset=2;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#group_has_header}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#group_has_header}
      * attribute's value can be found in the {@link #GroupRecyclerView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.topvs.platform:group_has_header
+     * @attr name com.zhou.djqjzgwj:group_has_header
      */
     public static final int GroupRecyclerView_group_has_header=3;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#group_height}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#group_height}
      * attribute's value can be found in the {@link #GroupRecyclerView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11104,11 +11108,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.topvs.platform:group_height
+     * @attr name com.zhou.djqjzgwj:group_height
      */
     public static final int GroupRecyclerView_group_height=4;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#group_padding_left}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#group_padding_left}
      * attribute's value can be found in the {@link #GroupRecyclerView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11117,11 +11121,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.topvs.platform:group_padding_left
+     * @attr name com.zhou.djqjzgwj:group_padding_left
      */
     public static final int GroupRecyclerView_group_padding_left=5;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#group_padding_right}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#group_padding_right}
      * attribute's value can be found in the {@link #GroupRecyclerView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11130,22 +11134,22 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.topvs.platform:group_padding_right
+     * @attr name com.zhou.djqjzgwj:group_padding_right
      */
     public static final int GroupRecyclerView_group_padding_right=6;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#group_text_color}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#group_text_color}
      * attribute's value can be found in the {@link #GroupRecyclerView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.topvs.platform:group_text_color
+     * @attr name com.zhou.djqjzgwj:group_text_color
      */
     public static final int GroupRecyclerView_group_text_color=7;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#group_text_size}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#group_text_size}
      * attribute's value can be found in the {@link #GroupRecyclerView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11154,7 +11158,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.topvs.platform:group_text_size
+     * @attr name com.zhou.djqjzgwj:group_text_size
      */
     public static final int GroupRecyclerView_group_text_size=8;
     /**
@@ -11200,10 +11204,10 @@ public final class R {
      * <tr><td><code>{@link #LinearLayoutCompat_android_baselineAligned android:baselineAligned}</code></td><td></td></tr>
      * <tr><td><code>{@link #LinearLayoutCompat_android_baselineAlignedChildIndex android:baselineAlignedChildIndex}</code></td><td></td></tr>
      * <tr><td><code>{@link #LinearLayoutCompat_android_weightSum android:weightSum}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LinearLayoutCompat_divider com.topvs.platform:divider}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LinearLayoutCompat_dividerPadding com.topvs.platform:dividerPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LinearLayoutCompat_measureWithLargestChild com.topvs.platform:measureWithLargestChild}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LinearLayoutCompat_showDividers com.topvs.platform:showDividers}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LinearLayoutCompat_divider com.zhou.djqjzgwj:divider}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LinearLayoutCompat_dividerPadding com.zhou.djqjzgwj:dividerPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LinearLayoutCompat_measureWithLargestChild com.zhou.djqjzgwj:measureWithLargestChild}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LinearLayoutCompat_showDividers com.zhou.djqjzgwj:showDividers}</code></td><td></td></tr>
      * </table>
      * @see #LinearLayoutCompat_android_gravity
      * @see #LinearLayoutCompat_android_orientation
@@ -11399,7 +11403,7 @@ public final class R {
      */
     public static final int LinearLayoutCompat_android_weightSum=4;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#divider}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#divider}
      * attribute's value can be found in the {@link #LinearLayoutCompat} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11407,11 +11411,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.topvs.platform:divider
+     * @attr name com.zhou.djqjzgwj:divider
      */
     public static final int LinearLayoutCompat_divider=5;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#dividerPadding}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#dividerPadding}
      * attribute's value can be found in the {@link #LinearLayoutCompat} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11420,21 +11424,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.topvs.platform:dividerPadding
+     * @attr name com.zhou.djqjzgwj:dividerPadding
      */
     public static final int LinearLayoutCompat_dividerPadding=6;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#measureWithLargestChild}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#measureWithLargestChild}
      * attribute's value can be found in the {@link #LinearLayoutCompat} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.topvs.platform:measureWithLargestChild
+     * @attr name com.zhou.djqjzgwj:measureWithLargestChild
      */
     public static final int LinearLayoutCompat_measureWithLargestChild=7;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#showDividers}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#showDividers}
      * attribute's value can be found in the {@link #LinearLayoutCompat} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -11449,7 +11453,7 @@ public final class R {
      * <tr><td>none</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.topvs.platform:showDividers
+     * @attr name com.zhou.djqjzgwj:showDividers
      */
     public static final int LinearLayoutCompat_showDividers=8;
     /**
@@ -11617,16 +11621,16 @@ public final class R {
      * <tr><td><code>{@link #MenuItem_android_numericShortcut android:numericShortcut}</code></td><td></td></tr>
      * <tr><td><code>{@link #MenuItem_android_checkable android:checkable}</code></td><td></td></tr>
      * <tr><td><code>{@link #MenuItem_android_onClick android:onClick}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_actionLayout com.topvs.platform:actionLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_actionProviderClass com.topvs.platform:actionProviderClass}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_actionViewClass com.topvs.platform:actionViewClass}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_alphabeticModifiers com.topvs.platform:alphabeticModifiers}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_contentDescription com.topvs.platform:contentDescription}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_iconTint com.topvs.platform:iconTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_iconTintMode com.topvs.platform:iconTintMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_numericModifiers com.topvs.platform:numericModifiers}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_showAsAction com.topvs.platform:showAsAction}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_tooltipText com.topvs.platform:tooltipText}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_actionLayout com.zhou.djqjzgwj:actionLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_actionProviderClass com.zhou.djqjzgwj:actionProviderClass}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_actionViewClass com.zhou.djqjzgwj:actionViewClass}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_alphabeticModifiers com.zhou.djqjzgwj:alphabeticModifiers}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_contentDescription com.zhou.djqjzgwj:contentDescription}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_iconTint com.zhou.djqjzgwj:iconTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_iconTintMode com.zhou.djqjzgwj:iconTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_numericModifiers com.zhou.djqjzgwj:numericModifiers}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_showAsAction com.zhou.djqjzgwj:showAsAction}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_tooltipText com.zhou.djqjzgwj:tooltipText}</code></td><td></td></tr>
      * </table>
      * @see #MenuItem_android_icon
      * @see #MenuItem_android_enabled
@@ -11661,7 +11665,7 @@ public final class R {
         0x7f0300f7, 0x7f03011e, 0x7f030159
       };
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#actionLayout}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#actionLayout}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11669,31 +11673,31 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.topvs.platform:actionLayout
+     * @attr name com.zhou.djqjzgwj:actionLayout
      */
     public static final int MenuItem_actionLayout=13;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#actionProviderClass}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#actionProviderClass}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.topvs.platform:actionProviderClass
+     * @attr name com.zhou.djqjzgwj:actionProviderClass
      */
     public static final int MenuItem_actionProviderClass=14;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#actionViewClass}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#actionViewClass}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.topvs.platform:actionViewClass
+     * @attr name com.zhou.djqjzgwj:actionViewClass
      */
     public static final int MenuItem_actionViewClass=15;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#alphabeticModifiers}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#alphabeticModifiers}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -11710,7 +11714,7 @@ public final class R {
      * <tr><td>SYM</td><td>4</td><td></td></tr>
      * </table>
      *
-     * @attr name com.topvs.platform:alphabeticModifiers
+     * @attr name com.zhou.djqjzgwj:alphabeticModifiers
      */
     public static final int MenuItem_alphabeticModifiers=16;
     /**
@@ -11856,28 +11860,28 @@ public final class R {
      */
     public static final int MenuItem_android_visible=4;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#contentDescription}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#contentDescription}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.topvs.platform:contentDescription
+     * @attr name com.zhou.djqjzgwj:contentDescription
      */
     public static final int MenuItem_contentDescription=17;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#iconTint}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#iconTint}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.topvs.platform:iconTint
+     * @attr name com.zhou.djqjzgwj:iconTint
      */
     public static final int MenuItem_iconTint=18;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#iconTintMode}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#iconTintMode}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -11894,11 +11898,11 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.topvs.platform:iconTintMode
+     * @attr name com.zhou.djqjzgwj:iconTintMode
      */
     public static final int MenuItem_iconTintMode=19;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#numericModifiers}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#numericModifiers}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -11915,11 +11919,11 @@ public final class R {
      * <tr><td>SYM</td><td>4</td><td></td></tr>
      * </table>
      *
-     * @attr name com.topvs.platform:numericModifiers
+     * @attr name com.zhou.djqjzgwj:numericModifiers
      */
     public static final int MenuItem_numericModifiers=20;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#showAsAction}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#showAsAction}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -11935,17 +11939,17 @@ public final class R {
      * <tr><td>withText</td><td>4</td><td></td></tr>
      * </table>
      *
-     * @attr name com.topvs.platform:showAsAction
+     * @attr name com.zhou.djqjzgwj:showAsAction
      */
     public static final int MenuItem_showAsAction=21;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#tooltipText}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#tooltipText}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.topvs.platform:tooltipText
+     * @attr name com.zhou.djqjzgwj:tooltipText
      */
     public static final int MenuItem_tooltipText=22;
     /**
@@ -11962,8 +11966,8 @@ public final class R {
      * <tr><td><code>{@link #MenuView_android_headerBackground android:headerBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #MenuView_android_itemBackground android:itemBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #MenuView_android_itemIconDisabledAlpha android:itemIconDisabledAlpha}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuView_preserveIconSpacing com.topvs.platform:preserveIconSpacing}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuView_subMenuArrow com.topvs.platform:subMenuArrow}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuView_preserveIconSpacing com.zhou.djqjzgwj:preserveIconSpacing}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuView_subMenuArrow com.zhou.djqjzgwj:subMenuArrow}</code></td><td></td></tr>
      * </table>
      * @see #MenuView_android_windowAnimationStyle
      * @see #MenuView_android_itemTextAppearance
@@ -12068,17 +12072,17 @@ public final class R {
      */
     public static final int MenuView_android_windowAnimationStyle=0;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#preserveIconSpacing}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#preserveIconSpacing}
      * attribute's value can be found in the {@link #MenuView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.topvs.platform:preserveIconSpacing
+     * @attr name com.zhou.djqjzgwj:preserveIconSpacing
      */
     public static final int MenuView_preserveIconSpacing=7;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#subMenuArrow}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#subMenuArrow}
      * attribute's value can be found in the {@link #MenuView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12086,7 +12090,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.topvs.platform:subMenuArrow
+     * @attr name com.zhou.djqjzgwj:subMenuArrow
      */
     public static final int MenuView_subMenuArrow=8;
     /**
@@ -12098,7 +12102,7 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #PopupWindow_android_popupBackground android:popupBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #PopupWindow_android_popupAnimationStyle android:popupAnimationStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #PopupWindow_overlapAnchor com.topvs.platform:overlapAnchor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #PopupWindow_overlapAnchor com.zhou.djqjzgwj:overlapAnchor}</code></td><td></td></tr>
      * </table>
      * @see #PopupWindow_android_popupBackground
      * @see #PopupWindow_android_popupAnimationStyle
@@ -12114,7 +12118,7 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #PopupWindowBackgroundState_state_above_anchor com.topvs.platform:state_above_anchor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #PopupWindowBackgroundState_state_above_anchor com.zhou.djqjzgwj:state_above_anchor}</code></td><td></td></tr>
      * </table>
      * @see #PopupWindowBackgroundState_state_above_anchor
      */
@@ -12122,13 +12126,13 @@ public final class R {
         0x7f03012a
       };
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#state_above_anchor}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#state_above_anchor}
      * attribute's value can be found in the {@link #PopupWindowBackgroundState} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.topvs.platform:state_above_anchor
+     * @attr name com.zhou.djqjzgwj:state_above_anchor
      */
     public static final int PopupWindowBackgroundState_state_above_anchor=0;
     /**
@@ -12159,13 +12163,13 @@ public final class R {
      */
     public static final int PopupWindow_android_popupBackground=0;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#overlapAnchor}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#overlapAnchor}
      * attribute's value can be found in the {@link #PopupWindow} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.topvs.platform:overlapAnchor
+     * @attr name com.zhou.djqjzgwj:overlapAnchor
      */
     public static final int PopupWindow_overlapAnchor=2;
     /**
@@ -12175,8 +12179,8 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #RecycleListView_paddingBottomNoButtons com.topvs.platform:paddingBottomNoButtons}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecycleListView_paddingTopNoTitle com.topvs.platform:paddingTopNoTitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecycleListView_paddingBottomNoButtons com.zhou.djqjzgwj:paddingBottomNoButtons}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecycleListView_paddingTopNoTitle com.zhou.djqjzgwj:paddingTopNoTitle}</code></td><td></td></tr>
      * </table>
      * @see #RecycleListView_paddingBottomNoButtons
      * @see #RecycleListView_paddingTopNoTitle
@@ -12185,7 +12189,7 @@ public final class R {
         0x7f0300fb, 0x7f0300fe
       };
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#paddingBottomNoButtons}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#paddingBottomNoButtons}
      * attribute's value can be found in the {@link #RecycleListView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12194,11 +12198,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.topvs.platform:paddingBottomNoButtons
+     * @attr name com.zhou.djqjzgwj:paddingBottomNoButtons
      */
     public static final int RecycleListView_paddingBottomNoButtons=0;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#paddingTopNoTitle}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#paddingTopNoTitle}
      * attribute's value can be found in the {@link #RecycleListView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12207,7 +12211,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.topvs.platform:paddingTopNoTitle
+     * @attr name com.zhou.djqjzgwj:paddingTopNoTitle
      */
     public static final int RecycleListView_paddingTopNoTitle=1;
     /**
@@ -12218,10 +12222,10 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #RecyclerView_android_orientation android:orientation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_layoutManager com.topvs.platform:layoutManager}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_reverseLayout com.topvs.platform:reverseLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_spanCount com.topvs.platform:spanCount}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_stackFromEnd com.topvs.platform:stackFromEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_layoutManager com.zhou.djqjzgwj:layoutManager}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_reverseLayout com.zhou.djqjzgwj:reverseLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_spanCount com.zhou.djqjzgwj:spanCount}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_stackFromEnd com.zhou.djqjzgwj:stackFromEnd}</code></td><td></td></tr>
      * </table>
      * @see #RecyclerView_android_orientation
      * @see #RecyclerView_layoutManager
@@ -12251,42 +12255,42 @@ public final class R {
      */
     public static final int RecyclerView_android_orientation=0;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#layoutManager}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#layoutManager}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.topvs.platform:layoutManager
+     * @attr name com.zhou.djqjzgwj:layoutManager
      */
     public static final int RecyclerView_layoutManager=1;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#reverseLayout}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#reverseLayout}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.topvs.platform:reverseLayout
+     * @attr name com.zhou.djqjzgwj:reverseLayout
      */
     public static final int RecyclerView_reverseLayout=2;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#spanCount}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#spanCount}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.topvs.platform:spanCount
+     * @attr name com.zhou.djqjzgwj:spanCount
      */
     public static final int RecyclerView_spanCount=3;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#stackFromEnd}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#stackFromEnd}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.topvs.platform:stackFromEnd
+     * @attr name com.zhou.djqjzgwj:stackFromEnd
      */
     public static final int RecyclerView_stackFromEnd=4;
     /**
@@ -12300,19 +12304,19 @@ public final class R {
      * <tr><td><code>{@link #SearchView_android_maxWidth android:maxWidth}</code></td><td></td></tr>
      * <tr><td><code>{@link #SearchView_android_inputType android:inputType}</code></td><td></td></tr>
      * <tr><td><code>{@link #SearchView_android_imeOptions android:imeOptions}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_closeIcon com.topvs.platform:closeIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_commitIcon com.topvs.platform:commitIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_defaultQueryHint com.topvs.platform:defaultQueryHint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_goIcon com.topvs.platform:goIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_iconifiedByDefault com.topvs.platform:iconifiedByDefault}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_layout com.topvs.platform:layout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_queryBackground com.topvs.platform:queryBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_queryHint com.topvs.platform:queryHint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_searchHintIcon com.topvs.platform:searchHintIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_searchIcon com.topvs.platform:searchIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_submitBackground com.topvs.platform:submitBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_suggestionRowLayout com.topvs.platform:suggestionRowLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_voiceIcon com.topvs.platform:voiceIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_closeIcon com.zhou.djqjzgwj:closeIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_commitIcon com.zhou.djqjzgwj:commitIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_defaultQueryHint com.zhou.djqjzgwj:defaultQueryHint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_goIcon com.zhou.djqjzgwj:goIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_iconifiedByDefault com.zhou.djqjzgwj:iconifiedByDefault}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_layout com.zhou.djqjzgwj:layout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_queryBackground com.zhou.djqjzgwj:queryBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_queryHint com.zhou.djqjzgwj:queryHint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_searchHintIcon com.zhou.djqjzgwj:searchHintIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_searchIcon com.zhou.djqjzgwj:searchIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_submitBackground com.zhou.djqjzgwj:submitBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_suggestionRowLayout com.zhou.djqjzgwj:suggestionRowLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_voiceIcon com.zhou.djqjzgwj:voiceIcon}</code></td><td></td></tr>
      * </table>
      * @see #SearchView_android_focusable
      * @see #SearchView_android_maxWidth
@@ -12450,7 +12454,7 @@ public final class R {
      */
     public static final int SearchView_android_maxWidth=1;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#closeIcon}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#closeIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12458,11 +12462,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.topvs.platform:closeIcon
+     * @attr name com.zhou.djqjzgwj:closeIcon
      */
     public static final int SearchView_closeIcon=4;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#commitIcon}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#commitIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12470,21 +12474,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.topvs.platform:commitIcon
+     * @attr name com.zhou.djqjzgwj:commitIcon
      */
     public static final int SearchView_commitIcon=5;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#defaultQueryHint}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#defaultQueryHint}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.topvs.platform:defaultQueryHint
+     * @attr name com.zhou.djqjzgwj:defaultQueryHint
      */
     public static final int SearchView_defaultQueryHint=6;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#goIcon}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#goIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12492,21 +12496,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.topvs.platform:goIcon
+     * @attr name com.zhou.djqjzgwj:goIcon
      */
     public static final int SearchView_goIcon=7;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#iconifiedByDefault}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#iconifiedByDefault}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.topvs.platform:iconifiedByDefault
+     * @attr name com.zhou.djqjzgwj:iconifiedByDefault
      */
     public static final int SearchView_iconifiedByDefault=8;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#layout}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#layout}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12514,11 +12518,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.topvs.platform:layout
+     * @attr name com.zhou.djqjzgwj:layout
      */
     public static final int SearchView_layout=9;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#queryBackground}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#queryBackground}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12526,21 +12530,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.topvs.platform:queryBackground
+     * @attr name com.zhou.djqjzgwj:queryBackground
      */
     public static final int SearchView_queryBackground=10;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#queryHint}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#queryHint}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.topvs.platform:queryHint
+     * @attr name com.zhou.djqjzgwj:queryHint
      */
     public static final int SearchView_queryHint=11;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#searchHintIcon}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#searchHintIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12548,11 +12552,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.topvs.platform:searchHintIcon
+     * @attr name com.zhou.djqjzgwj:searchHintIcon
      */
     public static final int SearchView_searchHintIcon=12;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#searchIcon}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#searchIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12560,11 +12564,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.topvs.platform:searchIcon
+     * @attr name com.zhou.djqjzgwj:searchIcon
      */
     public static final int SearchView_searchIcon=13;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#submitBackground}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#submitBackground}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12572,11 +12576,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.topvs.platform:submitBackground
+     * @attr name com.zhou.djqjzgwj:submitBackground
      */
     public static final int SearchView_submitBackground=14;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#suggestionRowLayout}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#suggestionRowLayout}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12584,11 +12588,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.topvs.platform:suggestionRowLayout
+     * @attr name com.zhou.djqjzgwj:suggestionRowLayout
      */
     public static final int SearchView_suggestionRowLayout=15;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#voiceIcon}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#voiceIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12596,7 +12600,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.topvs.platform:voiceIcon
+     * @attr name com.zhou.djqjzgwj:voiceIcon
      */
     public static final int SearchView_voiceIcon=16;
     /**
@@ -12610,7 +12614,7 @@ public final class R {
      * <tr><td><code>{@link #Spinner_android_popupBackground android:popupBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #Spinner_android_prompt android:prompt}</code></td><td></td></tr>
      * <tr><td><code>{@link #Spinner_android_dropDownWidth android:dropDownWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Spinner_popupTheme com.topvs.platform:popupTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Spinner_popupTheme com.zhou.djqjzgwj:popupTheme}</code></td><td></td></tr>
      * </table>
      * @see #Spinner_android_entries
      * @see #Spinner_android_popupBackground
@@ -12685,7 +12689,7 @@ public final class R {
      */
     public static final int Spinner_android_prompt=2;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#popupTheme}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#popupTheme}
      * attribute's value can be found in the {@link #Spinner} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12693,7 +12697,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.topvs.platform:popupTheme
+     * @attr name com.zhou.djqjzgwj:popupTheme
      */
     public static final int Spinner_popupTheme=4;
     /**
@@ -12706,17 +12710,17 @@ public final class R {
      * <tr><td><code>{@link #SwitchCompat_android_textOn android:textOn}</code></td><td></td></tr>
      * <tr><td><code>{@link #SwitchCompat_android_textOff android:textOff}</code></td><td></td></tr>
      * <tr><td><code>{@link #SwitchCompat_android_thumb android:thumb}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_showText com.topvs.platform:showText}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_splitTrack com.topvs.platform:splitTrack}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_switchMinWidth com.topvs.platform:switchMinWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_switchPadding com.topvs.platform:switchPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_switchTextAppearance com.topvs.platform:switchTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_thumbTextPadding com.topvs.platform:thumbTextPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_thumbTint com.topvs.platform:thumbTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_thumbTintMode com.topvs.platform:thumbTintMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_track com.topvs.platform:track}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_trackTint com.topvs.platform:trackTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_trackTintMode com.topvs.platform:trackTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_showText com.zhou.djqjzgwj:showText}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_splitTrack com.zhou.djqjzgwj:splitTrack}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_switchMinWidth com.zhou.djqjzgwj:switchMinWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_switchPadding com.zhou.djqjzgwj:switchPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_switchTextAppearance com.zhou.djqjzgwj:switchTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_thumbTextPadding com.zhou.djqjzgwj:thumbTextPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_thumbTint com.zhou.djqjzgwj:thumbTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_thumbTintMode com.zhou.djqjzgwj:thumbTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_track com.zhou.djqjzgwj:track}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_trackTint com.zhou.djqjzgwj:trackTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_trackTintMode com.zhou.djqjzgwj:trackTintMode}</code></td><td></td></tr>
      * </table>
      * @see #SwitchCompat_android_textOn
      * @see #SwitchCompat_android_textOff
@@ -12772,27 +12776,27 @@ public final class R {
      */
     public static final int SwitchCompat_android_thumb=2;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#showText}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#showText}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.topvs.platform:showText
+     * @attr name com.zhou.djqjzgwj:showText
      */
     public static final int SwitchCompat_showText=3;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#splitTrack}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#splitTrack}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.topvs.platform:splitTrack
+     * @attr name com.zhou.djqjzgwj:splitTrack
      */
     public static final int SwitchCompat_splitTrack=4;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#switchMinWidth}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#switchMinWidth}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12801,11 +12805,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.topvs.platform:switchMinWidth
+     * @attr name com.zhou.djqjzgwj:switchMinWidth
      */
     public static final int SwitchCompat_switchMinWidth=5;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#switchPadding}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#switchPadding}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12814,11 +12818,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.topvs.platform:switchPadding
+     * @attr name com.zhou.djqjzgwj:switchPadding
      */
     public static final int SwitchCompat_switchPadding=6;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#switchTextAppearance}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#switchTextAppearance}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12826,11 +12830,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.topvs.platform:switchTextAppearance
+     * @attr name com.zhou.djqjzgwj:switchTextAppearance
      */
     public static final int SwitchCompat_switchTextAppearance=7;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#thumbTextPadding}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#thumbTextPadding}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12839,22 +12843,22 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.topvs.platform:thumbTextPadding
+     * @attr name com.zhou.djqjzgwj:thumbTextPadding
      */
     public static final int SwitchCompat_thumbTextPadding=8;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#thumbTint}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#thumbTint}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.topvs.platform:thumbTint
+     * @attr name com.zhou.djqjzgwj:thumbTint
      */
     public static final int SwitchCompat_thumbTint=9;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#thumbTintMode}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#thumbTintMode}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -12871,11 +12875,11 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.topvs.platform:thumbTintMode
+     * @attr name com.zhou.djqjzgwj:thumbTintMode
      */
     public static final int SwitchCompat_thumbTintMode=10;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#track}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#track}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12883,22 +12887,22 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.topvs.platform:track
+     * @attr name com.zhou.djqjzgwj:track
      */
     public static final int SwitchCompat_track=11;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#trackTint}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#trackTint}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.topvs.platform:trackTint
+     * @attr name com.zhou.djqjzgwj:trackTint
      */
     public static final int SwitchCompat_trackTint=12;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#trackTintMode}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#trackTintMode}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -12915,7 +12919,7 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.topvs.platform:trackTintMode
+     * @attr name com.zhou.djqjzgwj:trackTintMode
      */
     public static final int SwitchCompat_trackTintMode=13;
     /**
@@ -12936,8 +12940,8 @@ public final class R {
      * <tr><td><code>{@link #TextAppearance_android_shadowDy android:shadowDy}</code></td><td></td></tr>
      * <tr><td><code>{@link #TextAppearance_android_shadowRadius android:shadowRadius}</code></td><td></td></tr>
      * <tr><td><code>{@link #TextAppearance_android_fontFamily android:fontFamily}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextAppearance_fontFamily com.topvs.platform:fontFamily}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextAppearance_textAllCaps com.topvs.platform:textAllCaps}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextAppearance_fontFamily com.zhou.djqjzgwj:fontFamily}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextAppearance_textAllCaps com.zhou.djqjzgwj:textAllCaps}</code></td><td></td></tr>
      * </table>
      * @see #TextAppearance_android_textSize
      * @see #TextAppearance_android_typeface
@@ -13103,17 +13107,17 @@ public final class R {
      */
     public static final int TextAppearance_android_typeface=1;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#fontFamily}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#fontFamily}
      * attribute's value can be found in the {@link #TextAppearance} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.topvs.platform:fontFamily
+     * @attr name com.zhou.djqjzgwj:fontFamily
      */
     public static final int TextAppearance_fontFamily=11;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#textAllCaps}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#textAllCaps}
      * attribute's value can be found in the {@link #TextAppearance} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13123,7 +13127,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.topvs.platform:textAllCaps
+     * @attr name com.zhou.djqjzgwj:textAllCaps
      */
     public static final int TextAppearance_textAllCaps=12;
     /**
@@ -13135,33 +13139,33 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #Toolbar_android_gravity android:gravity}</code></td><td></td></tr>
      * <tr><td><code>{@link #Toolbar_android_minHeight android:minHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_buttonGravity com.topvs.platform:buttonGravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_collapseContentDescription com.topvs.platform:collapseContentDescription}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_collapseIcon com.topvs.platform:collapseIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetEnd com.topvs.platform:contentInsetEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetEndWithActions com.topvs.platform:contentInsetEndWithActions}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetLeft com.topvs.platform:contentInsetLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetRight com.topvs.platform:contentInsetRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetStart com.topvs.platform:contentInsetStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetStartWithNavigation com.topvs.platform:contentInsetStartWithNavigation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_logo com.topvs.platform:logo}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_logoDescription com.topvs.platform:logoDescription}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_maxButtonHeight com.topvs.platform:maxButtonHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_navigationContentDescription com.topvs.platform:navigationContentDescription}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_navigationIcon com.topvs.platform:navigationIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_popupTheme com.topvs.platform:popupTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_subtitle com.topvs.platform:subtitle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_subtitleTextAppearance com.topvs.platform:subtitleTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_subtitleTextColor com.topvs.platform:subtitleTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_title com.topvs.platform:title}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMargin com.topvs.platform:titleMargin}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMarginBottom com.topvs.platform:titleMarginBottom}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMarginEnd com.topvs.platform:titleMarginEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMarginStart com.topvs.platform:titleMarginStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMarginTop com.topvs.platform:titleMarginTop}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMargins com.topvs.platform:titleMargins}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleTextAppearance com.topvs.platform:titleTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleTextColor com.topvs.platform:titleTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_buttonGravity com.zhou.djqjzgwj:buttonGravity}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_collapseContentDescription com.zhou.djqjzgwj:collapseContentDescription}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_collapseIcon com.zhou.djqjzgwj:collapseIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetEnd com.zhou.djqjzgwj:contentInsetEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetEndWithActions com.zhou.djqjzgwj:contentInsetEndWithActions}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetLeft com.zhou.djqjzgwj:contentInsetLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetRight com.zhou.djqjzgwj:contentInsetRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetStart com.zhou.djqjzgwj:contentInsetStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetStartWithNavigation com.zhou.djqjzgwj:contentInsetStartWithNavigation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_logo com.zhou.djqjzgwj:logo}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_logoDescription com.zhou.djqjzgwj:logoDescription}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_maxButtonHeight com.zhou.djqjzgwj:maxButtonHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_navigationContentDescription com.zhou.djqjzgwj:navigationContentDescription}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_navigationIcon com.zhou.djqjzgwj:navigationIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_popupTheme com.zhou.djqjzgwj:popupTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_subtitle com.zhou.djqjzgwj:subtitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_subtitleTextAppearance com.zhou.djqjzgwj:subtitleTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_subtitleTextColor com.zhou.djqjzgwj:subtitleTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_title com.zhou.djqjzgwj:title}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMargin com.zhou.djqjzgwj:titleMargin}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMarginBottom com.zhou.djqjzgwj:titleMarginBottom}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMarginEnd com.zhou.djqjzgwj:titleMarginEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMarginStart com.zhou.djqjzgwj:titleMarginStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMarginTop com.zhou.djqjzgwj:titleMarginTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMargins com.zhou.djqjzgwj:titleMargins}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleTextAppearance com.zhou.djqjzgwj:titleTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleTextColor com.zhou.djqjzgwj:titleTextColor}</code></td><td></td></tr>
      * </table>
      * @see #Toolbar_android_gravity
      * @see #Toolbar_android_minHeight
@@ -13246,7 +13250,7 @@ public final class R {
      */
     public static final int Toolbar_android_minHeight=1;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#buttonGravity}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#buttonGravity}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -13259,21 +13263,21 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      *
-     * @attr name com.topvs.platform:buttonGravity
+     * @attr name com.zhou.djqjzgwj:buttonGravity
      */
     public static final int Toolbar_buttonGravity=2;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#collapseContentDescription}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#collapseContentDescription}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.topvs.platform:collapseContentDescription
+     * @attr name com.zhou.djqjzgwj:collapseContentDescription
      */
     public static final int Toolbar_collapseContentDescription=3;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#collapseIcon}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#collapseIcon}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13281,11 +13285,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.topvs.platform:collapseIcon
+     * @attr name com.zhou.djqjzgwj:collapseIcon
      */
     public static final int Toolbar_collapseIcon=4;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#contentInsetEnd}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#contentInsetEnd}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13294,11 +13298,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.topvs.platform:contentInsetEnd
+     * @attr name com.zhou.djqjzgwj:contentInsetEnd
      */
     public static final int Toolbar_contentInsetEnd=5;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#contentInsetEndWithActions}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#contentInsetEndWithActions}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13307,11 +13311,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.topvs.platform:contentInsetEndWithActions
+     * @attr name com.zhou.djqjzgwj:contentInsetEndWithActions
      */
     public static final int Toolbar_contentInsetEndWithActions=6;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#contentInsetLeft}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#contentInsetLeft}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13320,11 +13324,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.topvs.platform:contentInsetLeft
+     * @attr name com.zhou.djqjzgwj:contentInsetLeft
      */
     public static final int Toolbar_contentInsetLeft=7;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#contentInsetRight}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#contentInsetRight}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13333,11 +13337,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.topvs.platform:contentInsetRight
+     * @attr name com.zhou.djqjzgwj:contentInsetRight
      */
     public static final int Toolbar_contentInsetRight=8;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#contentInsetStart}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#contentInsetStart}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13346,11 +13350,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.topvs.platform:contentInsetStart
+     * @attr name com.zhou.djqjzgwj:contentInsetStart
      */
     public static final int Toolbar_contentInsetStart=9;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#contentInsetStartWithNavigation}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#contentInsetStartWithNavigation}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13359,11 +13363,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.topvs.platform:contentInsetStartWithNavigation
+     * @attr name com.zhou.djqjzgwj:contentInsetStartWithNavigation
      */
     public static final int Toolbar_contentInsetStartWithNavigation=10;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#logo}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#logo}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13371,21 +13375,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.topvs.platform:logo
+     * @attr name com.zhou.djqjzgwj:logo
      */
     public static final int Toolbar_logo=11;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#logoDescription}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#logoDescription}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.topvs.platform:logoDescription
+     * @attr name com.zhou.djqjzgwj:logoDescription
      */
     public static final int Toolbar_logoDescription=12;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#maxButtonHeight}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#maxButtonHeight}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13394,21 +13398,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.topvs.platform:maxButtonHeight
+     * @attr name com.zhou.djqjzgwj:maxButtonHeight
      */
     public static final int Toolbar_maxButtonHeight=13;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#navigationContentDescription}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#navigationContentDescription}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.topvs.platform:navigationContentDescription
+     * @attr name com.zhou.djqjzgwj:navigationContentDescription
      */
     public static final int Toolbar_navigationContentDescription=14;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#navigationIcon}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#navigationIcon}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13416,11 +13420,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.topvs.platform:navigationIcon
+     * @attr name com.zhou.djqjzgwj:navigationIcon
      */
     public static final int Toolbar_navigationIcon=15;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#popupTheme}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#popupTheme}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13428,21 +13432,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.topvs.platform:popupTheme
+     * @attr name com.zhou.djqjzgwj:popupTheme
      */
     public static final int Toolbar_popupTheme=16;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#subtitle}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#subtitle}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.topvs.platform:subtitle
+     * @attr name com.zhou.djqjzgwj:subtitle
      */
     public static final int Toolbar_subtitle=17;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#subtitleTextAppearance}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#subtitleTextAppearance}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13450,32 +13454,32 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.topvs.platform:subtitleTextAppearance
+     * @attr name com.zhou.djqjzgwj:subtitleTextAppearance
      */
     public static final int Toolbar_subtitleTextAppearance=18;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#subtitleTextColor}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#subtitleTextColor}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.topvs.platform:subtitleTextColor
+     * @attr name com.zhou.djqjzgwj:subtitleTextColor
      */
     public static final int Toolbar_subtitleTextColor=19;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#title}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#title}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.topvs.platform:title
+     * @attr name com.zhou.djqjzgwj:title
      */
     public static final int Toolbar_title=20;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#titleMargin}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#titleMargin}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13484,11 +13488,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.topvs.platform:titleMargin
+     * @attr name com.zhou.djqjzgwj:titleMargin
      */
     public static final int Toolbar_titleMargin=21;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#titleMarginBottom}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#titleMarginBottom}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13497,11 +13501,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.topvs.platform:titleMarginBottom
+     * @attr name com.zhou.djqjzgwj:titleMarginBottom
      */
     public static final int Toolbar_titleMarginBottom=22;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#titleMarginEnd}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#titleMarginEnd}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13510,11 +13514,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.topvs.platform:titleMarginEnd
+     * @attr name com.zhou.djqjzgwj:titleMarginEnd
      */
     public static final int Toolbar_titleMarginEnd=23;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#titleMarginStart}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#titleMarginStart}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13523,11 +13527,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.topvs.platform:titleMarginStart
+     * @attr name com.zhou.djqjzgwj:titleMarginStart
      */
     public static final int Toolbar_titleMarginStart=24;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#titleMarginTop}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#titleMarginTop}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13536,11 +13540,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.topvs.platform:titleMarginTop
+     * @attr name com.zhou.djqjzgwj:titleMarginTop
      */
     public static final int Toolbar_titleMarginTop=25;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#titleMargins}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#titleMargins}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13549,11 +13553,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.topvs.platform:titleMargins
+     * @attr name com.zhou.djqjzgwj:titleMargins
      */
     public static final int Toolbar_titleMargins=26;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#titleTextAppearance}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#titleTextAppearance}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13561,18 +13565,18 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.topvs.platform:titleTextAppearance
+     * @attr name com.zhou.djqjzgwj:titleTextAppearance
      */
     public static final int Toolbar_titleTextAppearance=27;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#titleTextColor}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#titleTextColor}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.topvs.platform:titleTextColor
+     * @attr name com.zhou.djqjzgwj:titleTextColor
      */
     public static final int Toolbar_titleTextColor=28;
     /**
@@ -13584,9 +13588,9 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #View_android_theme android:theme}</code></td><td></td></tr>
      * <tr><td><code>{@link #View_android_focusable android:focusable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #View_paddingEnd com.topvs.platform:paddingEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #View_paddingStart com.topvs.platform:paddingStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #View_theme com.topvs.platform:theme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #View_paddingEnd com.zhou.djqjzgwj:paddingEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #View_paddingStart com.zhou.djqjzgwj:paddingStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #View_theme com.zhou.djqjzgwj:theme}</code></td><td></td></tr>
      * </table>
      * @see #View_android_theme
      * @see #View_android_focusable
@@ -13606,8 +13610,8 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #ViewBackgroundHelper_android_background android:background}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ViewBackgroundHelper_backgroundTint com.topvs.platform:backgroundTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ViewBackgroundHelper_backgroundTintMode com.topvs.platform:backgroundTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ViewBackgroundHelper_backgroundTint com.zhou.djqjzgwj:backgroundTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ViewBackgroundHelper_backgroundTintMode com.zhou.djqjzgwj:backgroundTintMode}</code></td><td></td></tr>
      * </table>
      * @see #ViewBackgroundHelper_android_background
      * @see #ViewBackgroundHelper_backgroundTint
@@ -13632,18 +13636,18 @@ public final class R {
      */
     public static final int ViewBackgroundHelper_android_background=0;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#backgroundTint}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#backgroundTint}
      * attribute's value can be found in the {@link #ViewBackgroundHelper} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.topvs.platform:backgroundTint
+     * @attr name com.zhou.djqjzgwj:backgroundTint
      */
     public static final int ViewBackgroundHelper_backgroundTint=1;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#backgroundTintMode}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#backgroundTintMode}
      * attribute's value can be found in the {@link #ViewBackgroundHelper} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -13659,7 +13663,7 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.topvs.platform:backgroundTintMode
+     * @attr name com.zhou.djqjzgwj:backgroundTintMode
      */
     public static final int ViewBackgroundHelper_backgroundTintMode=2;
     /**
@@ -13747,7 +13751,7 @@ public final class R {
      */
     public static final int View_android_theme=0;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#paddingEnd}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#paddingEnd}
      * attribute's value can be found in the {@link #View} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13756,11 +13760,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.topvs.platform:paddingEnd
+     * @attr name com.zhou.djqjzgwj:paddingEnd
      */
     public static final int View_paddingEnd=2;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#paddingStart}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#paddingStart}
      * attribute's value can be found in the {@link #View} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13769,11 +13773,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.topvs.platform:paddingStart
+     * @attr name com.zhou.djqjzgwj:paddingStart
      */
     public static final int View_paddingStart=3;
     /**
-     * <p>This symbol is the offset where the {@link com.topvs.platform.R.attr#theme}
+     * <p>This symbol is the offset where the {@link com.zhou.djqjzgwj.R.attr#theme}
      * attribute's value can be found in the {@link #View} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13781,7 +13785,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.topvs.platform:theme
+     * @attr name com.zhou.djqjzgwj:theme
      */
     public static final int View_theme=4;
   }
