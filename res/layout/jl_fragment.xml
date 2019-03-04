@@ -27,7 +27,6 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentRight="true"
-                android:text="2019-01-17 星期四"
                 android:textSize="17sp"
                 android:textStyle="bold" />
         </RelativeLayout>

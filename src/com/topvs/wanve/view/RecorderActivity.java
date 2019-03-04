@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.os.Build;
 import android.os.Bundle;
+import android.os.Handler;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
 import android.util.Log;
@@ -70,8 +71,8 @@ public class RecorderActivity extends Activity {
         });
 
         tryInit();
-
     }
+
 
     private void initC() {
 
@@ -92,19 +93,23 @@ public class RecorderActivity extends Activity {
 
             @Override
             public void onAnythingFailed(Exception e) {
-                ToastUtil.show(RecorderActivity.this, e.toString());
+                ToastUtil.show(RecorderActivity.this, "错误！拍摄请不要少于1秒");
                 e.printStackTrace();
             }
         });
+
 
         mButton.setOnTouchListener(new View.OnTouchListener() {
             @Override
             public boolean onTouch(View v, MotionEvent event) {
                 int action = event.getAction();
                 if (action == MotionEvent.ACTION_DOWN) {
+                    currentSecond =0;
+                    mhandle.post(timeRunable);
                     v.setPressed(true);
                     mCamcorder.prepareAsync();
                 } else if (action == MotionEvent.ACTION_UP) {
+                    mhandle.removeCallbacks(timeRunable);
                     mCamcorder.stopRecord();
                     v.setPressed(false);
                 } else if (action == MotionEvent.ACTION_OUTSIDE || action == MotionEvent.ACTION_CANCEL) {
@@ -114,6 +119,9 @@ public class RecorderActivity extends Activity {
             }
         });
 
+        /**
+         * 使用视频
+         */
         findViewById(R.id.use_video).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -201,5 +209,31 @@ public class RecorderActivity extends Activity {
                 tryInit();
             }
         }
+    }
+
+    /**
+     * 线程
+     */
+    private Runnable timeRunable = new Runnable() {
+        @Override
+        public void run() {
+            currentSecond = currentSecond + 1000;
+            tvTime.setText(getFormatHMS(currentSecond));
+            if (!isPause) {
+                //递归调用本runable对象，实现每隔一秒一次执行任务
+                mhandle.postDelayed(this, 1000);
+            }
+        }
+    };
+    //计时器
+    private Handler mhandle = new Handler();
+    private boolean isPause = false;//是否暂停
+    private long currentSecond = 0;//当前毫秒数
+    public static String getFormatHMS(long time){
+        time=time/1000;//总秒数
+        int s= (int) (time%60);//秒
+        int m= (int) (time/60);//分
+        int h=(int) (time/3600);//秒
+        return String.format("%02d:%02d:%02d",h,m,s);
     }
 }

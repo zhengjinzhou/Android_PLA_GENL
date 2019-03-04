@@ -66,7 +66,7 @@ public class JlFragment extends Fragment implements JlContract.View {
     private void initJl(View view) {
         Date date = new Date();
         SimpleDateFormat dateFm = new SimpleDateFormat("EEEE");
-        tvDate.setText(DateUtil.lineDate(date) + " " + dateFm.format(date));
+        tvDate.setText(DateUtil.lineDate(date)+" "+dateFm.format(date));
 
         tvName.setText(clockInBean.getUserName());
         tvNum.setText("班次："+clockInBean.getStartWorkTime()+"-"+clockInBean.getEndWorkTime());
@@ -85,8 +85,33 @@ public class JlFragment extends Fragment implements JlContract.View {
             @Override
             public void onCalendarSelect(Calendar calendar, boolean isClick) {
                 Log.d(TAG, isClick+"onCalendarSelect: " + calendar);
+                String week = "";
+                if (calendar.getWeek()==0){
+                    week = " 星期日";
+                }
+                if (calendar.getWeek()==1){
+                    week = " 星期一";
+                }
+                if (calendar.getWeek()==2){
+                    week = " 星期二";
+                }
+                if (calendar.getWeek()==3){
+                    week = " 星期三";
+                }
+                if (calendar.getWeek()==4){
+                    week = " 星期四";
+                }
+                if (calendar.getWeek()==5){
+                    week = " 星期五";
+                }
+                if (calendar.getWeek()==6){
+                    week = " 星期六";
+                }
+                String crdate = calendar+"";
+
+                tvDate.setText(crdate.substring(0,4)+"-"+crdate.substring(4,6)+"-"+crdate.substring(6,8)+week);
                 if (!isClick){
-                    String crdate = calendar+"";
+
                     presenter.GetAllRecords(crdate.substring(0, 6));
                 }
                 presenter.GetClockRecords(calendar + "");
