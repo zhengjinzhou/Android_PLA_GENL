@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.zhou.djqjzgwj"
     android:versionCode="5"
-    android:versionName="V5.0.7" >
+    android:versionName="V5.0.8" >
 
     <uses-sdk
         android:minSdkVersion="20"
@@ -60,8 +60,7 @@
         android:allowBackup="true"
         android:debuggable="true"
         android:icon="@drawable/icon"
-        android:label="@string/app_name"
-        android:testOnly="true" >
+        android:label="@string/app_name" >
         <meta-data
             android:name="TencentMapSDK"
             android:value="DHDBZ-BUMLF-WLMJA-JSJTQ-R5MQQ-XVF2B" />
@@ -142,6 +141,7 @@
         <activity
             android:name="com.topvs.wanve.view.RecorderActivity"
             android:configChanges="orientation"
+            android:screenOrientation="portrait"
             android:theme="@android:style/Theme.NoTitleBar" />
         <activity
             android:name="com.topvs.wanve.view.RlsbActivity"

@@ -108,10 +108,8 @@ public class JlFragment extends Fragment implements JlContract.View {
                     week = " 星期六";
                 }
                 String crdate = calendar+"";
-
                 tvDate.setText(crdate.substring(0,4)+"-"+crdate.substring(4,6)+"-"+crdate.substring(6,8)+week);
                 if (!isClick){
-
                     presenter.GetAllRecords(crdate.substring(0, 6));
                 }
                 presenter.GetClockRecords(calendar + "");

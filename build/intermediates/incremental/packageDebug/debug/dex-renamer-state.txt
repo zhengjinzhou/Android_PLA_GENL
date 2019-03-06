@@ -1,7 +1,7 @@
-#Mon Mar 04 11:42:41 CST 2019
-base.0=D\:\\AndroidStudioProject\\Android_PLA_GENL\\build\\intermediates\\transforms\\dexMerger\\debug\\13
+#Wed Mar 06 09:22:23 CST 2019
+base.0=D\:\\AndroidStudioProject\\Android_PLA_GENL\\build\\intermediates\\transforms\\dexMerger\\debug\\20
 renamed.1=classes2.dex
 renamed.0=classes.dex
-file.1=D\:\\AndroidStudioProject\\Android_PLA_GENL\\build\\intermediates\\transforms\\dexMerger\\debug\\14\\classes.dex
-base.1=D\:\\AndroidStudioProject\\Android_PLA_GENL\\build\\intermediates\\transforms\\dexMerger\\debug\\14
-file.0=D\:\\AndroidStudioProject\\Android_PLA_GENL\\build\\intermediates\\transforms\\dexMerger\\debug\\13\\classes.dex
+file.1=D\:\\AndroidStudioProject\\Android_PLA_GENL\\build\\intermediates\\transforms\\dexMerger\\debug\\20\\classes2.dex
+base.1=D\:\\AndroidStudioProject\\Android_PLA_GENL\\build\\intermediates\\transforms\\dexMerger\\debug\\20
+file.0=D\:\\AndroidStudioProject\\Android_PLA_GENL\\build\\intermediates\\transforms\\dexMerger\\debug\\20\\classes.dex

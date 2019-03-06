@@ -7,17 +7,24 @@
         android:layout_width="fill_parent"
         android:layout_height="match_parent" />
 
-
     <TextView
         android:id="@+id/tvTime"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_marginBottom="20dp"
+        android:layout_above="@+id/tvDes"
+        android:layout_centerHorizontal="true"
         android:layout_marginRight="20dp"
-        android:layout_toLeftOf="@+id/button_capture"
+        android:text="00:00:00"
         android:textColor="@color/daka"
         android:textSize="12dp" />
+
+    <TextView
+        android:id="@+id/tvDes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button_capture"
+        android:gravity="center"
+        android:textSize="16sp" />
 
     <Button
         android:id="@+id/button_capture"
@@ -25,8 +32,12 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="5dp"
-        android:text="按住录，松开停" />
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/bt_daka"
+        android:padding="12dp"
+        android:text="按住录，松开停"
+        android:textColor="#fff" />
 
     <Button
         android:id="@+id/use_video"
@@ -34,7 +45,39 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
-        android:layout_marginBottom="5dp"
-        android:layout_marginRight="5dp"
-        android:text="确认使用视频" />
+        android:layout_marginBottom="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/bt_daka"
+        android:padding="12dp"
+        android:text="提交"
+        android:textColor="#fff" />
+
+    <VideoView
+        android:id="@+id/vvPlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tvStop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:padding="16sp"
+        android:text="关闭"
+        android:textColor="@color/daka"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/btPlay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="15dp"
+        android:background="@drawable/bt_daka"
+        android:padding="12dp"
+        android:text="回放视频"
+        android:textColor="#fff" />
 </RelativeLayout>

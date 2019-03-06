@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\AndroidStudioProject\Android_PLA_GENL\AndroidManifest.xml:2:1-149:12
-INJECTED from D:\AndroidStudioProject\Android_PLA_GENL\AndroidManifest.xml:2:1-149:12
-INJECTED from D:\AndroidStudioProject\Android_PLA_GENL\AndroidManifest.xml:2:1-149:12
-INJECTED from D:\AndroidStudioProject\Android_PLA_GENL\AndroidManifest.xml:2:1-149:12
+ADDED from D:\AndroidStudioProject\Android_PLA_GENL\AndroidManifest.xml:2:1-150:12
+INJECTED from D:\AndroidStudioProject\Android_PLA_GENL\AndroidManifest.xml:2:1-150:12
+INJECTED from D:\AndroidStudioProject\Android_PLA_GENL\AndroidManifest.xml:2:1-150:12
+INJECTED from D:\AndroidStudioProject\Android_PLA_GENL\AndroidManifest.xml:2:1-150:12
 MERGED from [io.reactivex:rxandroid:1.1.0] C:\Users\Wanve4K\.gradle\caches\transforms-1\files-1.1\rxandroid-1.1.0.aar\ad49aa8942f377fe0dea6d6acd2ea65d\AndroidManifest.xml:15:1-21:12
 MERGED from [com.android.support:multidex:1.0.2] C:\Users\Wanve4K\.gradle\caches\transforms-1\files-1.1\multidex-1.0.2.aar\61133108994a8454d92527498eeb1e8c\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Wanve4K\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\aad5c414c2b1c39ea9dbb5c9c5fead88\AndroidManifest.xml:2:1-11:12
@@ -19,9 +19,9 @@ MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Wanve4K\.
 MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Wanve4K\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\08196aac1c0075d83da5f12c5d67388d\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Wanve4K\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\cbff0ff3ca269acfa2fbee4e209f8ff6\AndroidManifest.xml:17:1-31:12
 MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Wanve4K\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\d01ec1c95cec8e13056bb11dff8547bc\AndroidManifest.xml:17:1-30:12
-INJECTED from D:\AndroidStudioProject\Android_PLA_GENL\AndroidManifest.xml:2:1-149:12
-INJECTED from D:\AndroidStudioProject\Android_PLA_GENL\AndroidManifest.xml:2:1-149:12
-INJECTED from D:\AndroidStudioProject\Android_PLA_GENL\AndroidManifest.xml:2:1-149:12
+INJECTED from D:\AndroidStudioProject\Android_PLA_GENL\AndroidManifest.xml:2:1-150:12
+INJECTED from D:\AndroidStudioProject\Android_PLA_GENL\AndroidManifest.xml:2:1-150:12
+INJECTED from D:\AndroidStudioProject\Android_PLA_GENL\AndroidManifest.xml:2:1-150:12
 	package
 		ADDED from D:\AndroidStudioProject\Android_PLA_GENL\AndroidManifest.xml:3:5-33
 		INJECTED from D:\AndroidStudioProject\Android_PLA_GENL\AndroidManifest.xml
@@ -173,7 +173,7 @@ ADDED from D:\AndroidStudioProject\Android_PLA_GENL\AndroidManifest.xml:52:5-79
 	android:name
 		ADDED from D:\AndroidStudioProject\Android_PLA_GENL\AndroidManifest.xml:52:22-76
 application
-ADDED from D:\AndroidStudioProject\Android_PLA_GENL\AndroidManifest.xml:56:5-147:19
+ADDED from D:\AndroidStudioProject\Android_PLA_GENL\AndroidManifest.xml:56:5-148:19
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Wanve4K\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\aad5c414c2b1c39ea9dbb5c9c5fead88\AndroidManifest.xml:9:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Wanve4K\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\aad5c414c2b1c39ea9dbb5c9c5fead88\AndroidManifest.xml:9:5-20
 MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Wanve4K\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\255bd52923a98af7ccb34e7c64e6e162\AndroidManifest.xml:25:5-29:19
@@ -339,21 +339,23 @@ ADDED from D:\AndroidStudioProject\Android_PLA_GENL\AndroidManifest.xml:134:9-13
 	android:name
 		ADDED from D:\AndroidStudioProject\Android_PLA_GENL\AndroidManifest.xml:135:13-61
 activity#com.topvs.wanve.view.RecorderActivity
-ADDED from D:\AndroidStudioProject\Android_PLA_GENL\AndroidManifest.xml:138:9-141:63
+ADDED from D:\AndroidStudioProject\Android_PLA_GENL\AndroidManifest.xml:138:9-142:63
+	android:screenOrientation
+		ADDED from D:\AndroidStudioProject\Android_PLA_GENL\AndroidManifest.xml:141:13-49
 	android:configChanges
 		ADDED from D:\AndroidStudioProject\Android_PLA_GENL\AndroidManifest.xml:140:13-48
 	android:theme
-		ADDED from D:\AndroidStudioProject\Android_PLA_GENL\AndroidManifest.xml:141:13-60
+		ADDED from D:\AndroidStudioProject\Android_PLA_GENL\AndroidManifest.xml:142:13-60
 	android:name
 		ADDED from D:\AndroidStudioProject\Android_PLA_GENL\AndroidManifest.xml:139:13-65
 activity#com.topvs.wanve.view.RlsbActivity
-ADDED from D:\AndroidStudioProject\Android_PLA_GENL\AndroidManifest.xml:142:9-145:47
+ADDED from D:\AndroidStudioProject\Android_PLA_GENL\AndroidManifest.xml:143:9-146:47
 	android:configChanges
-		ADDED from D:\AndroidStudioProject\Android_PLA_GENL\AndroidManifest.xml:144:13-48
+		ADDED from D:\AndroidStudioProject\Android_PLA_GENL\AndroidManifest.xml:145:13-48
 	android:theme
-		ADDED from D:\AndroidStudioProject\Android_PLA_GENL\AndroidManifest.xml:145:13-44
+		ADDED from D:\AndroidStudioProject\Android_PLA_GENL\AndroidManifest.xml:146:13-44
 	android:name
-		ADDED from D:\AndroidStudioProject\Android_PLA_GENL\AndroidManifest.xml:143:13-61
+		ADDED from D:\AndroidStudioProject\Android_PLA_GENL\AndroidManifest.xml:144:13-61
 data
 ADDED from D:\AndroidStudioProject\Android_PLA_GENL\AndroidManifest.xml:131:17-52
 	android:mimeType

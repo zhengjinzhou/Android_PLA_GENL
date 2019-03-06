@@ -54,8 +54,7 @@ import static android.os.Looper.getMainLooper;
  * on 2019/2/26.
  */
 
-public class DkFragment extends Fragment implements DkContract.View,
-        TencentLocationListener {
+public class DkFragment extends Fragment implements DkContract.View{
     private FaceIdClient mFaceIdClient;
     private TextView tvChun;
     private final String TAG = "DkFragment";
@@ -79,8 +78,6 @@ public class DkFragment extends Fragment implements DkContract.View,
 
         presenter.GetAttachment();
 
-        initLocation();
-
         dialog = new LoadDialog(getContext(),false,"智能识别...");
 
         mFaceIdClient = new FaceIdClient(getContext(), UserInfo.APP_ID);
@@ -100,51 +97,24 @@ public class DkFragment extends Fragment implements DkContract.View,
         view.findViewById(R.id.rlSP).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
                 //录制视频并使用
-                recordVideo();
+                //recordVideo();
             }
         });
 
         view.findViewById(R.id.btDaKa).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                DaKa();
+                //录制视频并使用
+                recordVideo();
+               // DaKa();
             }
         });
         String time = DateUtil.lineHDate(new Date());
         tvTime.setText(time);
 
         tvTime2.setText("记录您的当前打卡时间为 "+time.substring(11,time.length()));
-    }
-
-
-    /**
-     * 获取经纬度
-     */
-    private TencentLocationManager mLocationManager;
-
-    private void initLocation() {
-        mLocationManager = TencentLocationManager.getInstance(getContext());
-        // 设置坐标系为 gcj-02, 缺省坐标为 gcj-02, 所以通常不必进行如下调用
-        mLocationManager.setCoordinateType(TencentLocationManager.COORDINATE_TYPE_GCJ02);
-        // 创建定位请求
-        TencentLocationRequest request = TencentLocationRequest.create();
-        // 修改定位请求参数, 周期为 5000 ms
-        request.setInterval(15000);
-        // 开始定位
-        mLocationManager.requestLocationUpdates(request, this);
-    }
-
-    public void onLocationChanged(TencentLocation tencentLocation, int i, String s) {
-        Log.d(TAG, "onLocationChanged: 维度=" + tencentLocation.getLatitude());
-        Log.d(TAG, "onLocationChanged: 精度=" + tencentLocation.getLongitude());
-        lat = tencentLocation.getLatitude();
-        lon = tencentLocation.getLongitude();
-    }
-
-    @Override
-    public void onStatusUpdate(String s, int i, String s1) {
-
     }
 
     /**
@@ -177,7 +147,10 @@ public class DkFragment extends Fragment implements DkContract.View,
 
     private void recordVideo() {
         Intent intent = new Intent(getContext(), RecorderActivity.class);
-        startActivityForResult(intent, RECORD_VIDEO_REQUEST_CODE);
+        intent.putExtra("lip",tvChun.getText().toString());
+        intent.putExtra("sdImagePath",sdImagePath);
+        startActivity(intent);
+        //startActivityForResult(intent, RECORD_VIDEO_REQUEST_CODE);
     }
 
     private static final int IMAGE_SELECT_REQUEST_CODE = 1;
@@ -224,6 +197,11 @@ public class DkFragment extends Fragment implements DkContract.View,
         }
     }
 
+    /**
+     * 计算视频文件的大小
+     * @param fileSize
+     * @return
+     */
     private static String getFileSizeString(long fileSize) {
         if (fileSize < 0) {
             return "无法获取文件大小";
@@ -281,7 +259,7 @@ public class DkFragment extends Fragment implements DkContract.View,
                         dialog.dismiss();
                         feedback(result);
                         //上传到服务器
-                        //presenter.GetDistance(lat+"",lon+"");
+                        presenter.GetDistance(lat+"",lon+"");
                     } else {
                         Log.d(TAG, "result == null ");
                     }
@@ -526,6 +504,5 @@ public class DkFragment extends Fragment implements DkContract.View,
     @Override
     public void onDestroy() {
         super.onDestroy();
-        mLocationManager.removeUpdates(this);
     }
 }

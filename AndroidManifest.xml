@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.topvs.platform"
     android:versionCode="5"
-    android:versionName="V5.0.7">
+    android:versionName="V5.0.8">
 
     <uses-sdk android:minSdkVersion="20" />
 
@@ -138,6 +138,7 @@
         <activity
             android:name="com.topvs.wanve.view.RecorderActivity"
             android:configChanges="orientation"
+            android:screenOrientation="portrait"
             android:theme="@android:style/Theme.NoTitleBar" />
         <activity
             android:name="com.topvs.wanve.view.RlsbActivity"
