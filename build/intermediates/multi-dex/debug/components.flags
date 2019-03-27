@@ -3,6 +3,7 @@
 -injars 'D:\AndroidStudioProject\Android_PLA_GENL\libs\slf4j-android-1.6.1-RC1.jar'(**.class)
 -injars 'D:\AndroidStudioProject\Android_PLA_GENL\libs\lib-camera.jar'(**.class)
 -injars 'D:\AndroidStudioProject\Android_PLA_GENL\libs\TencentLocationSdk_v7.1.4.3_r4aa8ac63_20180911_165428.jar'(**.class)
+-injars 'D:\AndroidStudioProject\Android_PLA_GENL\libs\TencentMapSDK_Raster_v1.1.2.16281.jar'(**.class)
 -injars 'C:\Users\Wanve4K\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\converter-gson\2.1.0\aa557d71ead91cbf26e0c316a0f593d168303309\converter-gson-2.1.0.jar'(**.class)
 -injars 'C:\Users\Wanve4K\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\adapter-rxjava\2.1.0\693eddc23e87ab13f9cf5001707ce8e7e1d1ff01\adapter-rxjava-2.1.0.jar'(**.class)
 -injars 'C:\Users\Wanve4K\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\retrofit\2.1.0\2de7cd8b95b7021b1d597f049bcb422055119f2c\retrofit-2.1.0.jar'(**.class)
@@ -44,7 +45,7 @@
 -printconfiguration 'D:\AndroidStudioProject\Android_PLA_GENL\build\intermediates\multi-dex\debug\components.flags'
 
 
-# Referenced at D:\AndroidStudioProject\Android_PLA_GENL\build\intermediates\manifests\full\debug\AndroidManifest.xml:58
+# Referenced at D:\AndroidStudioProject\Android_PLA_GENL\build\intermediates\manifests\full\debug\AndroidManifest.xml:63
 -keep class com.topvs.platform.MyApp {
     <init>(...);
 }

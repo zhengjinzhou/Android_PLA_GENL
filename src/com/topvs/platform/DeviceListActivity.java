@@ -6,11 +6,13 @@ import java.util.Date;
 import java.util.HashMap;
 import java.util.Timer;
 import java.util.TimerTask;
+
 import com.topvs.expandablelist.MyExpandableListView;
 import com.topvs.expandablelist.MyExpandableListAdapter;
 import com.topvs.expandablelist.MyExpandableListAdapter.ViewHolder;
 import com.topvs.player.FileListActivity;
 import com.topvs.player.PlayActivity;
+
 import android.annotation.SuppressLint;
 import android.app.ProgressDialog;
 import android.app.TabActivity;
@@ -427,7 +429,7 @@ public class DeviceListActivity extends TabActivity
 
     private void CreatePlayListView() {
         /*
-		 * modify the listview to a ExpandableListView
+         * modify the listview to a ExpandableListView
 		 * LinZh107 on 2015-8-15
 		 * */
         mDevListView = (MyExpandableListView) findViewById(R.id.dev_listview);
@@ -466,14 +468,11 @@ public class DeviceListActivity extends TabActivity
                 Arraypuid[i] = "0" + i + ' ' + ArrayGUName[i] + tmp;
             else Arraypuid[i] = "" + i + ' ' + ArrayGUName[i] + tmp;
         }
-
         //设置悬浮头部VIEW
         mDevListView.setHeaderView(getLayoutInflater().inflate(R.layout.devicelisthead, mDevListView, false), mListItemLP);
         mDevListAdapter = new MyExpandableListAdapter(this, mDevListView, mGroupItemArray, mChildrenItemArray, mListItemLP);
         mDevListView.setAdapter(mDevListAdapter);    // 添加并且显示
         mDevListView.setOnChildClickListener(onChildItemClickListener);
-        //if(mDevListAdapter.getGroupCount() > 0)
-        //	mDevListView.expandGroup(0);
 
         mSelectedCamList = new ArrayList<Integer>();
 
@@ -485,35 +484,6 @@ public class DeviceListActivity extends TabActivity
     }
 
     private void CreateRecordListView() {
-		/*
-		mListView = (ListView) findViewById(R.id.record_listview);
-		// 生成动态数组，加入数据
-		mChildrenItemArray = new ArrayList<HashMap<String, Object>>();
-		for (int i = 0; i < DevNumArray[0]; i ++) {
-			HashMap<String, Object> map = new HashMap<String, Object>();
-			map.put("ItemImage", R.drawable.videos);// 图像资源的ID
-			map.put("ItemTitle", ArrayGUName[i]);
-			mChildrenItemArray.add(map);
-		}
-		// 生成适配器的Item和动态数组对应的元素
-		mSimpleAdapter = new SimpleAdapter(this, mChildrenItemArray,// 数据源
-		        R.layout.devicerecorditem,// ListItem的XML实现
-		        // 动态数组与ImageItem对应的子项
-		        new String[]{"ItemImage", "ItemTitle"},
-		        // ImageItem的XML文件里面的一个ImageView,两个TextView ID
-		        new int[]{R.id.dev_Image, R.id.dev_Title});
-		// 添加并且显示
-		mListView.setAdapter(mSimpleAdapter);
-		// 添加点击
-		mListView.setOnItemClickListener(onRecordItemClick);
-		*/
-		
-		
-		/*
-		 * modify the listview to a ExpandableListView
-		 * LinZh107 on 2015-8-15
-		 * */
-
         mDevListView = (MyExpandableListView) findViewById(R.id.record_listview);
         // 生成动态数组，加入数据
         mGroupItemArray = new ArrayList<HashMap<String, Object>>();
@@ -528,7 +498,6 @@ public class DeviceListActivity extends TabActivity
                 mGroupItemArray.add(groupItemMap);
             }
         }
-        //crate the children's member array, insert to a single list
         for (int i = 0; i < DevNumArray[0]; i++) {
             HashMap<String, Object> childItemMap = new HashMap<String, Object>();
             childItemMap.put("ItemImage", R.drawable.videos);// 图像资源的ID
@@ -558,36 +527,6 @@ public class DeviceListActivity extends TabActivity
     }
 
     private void CreatePhotosListView() {
-		/*
-		mListView = (ListView) findViewById(R.id.photo_listview);
-		// 生成动态数组，加入数据
-		mChildrenItemArray = new ArrayList<HashMap<String, Object>>();
-		for (int i = 0; i < DevNumArray[0]; i ++) {
-			HashMap<String, Object> map = new HashMap<String, Object>();
-			map.put("ItemImage", R.drawable.photos);// 图像资源的ID
-			map.put("ItemTitle", ArrayGUName[i]);
-			mChildrenItemArray.add(map);
-		}
-		
-		// 生成适配器的Item和动态数组对应的元素
-		mSimpleAdapter = new SimpleAdapter(this, mChildrenItemArray,// 数据源
-		        R.layout.devicerecorditem,// ListItem的XML实现
-		        // 动态数组与ImageItem对应的子项
-		        new String[]{"ItemImage", "ItemTitle"},
-		        // ImageItem的XML文件里面的一个ImageView,两个TextView ID
-		        new int[]{R.id.dev_Image, R.id.dev_Title});
-
-		// 添加并且显示
-		mListView.setAdapter(mSimpleAdapter);
-
-		// 添加点击
-		mListView.setOnItemClickListener(onRecordItemClick);
-		*/
-		
-		/*
-		 * modify the listview to a ExpandableListView
-		 * LinZh107 on 2015-8-15
-		 * */
 
         mDevListView = (MyExpandableListView) findViewById(R.id.photo_listview);
         // 生成动态数组，加入数据

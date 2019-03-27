@@ -259,7 +259,6 @@ public class DkFragment extends Fragment implements DkContract.View{
                         dialog.dismiss();
                         feedback(result);
                         //上传到服务器
-                        presenter.GetDistance(lat+"",lon+"");
                     } else {
                         Log.d(TAG, "result == null ");
                     }
@@ -393,7 +392,7 @@ public class DkFragment extends Fragment implements DkContract.View{
                 ToastErrot("Card 照片与视频本人不匹配");
                 return;
             }
-            presenter.GetDistance(lat + "", lon + "");
+            //presenter.GetDistance(lat + "", lon + "");
         } else {
             ToastUtil.show(getContext(), "打卡失败："+result.getMessage());
         }

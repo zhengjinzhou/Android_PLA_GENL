@@ -138,6 +138,7 @@ android/support/v7/widget/ChildHelper.class
 android/support/v4/app/NotificationCompatBase$UnreadConversation$Factory.class
 android/support/v4/app/FrameMetricsAggregator$1.class
 android/support/v4/media/VolumeProviderCompat$ControlType.class
+com/tencent/map/geolocation/TencentGeofence.class
 android/support/v4/app/NotificationCompatKitKat$Builder.class
 android/support/annotation/AnyRes.class
 com/google/gson/annotations/JsonAdapter.class
@@ -255,6 +256,7 @@ android/support/annotation/CheckResult.class
 android/support/v4/view/ViewCompat$ViewCompatApi18Impl.class
 android/support/v4/media/VolumeProviderCompat.class
 android/support/annotation/AnimRes.class
+com/topvs/wanve/base/DemoGeofenceApp.class
 android/support/v7/widget/RecyclerView$State.class
 android/support/v4/view/ViewPropertyAnimatorCompat.class
 android/support/v7/widget/MenuItemHoverListener.class
@@ -495,6 +497,7 @@ android/support/v4/os/AsyncTaskCompat.class
 android/support/v4/accessibilityservice/AccessibilityServiceInfoCompat.class
 android/support/v4/app/TaskStackBuilder.class
 okhttp3/CertificatePinner.class
+com/tencent/tencentmap/mapsdk/map/ItemizedOverlay.class
 okhttp3/HttpUrl$Builder.class
 okhttp3/ConnectionPool.class
 okio/SegmentPool.class
@@ -521,6 +524,7 @@ android/support/v4/app/FragmentTransaction$Transit.class
 com/tencent/faceid/model/ImageIdCardCompareRequest.class
 android/support/v4/app/ActionBarDrawerToggle$Delegate.class
 android/support/v4/os/BuildCompat.class
+com/tencent/tencentmap/mapsdk/map/MapView.class
 okhttp3/Authenticator.class
 android/support/v4/widget/DrawerLayout$EdgeGravity.class
 android/support/v4/media/session/MediaControllerCompat$TransportControls.class

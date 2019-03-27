@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.topvs.platform"
     android:versionCode="5"
-    android:versionName="V5.0.8">
+    android:versionName="V5.0.9">
 
     <uses-sdk android:minSdkVersion="20" />
 
@@ -53,6 +53,10 @@
     <!-- 访问手机当前状态, 需要某些信息用于网络定位 -->
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
 
+    <!-- Demo中使用了腾讯地图 sdk, 腾讯地图 sdk 还要求的以下权限 -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.READ_PHONE_SINTERNETWIFI_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
     <application
         android:name=".MyApp"
         android:allowBackup="true"
@@ -85,6 +89,7 @@
         <activity
             android:name=".DeviceListActivity"
             android:label="设备列表"
+            android:screenOrientation="portrait"
             android:configChanges="orientation"
             android:theme="@style/searchbar" />
         <activity
@@ -133,7 +138,7 @@
         </activity>
         <activity
             android:name="com.topvs.wanve.view.HomeActivity"
-            android:configChanges="orientation"
+            android:configChanges="keyboardHidden|orientation|screenSize"
             android:theme="@android:style/Theme.NoTitleBar" />
         <activity
             android:name="com.topvs.wanve.view.RecorderActivity"
@@ -142,9 +147,12 @@
             android:theme="@android:style/Theme.NoTitleBar" />
         <activity
             android:name="com.topvs.wanve.view.RlsbActivity"
-            android:configChanges="orientation"
+            android:configChanges="keyboardHidden|orientation|screenSize"
             android:theme="@style/AppTheme" />
 
+        <service android:name="com.topvs.wanve.location.DemoGeofenceService"/>
+
+        <service android:name="com.topvs.wanve.service.StartService"/>
     </application>
 
 </manifest>

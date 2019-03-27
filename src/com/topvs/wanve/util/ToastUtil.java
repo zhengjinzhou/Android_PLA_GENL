@@ -1,5 +1,6 @@
 package com.topvs.wanve.util;
 
+import android.app.AlertDialog;
 import android.content.Context;
 import android.view.Gravity;
 import android.view.LayoutInflater;
@@ -44,5 +45,20 @@ public class ToastUtil {
         toastStart.setDuration(Toast.LENGTH_LONG);
         toastStart.setView(toastRoot);
         toastStart.show();
+    }
+
+    public static void showDialog(Context context,String title,String msg){
+        final AlertDialog.Builder builder = new AlertDialog.Builder(context);
+        View inflate = LayoutInflater.from(context).inflate(R.layout.show_dialog, null);
+        builder.setTitle(title);
+        builder.setMessage(msg);
+        builder.setView(inflate);
+        inflate.findViewById(R.id.tvSure).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                builder.create().dismiss();
+            }
+        });
+        builder.create().show();
     }
 }

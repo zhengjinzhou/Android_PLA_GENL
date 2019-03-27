@@ -19,7 +19,7 @@ public interface RecordContract {
     interface Presenter<T> extends BaseContract.BasePresenter<T>{
         String getUserSNID();
         String getPN_BH();
-        void GetDistance(String lat,String lon);
+        void GetDistance(String lat,String lon,String address);
     }
 
 }

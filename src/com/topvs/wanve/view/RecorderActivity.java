@@ -19,7 +19,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.view.ViewTreeObserver;
 import android.widget.TextView;
-import android.widget.Toast;
 import android.widget.VideoView;
 
 import com.tencent.cloud.cameralib.ICamcorder;
@@ -40,7 +39,6 @@ import com.topvs.wanve.bean.DistanceBean;
 import com.topvs.wanve.bean.UserInfo;
 import com.topvs.wanve.bean.goClockInBean;
 import com.topvs.wanve.contract.RecordContract;
-import com.topvs.wanve.presenter.DkPresenter;
 import com.topvs.wanve.presenter.RecordPresenter;
 import com.topvs.wanve.util.SpUtil;
 import com.topvs.wanve.util.ToastUtil;
@@ -48,10 +46,9 @@ import com.topvs.wanve.widget.LoadDialog;
 
 import java.io.File;
 
-public class RecorderActivity extends Activity implements RecordContract.View,TencentLocationListener {
+public class RecorderActivity extends Activity implements RecordContract.View, TencentLocationListener {
 
     public static final String INTENT_KEY_VIDEO_PATH = "INTENT_KEY_VIDEO_PATH";
-
     private static final String TAG = "Recorder";
     private int currentRequestId;
     private static final int REQUEST_PERMISSION_CAMERA_CODE = 1;
@@ -70,7 +67,6 @@ public class RecorderActivity extends Activity implements RecordContract.View,Te
     private VideoView vvPlay;
     private TextView tvStop;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -78,7 +74,7 @@ public class RecorderActivity extends Activity implements RecordContract.View,Te
 
         initView();
 
-        dialog = new LoadDialog(this,false,"加载中...");
+        dialog = new LoadDialog(this, false, "加载中...");
 
         mFaceIdClient = new FaceIdClient(this, UserInfo.APP_ID);
 
@@ -89,7 +85,7 @@ public class RecorderActivity extends Activity implements RecordContract.View,Te
 
     private void initView() {
         mButton = findViewById(R.id.button_capture);
-        mTextureView =  findViewById(R.id.surface_view);
+        mTextureView = findViewById(R.id.surface_view);
         tvTime = findViewById(R.id.tvTime);
         tvDes = findViewById(R.id.tvDes);
         vvPlay = findViewById(R.id.vvPlay);
@@ -109,7 +105,7 @@ public class RecorderActivity extends Activity implements RecordContract.View,Te
             }
         });
 
-        tvDes.setText("请长按下方按钮，并对着摄像头郎读 "+getIntent().getStringExtra("lip")+" 松开结束");
+        tvDes.setText("请长按下方按钮，并对着摄像头郎读 " + getIntent().getStringExtra("lip") + " 松开结束");
 
         //修正宽高比
         mTextureView.getViewTreeObserver().addOnGlobalLayoutListener(new ViewTreeObserver.OnGlobalLayoutListener() {
@@ -134,6 +130,13 @@ public class RecorderActivity extends Activity implements RecordContract.View,Te
         tryInit();
     }
 
+    //##################### 权限 #######################
+
+    private void tryInit() {
+        if (hasCameraPermission() && hasMicPermission()) {
+            initC();
+        }
+    }
 
     private void initC() {
 
@@ -158,8 +161,10 @@ public class RecorderActivity extends Activity implements RecordContract.View,Te
             public void onAnythingFailed(Exception e) {
                 vvPlay.setVisibility(View.GONE);
                 tvStop.setVisibility(View.GONE);
+                Log.d(TAG, e.getMessage()+"--onAnythingFailed: --" + mTextureView.isAvailable());
                 mCamcorder.startRecord();
                 ToastUtil.show(RecorderActivity.this, "拍摄时间请不要少于1秒");
+
                 e.printStackTrace();
             }
         });
@@ -170,14 +175,16 @@ public class RecorderActivity extends Activity implements RecordContract.View,Te
             public boolean onTouch(View v, MotionEvent event) {
                 int action = event.getAction();
                 if (action == MotionEvent.ACTION_DOWN) {
-                    currentSecond =0;
+                    currentSecond = 0;
                     mhandle.post(timeRunable);
                     v.setPressed(true);
                     mCamcorder.prepareAsync();
+                    mButton.setBackgroundDrawable(getResources().getDrawable(R.drawable.bt_daka2));
                 } else if (action == MotionEvent.ACTION_UP) {
                     mhandle.removeCallbacks(timeRunable);
                     mCamcorder.stopRecord();
                     v.setPressed(false);
+                    mButton.setBackgroundDrawable(getResources().getDrawable(R.drawable.bt_daka));
                 } else if (action == MotionEvent.ACTION_OUTSIDE || action == MotionEvent.ACTION_CANCEL) {
                     v.setPressed(false);
                 }
@@ -185,22 +192,25 @@ public class RecorderActivity extends Activity implements RecordContract.View,Te
             }
         });
 
-        /**
-         * 使用视频
-         */
         findViewById(R.id.use_video).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent=getIntent();
-                Bundle b=new Bundle();
+
+                long fileSize = getFileSize(new File(mCamcorder.getVideoFile().getAbsolutePath()));
+                Log.d(TAG, "PlayVideo: " + fileSize);
+                if (fileSize == 0) {
+                    ToastUtil.show(getApplicationContext(), "您尚未拍摄视频");
+                    return;
+                }
+
+                Intent intent = getIntent();
+                Bundle b = new Bundle();
                 b.putString(INTENT_KEY_VIDEO_PATH, mCamcorder.getVideoFile().getAbsolutePath());
                 intent.putExtras(b);
                 setResult(RESULT_OK, intent);
-                DaKa(mCamcorder.getVideoFile().getAbsolutePath());
-                //finish();
+                finish();
             }
         });
-
         mCamcorder.prepareAsync();
     }
 
@@ -208,12 +218,11 @@ public class RecorderActivity extends Activity implements RecordContract.View,Te
      * 播放视频
      */
     private void PlayVideo() {
-
         String pathVideo = mCamcorder.getVideoFile().getAbsolutePath();
         long fileSize = getFileSize(new File(pathVideo));
-        Log.d(TAG, "PlayVideo: "+fileSize);
-        if (fileSize==0){
-            ToastUtil.show(getApplicationContext(),"您尚未拍摄视频");
+        Log.d(TAG, "PlayVideo: " + fileSize);
+        if (fileSize == 0) {
+            ToastUtil.show(getApplicationContext(), "您尚未拍摄视频");
             return;
         }
         vvPlay.setVisibility(View.VISIBLE);
@@ -231,24 +240,25 @@ public class RecorderActivity extends Activity implements RecordContract.View,Te
         }
         return size;
     }
+
     /**
      * 打卡
      */
     private void DaKa(String mVideoPath) {
 
-        String lip = getIntent().getStringExtra("lip");
-        Log.d(TAG, "DaKa: "+lip);
+        String lip = getIntent().getStringExtra("lip");//获取上一个界面传过来的唇语
+        Log.d(TAG, "DaKa: " + lip);
         String sdImagePath = getIntent().getStringExtra("sdImagePath");
         String imagePath = Environment.getExternalStorageDirectory().getPath().toString() + "/" + sdImagePath;
         Log.d(TAG, "图片地址: " + sdImagePath);
         Log.d(TAG, "唇语: " + lip);
 
         if (TextUtils.isEmpty(lip)) {
-            ToastUtil.show(getApplicationContext(),"请输入唇语");
+            ToastUtil.show(getApplicationContext(), "请输入唇语");
             return;
         }
         if (TextUtils.isEmpty(mVideoPath)) {
-            ToastUtil.show(getApplicationContext(),"请选择视频");
+            ToastUtil.show(getApplicationContext(), "请选择视频");
             return;
         }
         dialog.show();
@@ -433,9 +443,9 @@ public class RecorderActivity extends Activity implements RecordContract.View,Te
                 ToastErrot("照片与视频本人不匹配");
                 return;
             }
-            presenter.GetDistance(lat + "", lon + "");
+            //presenter.GetDistance(lat + "", lon + "");
         } else {
-            ToastUtil.show(this, "打卡失败："+result.getMessage());
+            ToastUtil.show(this, "打卡失败：" + result.getMessage());
         }
     }
 
@@ -476,15 +486,6 @@ public class RecorderActivity extends Activity implements RecordContract.View,Te
     protected void onStop() {
         super.onStop();
         Log.d(TAG, "onStop() called");
-    }
-
-
-    //##################### 权限 #######################
-
-    private void tryInit() {
-        if (hasCameraPermission() && hasMicPermission()) {
-            initC();
-        }
     }
 
     private boolean hasCameraPermission() {
@@ -536,12 +537,13 @@ public class RecorderActivity extends Activity implements RecordContract.View,Te
     private Handler mhandle = new Handler();
     private boolean isPause = false;//是否暂停
     private long currentSecond = 0;//当前毫秒数
-    public static String getFormatHMS(long time){
-        time=time/1000;//总秒数
-        int s= (int) (time%60);//秒
-        int m= (int) (time/60);//分
-        int h=(int) (time/3600);//秒
-        return String.format("%02d:%02d:%02d",h,m,s);
+
+    public static String getFormatHMS(long time) {
+        time = time / 1000;//总秒数
+        int s = (int) (time % 60);//秒
+        int m = (int) (time / 60);//分
+        int h = (int) (time / 3600);//秒
+        return String.format("%02d:%02d:%02d", h, m, s);
     }
 
     @Override
@@ -561,6 +563,7 @@ public class RecorderActivity extends Activity implements RecordContract.View,Te
         Log.d(TAG, "GetDistanceSuccess: " + distanceBean);
         if (distanceBean.isSuccess()) {
             ToastUtil.show(getApplicationContext(), "打卡成功");
+            finish();
         } else {
             ToastUtil.show(getApplicationContext(), distanceBean.getMessage());
         }
@@ -597,6 +600,7 @@ public class RecorderActivity extends Activity implements RecordContract.View,Te
     public void onLocationChanged(TencentLocation tencentLocation, int i, String s) {
         Log.d(TAG, "onLocationChanged: 维度=" + tencentLocation.getLatitude());
         Log.d(TAG, "onLocationChanged: 精度=" + tencentLocation.getLongitude());
+        Log.d(TAG, "onLocationChanged: 地址=" + tencentLocation.getAddress());
         lat = tencentLocation.getLatitude();
         lon = tencentLocation.getLongitude();
     }

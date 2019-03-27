@@ -4,8 +4,8 @@
 	<drawable name="black">#FF000000</drawable>
 	<drawable name="light_blue">#FF8080FF</drawable>
 
-	<color name="colorPrimary">#2CA5CF</color>
-	<color name="colorPrimaryDark">#2CA5CF</color>
+	<color name="colorPrimary">@color/bt_rlsb</color>
+	<color name="colorPrimaryDark">@color/bt_rlsb</color>
 	<color name="colorAccent">#fff</color>
 	<color name="black">#000000</color>
 	<color name="white">#FFFFFF</color>

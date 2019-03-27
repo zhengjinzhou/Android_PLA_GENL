@@ -22,7 +22,7 @@ public interface ApiService {
 
     @GET("/Wan_mpda_pic/Handlers/FaceAttendanceHandler.ashx")
     Observable<DistanceBean>
-    GetDistance(@Query("Action") String action, @Query("Lat") String Lat, @Query("Lon") String Lon, @Query("PM_BH") String PM_BH, @Query("UserSNID") String UserSNID);
+    GetDistance(@Query("Action") String action, @Query("Lat") String Lat, @Query("Lon") String Lon, @Query("PM_BH") String PM_BH, @Query("UserSNID") String UserSNID,@Query("Address") String Address);
 
     @GET("/Wan_mpda_pic/Handlers/FaceAttendanceHandler.ashx")
     Observable<GetClockRecordsBean>

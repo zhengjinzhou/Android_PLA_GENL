@@ -31,10 +31,11 @@ public class DkPresenter extends RxPresenter<DkContract.View> implements DkContr
         this.vpnApi = new VpnApi(new OkHttpClient());
     }
 
+
     @Override
-    public void GetDistance(String lat, String lon) {
+    public void GetDistance(String lat, String lon,String address) {
         Log.d("", "GetDistance: "+lat+"----"+lon+"---"+getPN_BH()+"---"+getUserSNID());
-        Subscription getDistance = vpnApi.GetDistance("GetDistance", lat, lon, getPN_BH(), getUserSNID())
+        Subscription getDistance = vpnApi.GetDistance("GetDistance", lat, lon, getPN_BH(), getUserSNID(),address)
                 .subscribeOn(Schedulers.io())
                 .observeOn(AndroidSchedulers.mainThread())
                 .subscribe(new Observer<DistanceBean>() {

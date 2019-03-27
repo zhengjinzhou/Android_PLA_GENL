@@ -153,4 +153,12 @@
 	    4、登录后在搜索栏可以搜索列表中的摄像头，不仅支持名字匹配，还支持顺序匹配。比如列表中有1000个设备，则输入[0]会显示全部设备，输入[01]会显示前面10个，输入[05]会显示第50-59个，依此类推。\n
 	    5、搜索栏下一排为监控选择，可结合搜索操作。\n
 	    6、实时监控开启后可以控云台(须前端支持)。</string>
+
+
+    <string name="btn_my_loc">重新定位</string>
+    <string name="btn_add">添加</string>
+    <string name="btn_del">删除</string>
+    <string name="btn_stop">停止测试</string>
+    <string name="set_name">取个名字吧</string>
+    <string name="placeholder"></string>
 </resources>

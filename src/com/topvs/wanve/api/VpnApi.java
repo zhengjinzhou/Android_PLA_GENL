@@ -37,8 +37,8 @@ public class VpnApi {
         return service.GetAttachment(action,UserSNID);
     }
 
-    public Observable<DistanceBean> GetDistance(String action,String lat,String lon,String PM_BH, String UserSNID){
-        return  service.GetDistance(action,lat,lon,PM_BH,UserSNID);
+    public Observable<DistanceBean> GetDistance(String action,String lat,String lon,String PM_BH, String UserSNID,String Address){
+        return  service.GetDistance(action,lat,lon,PM_BH,UserSNID,Address);
     }
 
     public Observable<GetClockRecordsBean> GetClockRecords(String action,String pm_bh,String userSNID,String CRDate){

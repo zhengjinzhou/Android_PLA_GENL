@@ -60,10 +60,15 @@ public class JlFragment extends Fragment implements JlContract.View {
         presenter.attachView(this);
         initView(view);
 
-        initJl(view);
     }
 
-    private void initJl(View view) {
+    @Override
+    public void onResume() {
+        initJl();
+        super.onResume();
+    }
+
+    private void initJl() {
         Date date = new Date();
         SimpleDateFormat dateFm = new SimpleDateFormat("EEEE");
         tvDate.setText(DateUtil.lineDate(date)+" "+dateFm.format(date));
@@ -126,6 +131,7 @@ public class JlFragment extends Fragment implements JlContract.View {
         presenter.GetClockRecords(today);
     }
 
+
     /**
      * 月，获取当月的打卡数量
      */
@@ -154,6 +160,7 @@ public class JlFragment extends Fragment implements JlContract.View {
             @Override
             public void convert(ViewHolder holder, GetClockRecordsBean.RecordsBean recordsBean, int position) {
                 holder.setText(R.id.tvTime,"打卡时间："+recordsBean.getClockTime());
+                holder.setText(R.id.tvPlace,"打卡地址："+recordsBean.getAddress());
             }
         };
         recyclerView.setAdapter(adapter);

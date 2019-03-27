@@ -51,8 +51,11 @@ import com.topvs.platform.LibAPI;
 import com.topvs.platform.NVSPlayer;
 import com.topvs.platform.R;
 import com.topvs.wanve.base.Constant;
+import com.topvs.wanve.bean.NumBean;
+import com.topvs.wanve.bean.UserBean;
 import com.topvs.wanve.bean.goCCTVBean;
 import com.topvs.wanve.bean.goClockInBean;
+import com.topvs.wanve.service.StartService;
 import com.topvs.wanve.util.SpUtil;
 import com.topvs.wanve.util.ToastUtil;
 import com.topvs.wanve.widget.LoadDialog;
@@ -93,6 +96,7 @@ public class HomeActivity extends Activity {
     protected LoadDialog dialog;
     private ImageView iv_login;
     private LinearLayout layout;
+    private TextView tvNum;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -102,6 +106,46 @@ public class HomeActivity extends Activity {
         initView();
         init();
         initOnClick();
+
+        initNum();
+
+        startService(new Intent(getApplicationContext(), StartService.class));//获取角标数字
+    }
+
+    private void initNum() {
+        UserBean userBean = (UserBean) SpUtil.getObject(this, Constant.UserBean, UserBean.class);
+        if (userBean == null)
+            return;
+        String user = userBean.getUser();
+        String url = Constant.BASE_URL + "/wan_mpda_pic/Handlers/CommFieldManagementHandler.ashx?action=GetUserTodoCount&UserId="+user;
+        OkHttpClient okHttpClient = new OkHttpClient();
+        Request request = new Request.Builder().url(url).build();
+        okHttpClient.newCall(request).enqueue(new Callback() {
+            @Override
+            public void onFailure(Call call, IOException e) {
+
+            }
+
+            @Override
+            public void onResponse(Call call, Response response) throws IOException {
+                String string = response.body().string();
+                if (string==null)
+                    return;
+                Log.d("打印", "主界面请求数量: " + string);
+                Gson gson = new Gson();
+                final NumBean numBean = gson.fromJson(string, NumBean.class);
+
+                if (numBean.getCount()>0){
+                    runOnUiThread(new Runnable() {
+                        @Override
+                        public void run() {
+                            tvNum.setVisibility(View.VISIBLE);
+                            tvNum.setText(numBean.getCount()+"");
+                        }
+                    });
+                }
+            }
+        });
     }
 
     /**
@@ -149,6 +193,13 @@ public class HomeActivity extends Activity {
             @Override
             public void onClick(View v) {
                 showPopupCenter();
+            }
+        });
+
+        findViewById(R.id.tv_dai).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                TwoLogin("toDoList_comm");
             }
         });
     }
@@ -416,6 +467,7 @@ public class HomeActivity extends Activity {
      * 获取控件id
      */
     private void initView() {
+
         tv_index = findViewById(R.id.tv_index);
         tv_map = findViewById(R.id.tv_map);
         tv_sum = findViewById(R.id.tv_sum);
@@ -424,6 +476,7 @@ public class HomeActivity extends Activity {
         ll = findViewById(R.id.ll);
         iv_login = findViewById(R.id.iv_login);
         layout = findViewById(R.id.layout);
+        tvNum = findViewById(R.id.tvNum);
     }
 
     private void init() {
@@ -473,9 +526,11 @@ public class HomeActivity extends Activity {
         webView.getSettings().setUseWideViewPort(true);
         webView.getSettings().setLoadWithOverviewMode(true);
         webView.getSettings().setJavaScriptEnabled(true);//加载JavaScript
+        webView.getSettings().setJavaScriptCanOpenWindowsAutomatically(true);
         webView.setWebViewClient(mWebViewClient);//这个一定要设置，要不然不会再本应用中加载
         webView.setWebChromeClient(mWebChromeClient);
         webView.getSettings().setSupportZoom(true);
+        webView.getSettings().setDomStorageEnabled(true);//用来对WebView的配置进行配置和管理
         //清除缓存
         webView.addJavascriptInterface(this, "appHandler");
         webView.getSettings().setCacheMode(WebSettings.LOAD_NO_CACHE);
@@ -972,7 +1027,6 @@ public class HomeActivity extends Activity {
 
         webView.setWebChromeClient(null);
         webView.setWebViewClient(null);
-        webView.getSettings().setJavaScriptEnabled(false);
         webView.clearCache(true);
 
     }

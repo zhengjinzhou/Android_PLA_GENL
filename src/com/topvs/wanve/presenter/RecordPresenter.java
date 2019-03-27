@@ -42,9 +42,9 @@ public class RecordPresenter extends RxPresenter<RecordContract.View> implements
     }
 
     @Override
-    public void GetDistance(String lat, String lon) {
+    public void GetDistance(String lat, String lon,String address) {
         Log.d("", "GetDistance: "+lat+"----"+lon+"---"+getPN_BH()+"---"+getUserSNID());
-        Subscription getDistance = vpnApi.GetDistance("GetDistance", lat, lon, getPN_BH(), getUserSNID())
+        Subscription getDistance = vpnApi.GetDistance("GetDistance", lat, lon, getPN_BH(), getUserSNID(),address)
                 .subscribeOn(Schedulers.io())
                 .observeOn(AndroidSchedulers.mainThread())
                 .subscribe(new Observer<DistanceBean>() {

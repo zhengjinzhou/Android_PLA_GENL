@@ -1,5 +1,6 @@
 package com.topvs.wanve.view;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v7.app.AppCompatActivity;
@@ -13,12 +14,13 @@ import com.topvs.wanve.base.Constant;
 import com.topvs.wanve.bean.UserInfo;
 import com.topvs.wanve.bean.goClockInBean;
 import com.topvs.wanve.util.SpUtil;
+import com.topvs.wanve.view.fragment.DaKaFragment;
 import com.topvs.wanve.view.fragment.DkFragment;
 import com.topvs.wanve.view.fragment.JlFragment;
 import android.support.v4.app.FragmentTransaction;
-public class RlsbActivity extends AppCompatActivity {
+public class RlsbActivity extends AppCompatActivity implements DaKaFragment.CallBackValue {
 
-    private DkFragment dkFragment;
+    private DaKaFragment dkFragment;
     private JlFragment jlFragment;
     private Fragment[] fragments;
     private int currentTabIndex = 0;
@@ -35,6 +37,7 @@ public class RlsbActivity extends AppCompatActivity {
         initView();
         init();
     }
+
     /**
      * 获取到的控件id
      */
@@ -66,8 +69,9 @@ public class RlsbActivity extends AppCompatActivity {
         });
     }
 
+
     private void init() {
-        dkFragment = new DkFragment();
+        dkFragment = new DaKaFragment();
         jlFragment = new JlFragment();
 
         fragments = new Fragment[]{dkFragment,jlFragment};
@@ -111,6 +115,11 @@ public class RlsbActivity extends AppCompatActivity {
         currentTabIndex = pos;
     }
 
+    public void setFragment(int pos){
+        showTabFragment(pos);
+        setCheckColor(pos);
+    }
+
     private void setCheckColor(int pos) {
         switch (pos){
             case 0:
@@ -134,4 +143,9 @@ public class RlsbActivity extends AppCompatActivity {
 
     }
 
+    @Override
+    public void SendMessageValue(String strValue) {
+        Log.d("", "SendMessageValue: "+strValue);
+        showTabFragment(1);
+    }
 }

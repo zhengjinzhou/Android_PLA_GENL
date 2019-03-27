@@ -89,7 +89,6 @@
     </LinearLayout>
 
     <LinearLayout
-        android:visibility="gone"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight="1">
@@ -108,17 +107,21 @@
                 android:drawableTop="@drawable/dai_off"
                 android:gravity="center"
                 android:paddingTop="4dp"
-                android:text="待办事项"
+                android:text="待办消息"
                 android:textColor="@color/txt_1"
                 android:textSize="15sp" />
 
             <TextView
                 android:id="@+id/tvNum"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
                 android:layout_alignParentRight="true"
-                android:layout_marginRight="16dp"
-                android:textColor="@color/tx_red" />
+                android:layout_marginRight="12dp"
+                android:background="@drawable/num_bg"
+                android:paddingLeft="5dp"
+                android:textColor="#fff"
+                android:textSize="12sp"
+                android:visibility="gone" />
         </RelativeLayout>
     </LinearLayout>
 </LinearLayout>

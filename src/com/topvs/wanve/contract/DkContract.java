@@ -21,6 +21,6 @@ public interface DkContract {
         void GetAttachment();
         String getUserSNID();
         String getPN_BH();
-        void GetDistance(String lat,String lon);
+        void GetDistance(String lat,String lon,String address);
     }
 }
